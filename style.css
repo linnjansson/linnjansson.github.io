@@ -1,0 +1,909 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* reset som nollställer alla default värden så att det blir lika i varje webbläsare. */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*prefix, en del properties är inte standars i alla webbläsare, då får man använda prefix för att sätta dem som standard*/
+
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+/*--------------------------------------------------------------------*/
+
+
+/* Gul; F1C929
+  Grå: F5F5F5
+  Rosa: B4928F
+
+  p: font-family: 'Hind Vadodara', sans-serif;
+  h1: font-family: 'Economica', sans-serif;
+*/
+
+p {
+  color: #000000;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  text-align: center;
+	line-height: 20px;
+}
+
+h1 {
+  color: #000000;
+  font-family: 'Economica', sans-serif;
+  font-size: 36px;
+  font-weight: 200px;
+  text-align: center;
+}
+
+a {
+  color: #F1C929;
+  font-family: 'Hind Vadodara', sans-serif;
+  font-size: 20px;
+  font-weight: 200px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+
+/*--------Menu mobile------------------------------------------------------------*/
+
+/*Dropdown menu*/
+
+.menuMobile {
+	background-color: #ffffff;
+	width: 100%;
+	height: 75px;
+}
+
+/*Burgarmenunloggan/knappen*/
+.burgerMenu {
+  background-color: #ffffff;
+  width: 80px;
+  height: 80px;
+	padding: 5px 5px 5px 5px;
+}
+
+/*Stylingen av dropdown boxen i sig*/
+.dropdownContent {
+  background-color: #ffffff;
+  font-family: 'Economica', sans-serif;
+  display: none;
+  position: absolute;
+	width: 100%;
+  overflow: auto;
+  z-index: 1;
+}
+
+/*Varje item i lisan i dropdown menyn*/
+.dropdownContent a {
+  color: #000000;
+  padding: 30px 20px;
+  border: 1px solid #000000;
+  font-size: 30px;
+  text-decoration: none;
+  display: block;
+}
+
+/*När menyval hovras över syns denna färg*/
+.dropdown a:hover {
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+/*Denna funktion gör så att dropdownmenyn visas*/
+.show {
+	display:block;
+}
+
+/*När menyval är iklickat syns denna färg*/
+.active {
+	color: #F1C929 !important;
+}
+
+/*---------Index mobile-----------------------------------------------------------*/
+
+/*index*/
+
+.indexPage {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.uxDesign {
+  margin-top: 40px;
+}
+
+.indexPortfolio {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.indexAbout {
+  margin-top: 40px;
+}
+
+.indexAbout p {
+	padding: 20px 20px 30px 20px;
+	background-color: #F5F5F5;
+}
+
+.indexAbout h1 {
+	padding: 30px 20px 0px 20px;
+	background-color: #F5F5F5;
+}
+
+.indexContact {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+}
+
+
+.indexPicture {
+  margin-top: 50px;
+}
+
+.indexIllustrations {
+	margin-top: 30px;
+}
+
+.indexProject {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+
+/*--------Picture mobile------------------------------------------------------------*/
+
+.pagePictures {
+	width: 260px;
+	margin: 0 auto;
+}
+
+.pictures {
+  margin-bottom: 60px;
+}
+
+/*Rubrikbild pictures*/
+.containerPicturesStory {
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 30px;
+
+}
+/*Pictures*/
+.containerPictures {
+	margin: 2em auto 0;
+}
+
+/*Container mittenbilden 1*/
+.containerPicturesRow {
+	display: flex;
+}
+
+.containerPicturesRowOne {
+	padding-right: 2em;
+}
+
+/*None mobile*/
+
+.pictureBig {
+	display: none;
+}
+
+.menu {
+	display: none;
+}
+
+
+
+/*--------Illustrations mobile------------------------------------------------------------*/
+
+/*Rubrikbild illustrationer*/
+.containerIllustrationsArt {
+	width: 260px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 30px;
+
+}
+
+/*Illustrationer*/
+.containerIllustrations{
+	width: 260px;
+	margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+
+
+/*------Project Mobile--------------------------------------------------------------*/
+
+.pageProjects {
+	width: 260px;
+	margin: 0 auto;
+}
+
+.pictureNothing {
+	margin-top: 40px;
+}
+
+.containerProject {
+	margin-top: 30px;
+}
+
+.containerProject img {
+	width: 70%;
+	margin-top: 20px;
+}
+
+.containerText {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+.containerText p {
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 5px;
+}
+
+.containerText h1 {
+	font-size: 20px;
+}
+
+.containerText a {
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.containerPink {
+	background-color: #B4928F;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 450px;
+}
+
+
+.containerPink a {
+	color: #F5F5F5;
+}
+.containerYellow {
+	background-color: #F1C929;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-around;
+	align-items: center;
+	height: 450px;
+}
+
+.containerYellow a {
+	color: #B4928F
+}
+
+.containerGrey {
+	background-color: #F5F5F5;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 450px;
+}
+
+
+.report {
+	color: #F1C929;
+}
+
+.asos {
+	color: #000000;
+}
+
+.pictureAttention {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.reportLink {
+	display: block;
+	width: 100%;
+}
+
+.tarotAppenLink {
+	display: block;
+	width: 100%;
+}
+
+.cafeKoyaLink {
+	display: block;
+	width: 100%;
+}
+
+.pictureAttention {
+	display: block;
+	margin-top: 50px;
+}
+
+
+/*---------Menu Ipad-----------------------------------------------------------*/
+
+ 		@media (min-width: 760px) {
+
+			.menu {
+				margin-top: 100px;
+				width: 100%;
+				display: flex;
+				justify-content: space-between;
+				margin-bottom: 50px;
+			}
+
+			.menu a {
+				color: #000000;
+			}
+
+			.menu a:hover {
+				color: #F1C929;
+			}
+
+
+	/*---------Index Ipad-----------------------------------------------------------*/
+
+			.indexPage {
+				width: 70%;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+
+			.indexPortfolio {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				margin-top: 80px;
+			}
+
+			.pictureBig {
+				display: flex;
+				width: 55%;
+				height: 55%;
+			}
+
+			.indexAbout {
+				width: 40%;
+				margin-top: 0px;
+			}
+
+			.indexAbout h1{
+				margin-top: 10px;
+				background-color: #ffffff;
+				text-align: left;
+				font-size: 35px;
+				padding: 0px 0px 15px 0px;
+			}
+
+			.indexAbout p {
+				font-size: 12px;
+				background-color: #ffffff;
+				line-height: 16px;
+				text-align: left;
+				padding: 0px 0px 0px 0px;
+
+			}
+
+			.indexContact img {
+				width: 65px;
+			}
+
+			/*None desktop*/
+
+			.pictureSmall {
+				display: none;
+			}
+
+			.menuMobile {
+				display: none;
+			}
+
+			.indexPicture {
+				width: 100%;
+				margin-top: 70px;
+			}
+
+			.indexIllustrations {
+				width: 100%;
+				margin-top: 70px;
+			}
+
+			.indexProject {
+				width: 100%;
+				margin-top: 70px;
+				margin-bottom: 150px;
+			}
+
+
+			/*--------------Pictures Ipad--------------------------------------------------*/
+
+			.pagePictures {
+				width: 70%;
+				margin: 0 auto;
+			}
+
+			.pictures {
+				width: 100%;
+				margin-bottom: 100px;
+				margin-top: 100px;
+			}
+
+		/*--------------Illustrations Ipad--------------------------------------------------*/
+
+			.pageIllustrations {
+				width: 70%;
+				margin: 0 auto;
+			}
+
+			.containerIllustrations {
+				width: 100%;
+				margin-bottom: 100px;
+			}
+
+			.containerIllustrationsArt {
+				width: 100%;
+				margin-top: 100px;
+			}
+
+			/*--------------Projects Ipad--------------------------------------------------*/
+
+			.pageProjects {
+				width: 70%;
+				margin: 0 auto;
+			}
+
+			.pictureNothing {
+				margin-top: 100px;
+			}
+
+			.containerProject {
+				margin-top: 50px;
+			}
+
+			.containerProject img {
+				width: 100%;
+				margin-top: 0px;
+			}
+
+			.containerPink {
+				height: 350px;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				align-items: center;
+			}
+
+			.containerYellow {
+				height: 350px;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				align-items: center;
+			}
+
+			.containerGrey {
+				height: 350px;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				align-items: center;
+			}
+
+			.containerText {
+				width: 40%;
+				margin-bottom: 0px;
+			}
+
+			.containerText h1 {
+				font-size: 40px;
+			}
+
+			.containerProject p {
+				font-size: 18px;
+				line-height: 22px;
+				margin-top: 10px;
+			}
+
+
+			.containerText a {
+				font-size: 14px;
+				margin-top: 10px;
+				font-size: 30px;
+				margin-top: 15px;
+			}
+
+			.reportLink {
+				width: 40%;
+			}
+
+			.tarotAppenLink {
+				width: 40%;
+			}
+
+			.cafeKoyaLink {
+				width: 40%;
+			}
+
+			.pictureAttention a {
+				display: block;
+				margin-top: 100px;
+			}
+
+		}
+
+
+		/*--------------Adjust 820px--------------------------------------------------*/
+	 	@media (min-width: 820px) {
+			.indexAbout p {
+				font-size: 14px;
+				line-height: 18px;
+				margin-bottom: 20px;
+			}
+
+			.containerProject {
+				margin-top: 70px;
+			}
+
+			.containerPink {
+				height: 400px;
+			}
+
+			.containerYellow {
+				height: 400px;
+			}
+
+			.containerGrey {
+				height: 400px;
+			}
+
+		}
+
+
+		/*--------------Adjust 912px--------------------------------------------------*/
+
+		@media (min-width: 912px) {
+			.indexAbout p {
+				font-size: 16px;
+				line-height: 18px;
+				margin-bottom: 20px;
+			}
+
+			.containerProject {
+				margin-top: 80px;
+			}
+
+			.containerPink {
+				height: 450px;
+			}
+
+			.containerYellow {
+				height: 450px;
+			}
+
+			.containerGrey {
+				height: 450px;
+			}
+
+		}
+
+		/*--------------Adjust 970px--------------------------------------------------*/
+
+			@media (min-width: 970px) {
+
+				.containerText h1 {
+					font-size: 45px;
+				}
+
+				.containerProject p {
+					font-size: 20px;
+					line-height: 28px;
+					margin-top: 15px;
+				}
+
+
+				.containerText a {
+					font-size: 14px;
+					margin-top: 10px;
+					font-size: 35px;
+					margin-top: 20px;
+				}
+
+				.containerProject {
+					margin-top: 90px;
+				}
+
+
+				.containerPink {
+					height: 500px;
+				}
+
+				.containerYellow {
+					height: 500px;
+				}
+
+				.containerGrey {
+					height: 500px;
+				}
+
+		}
+
+		/*--------------Adjust 1000px--------------------------------------------------*/
+
+		@media (min-width: 1000px) {
+			.indexAbout p {
+				font-size: 18px;
+				line-height: 20px;
+				margin-bottom: 20px;
+			}
+
+			.containerProject {
+				margin-top: 100px;
+			}
+
+		}
+
+			/*Desktop*/
+			@media (min-width: 1050px) {
+				.indexAbout p {
+					font-size: 20px;
+					line-height: 22px;
+					margin-bottom: 20px;
+				}
+
+		}
+
+		/*Desktop*/
+		@media (min-width: 1100px) {
+			.indexAbout p {
+				font-size: 22px;
+				line-height: 24px;
+				margin-bottom: 20px;
+			}
+
+	}
+
+		/*--------------Index Desktop--------------------------------------------------*/
+	 	@media (min-width: 1200px) {
+
+			.indexAbout h1{
+				margin-top: 25px;
+				font-size: 45px;
+				padding: 0px 0px 30px 0px;
+			}
+
+			.indexAbout p {
+				font-size: 25px;
+				line-height: 30px;
+			}
+
+			.indexContact img {
+				width: 110px;
+			}
+
+			.contactMail :hover {
+				background-color: #F1C929;
+				margin-bottom: -10px;
+			}
+
+			.contactMail a:hover {
+				background-color: transparent;
+			}
+
+			.contactLinkedin :hover {
+				background-color: #0277B5;
+				margin-bottom: -10px;
+			}
+
+			.contactLinkedin a:hover {
+				background-color: transparent;
+			}
+
+			.contactPhone a:hover {
+				background-color: transparent;
+			}
+
+			.contactPhone :hover {
+				background-color: #000000;
+				margin-bottom: -10px;
+			}
+
+			.indexPicture {
+				width: 100%;
+				margin-top: 100px;
+			}
+
+
+			.indexIllustrations {
+				margin-top: 80px;
+			}
+
+
+			.indexProject {
+				margin-top: 80px;
+			}
+
+			.indexProject img:hover{
+				border: 10px solid #F1C929;
+			}
+
+			.indexPicture img {
+				border: 10px solid transparent;
+			}
+			.indexPicture img:hover{
+				border: 10px solid #B4928F;
+			}
+
+			.indexProject img {
+				border: 10px solid transparent;
+			}
+
+
+			/*--------------Pictures Desktop--------------------------------------------------*/
+
+			.containerPicturesStory {
+				margin-bottom: 50px;
+			}
+
+			/*--------------Illustrations Desktop--------------------------------------------------*/
+
+			.containerIllustrationsArt {
+				margin-bottom: 50px;
+			}
+
+			.indexIllustrations img:hover{
+				border: 10px solid #000000;
+			}
+
+			.indexIllustrations img {
+				border: 10px solid transparent;
+			}
+
+			/*--------------Projects Desktop--------------------------------------------------*/
+
+
+
+
+			.pictureNothing {
+				margin-top: 80px;
+			}
+
+
+			.containerProject {
+				margin-top: 80px;
+			}
+
+			.containerText h1 {
+				font-size: 60px;
+			}
+
+			.containerProject p {
+				font-size: 30px;
+				line-height: 40px;
+				margin-top: 20px;
+			}
+
+
+			.containerText a {
+				font-size: 14px;
+				margin-top: 10px;
+				font-size: 45px;
+				margin-top: 30px;
+				color: #000000;
+			}
+
+			.containerPink {
+				height: 650px;
+			}
+
+
+			.containerPink a:hover {
+				color: #F5F5F5;
+			}
+
+			.containerYellow {
+				height: 650px;
+			}
+
+
+			.containerYellow a:hover {
+				color: #B4928F
+			}
+
+			.containerGrey {
+				height: 650px;
+			}
+
+			.containerGrey a:hover {
+				color: #F1C929;
+			}
+
+
+			.pictureAttention {
+				margin-top: 100px;
+			}
+
+	}

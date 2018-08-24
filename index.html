@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+
+	<meta charset="utf8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+
+		<link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cairo|Hind+Vadodara" rel="stylesheet">
+    <link href='style.css' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+
+
+	  <!--Dropdown menu och header-->
+	  <div class="menuMobile">
+	    <button onclick="myFunction()" class="burgerMenu"><img src="burgerMenu.svg"></button>
+	      <div id="myDropdown" class="dropdownContent">
+	        <a href="index.html" class="active">Home</a>
+	        <a href="picturesPortfolio.html">Pictures</a>
+	        <a href="illustrationsPortfolio.html">Illustrations</a>
+					<a href="projectPortfolio.html">Projects</a>
+	      </div>
+	    </div>
+	  </div>
+
+		<!--Javascript funktion för att när man klikcar på hamburgemenyknappen så visas eller döljs innehållet-->
+	  <script>
+	  function myFunction() {
+	       document.getElementById("myDropdown").classList.toggle("show");
+	  }
+	  </script>
+
+
+		  <!--Kontakt menu-->
+		<div class="indexPage">
+
+			<!--Meny Desktop-->
+
+			<div class="menu">
+				<a href="index.html" class="active">Home</a>
+				<a href="picturesPortfolio.html">Pictures</a>
+				<a href="illustrationsPortfolio.html">Illustrations</a>
+				<a href="projectPortfolio.html">Project</a>
+			</div>
+
+
+			<img src="uxDesign.svg" class="uxDesign" alt="Ux-Design"/>
+			<div class="indexPortfolio">
+				<img src="pictureSmall.jpg" class="pictureSmall" alt="Profile picture"/>
+				<img src="pictureBig.jpg" class="pictureBig" alt="Profile picture"/>
+				<section class="indexAbout">
+					<h1>Linndesign.se</h1>
+					<p>Designer with great expertise in working with people. The programs I design in is Adobe Illustrator, Inkscape and Sketch. To code the websites i use Python, HTML and CSS. I have worked my entire life with people and feel its an important inspiration of my design. Simplicity and functionality based on human cognition. UX is also something that I constantly develop through my education in UX design at DSV Stockholms University. Vector graphics are useful in web design and logos, and it is a big interest of mine.</p>
+
+
+					<nav class="indexContact">
+				    <li class="contactMail"><a href="mailto:linn.u.e.jansson@gmail.com"><img src="logoMail.svg"></a></li>
+				    <li class="contactLinkedin"><a href="https://www.linkedin.com/in/linn-jansson-a3228581/" target="_blank"><img src="logoLinkedin.svg" ></a></li>
+						<li class="contactPhone"><a href="tel:0046703821717"><img src="logoMobile.svg"></a></li>
+					</nav>
+				</section>
+			</div>
+			<section class="indexPicture">
+				<a href="picturesPortfolio.html"><img src="indexPictures.jpg" alt="A button whith the text Pictures and a painted picture behind of monsters"/></a>
+
+			</section>
+			<section class="indexIllustrations">
+				<a href="illustrationsPortfolio.html"><img src="indexIllustrations.svg" alt=" A button with the text illustrations and Vector Illustrations of people"/></a>
+
+			</section>
+			<section class="indexProject">
+				<a href="projectPortfolio.html"><img src="indexProjects.jpg" alt="A button witha the text projects and a picture of a door with a yellow arrow behind"></a>
+
+			</section>
+
+		</div>
+	</body>

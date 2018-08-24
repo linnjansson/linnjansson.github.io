@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+
+	<meta charset="utf8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+
+		<link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
+    <link href='style.css' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+  <!--Dropdown menu och header-->
+  <div class="menuMobile">
+
+    <button onclick="myFunction()" class="burgerMenu"><img src="burgerMenu.svg"></button>
+      <div id="myDropdown" class="dropdownContent">
+        <a href="index.html">Home</a>
+        <a href="picturesPortfolio.html">Pictures</a>
+        <a href="illustrationsPortfolio.html">Illustrations</a>
+        <a href="projectPortfolio.html" class="active">Project</a>
+      </div>
+    </div>
+  </div>
+
+	<!--Javascript funktion för att när man klikcar på hamburgemenyknappen så visas eller döljs innehållet-->
+  <script>
+  function myFunction() {
+       document.getElementById("myDropdown").classList.toggle("show");
+  }
+  </script>
+
+
+	<div class="pageProjects">
+
+		<!--Meny Desktop-->
+
+		<div class="menu">
+			<a href="index.html">Home</a>
+			<a href="picturesPortfolio.html">Pictures</a>
+			<a href="illustrationsPortfolio.html">Illustrations</a>
+			<a href="projectPortfolio.html" class="active">Project</a>
+		</div>
+
+	  <div class="pictureNothing"><img src="nothing.svg"></div>
+
+    <section class="containerProject">
+      <div class="containerPink">
+        <a class="tarotAppenLink" href="http://tarotappen.se"><img src="tarotappen.svg"></a>
+        <div class="containerText">
+          <h1>Tarotappen</h1>
+          <p>The Tarotappen was drawn up with Adobe Illustrator and Sketch. The design is easily drawn with a lot of white space to be simple and peaceful webapp with retro handdrawn elements and details.</p>
+          <a class="tarotAppen" href="http://tarotappen.se">Tarotappen.se</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="containerProject">
+      <div class="containerYellow">
+        <div class="containerText">
+          <h1>Cafe Koya</h1>
+          <p>The project was created with drawn details in a playful spirit and were inspired by the figure Totoro. The website was built in HTML and CSS. The pictures are drawn in Adobe Illustrator.</p>
+          <a class="cafeKoya" href="http://cafekoya.se">Cafekoya.se</a>
+        </div>
+        <a class="cafeKoyaLink" href="http://cafekoya.se"><img src="cafeKoya.svg"></a>
+      </div>
+    </section>
+
+    <section class="containerProject">
+      <div class="containerGrey">
+				<a class="reportLink" href="anvandartestAsos.pdf"><img src="diagram.png"></a>
+        <div class="containerText">
+          <a class="asos" href="http://asos.com">ASOS.com</a>
+          <p>The project compared the userproblems of the exeperienced and the unexperienced shopper. <br>Read the report at:</p>
+          <a class="report" href="anvandartestAsos.pdf">UX-report</a>
+        </div>
+      </div>
+    </section>
+
+
+    <a href="mailto:linn.u.e.jansson@gmail.com" class="pictureAttention"><img src="attention.svg"></a>
+
+  </div>
+
+</body>
