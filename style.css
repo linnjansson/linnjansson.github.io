@@ -369,6 +369,7 @@ a:link {
 }
 
 
+
 .report {
 	color: #F1C929;
 }
@@ -393,6 +394,11 @@ a:link {
 }
 
 .cafeKoyaLink {
+	display: block;
+	width: 100%;
+}
+
+.infografLink {
 	display: block;
 	width: 100%;
 }
@@ -573,6 +579,10 @@ a:link {
 				align-items: center;
 			}
 
+			.flip {
+				flex-direction: row-reverse;
+			}
+
 			.containerText {
 				width: 40%;
 				margin-bottom: 0px;
@@ -605,6 +615,11 @@ a:link {
 			}
 
 			.cafeKoyaLink {
+				width: 40%;
+			}
+
+			.infografLink {
+				display: block;
 				width: 40%;
 			}
 
