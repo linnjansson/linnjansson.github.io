@@ -79,7 +79,7 @@ html {
 p {
   color: #000000;
   font-family: 'Hind Vadodara', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   text-align: center;
 	line-height: 20px;
@@ -403,6 +403,16 @@ a:link {
 	width: 100%;
 }
 
+.formLink {
+	display: block;
+	width: 100%;
+}
+
+.ultrafreeLink {
+	display: block;
+	width: 100%;
+}
+
 .pictureAttention {
 	display: block;
 	margin-top: 50px;
@@ -454,7 +464,7 @@ a:link {
 
 			.indexAbout {
 				width: 40%;
-				margin-top: 0px;
+				margin-top: -10px;
 			}
 
 			.indexAbout h1{
@@ -462,13 +472,13 @@ a:link {
 				background-color: #ffffff;
 				text-align: left;
 				font-size: 35px;
-				padding: 0px 0px 15px 0px;
+				padding: 0px 0px 12px 0px;
 			}
 
 			.indexAbout p {
 				font-size: 12px;
 				background-color: #ffffff;
-				line-height: 16px;
+				line-height: 14px;
 				text-align: left;
 				padding: 0px 0px 0px 0px;
 
@@ -476,6 +486,7 @@ a:link {
 
 			.indexContact img {
 				width: 65px;
+				margin-top: -15px;
 			}
 
 			/*None desktop*/
@@ -583,6 +594,7 @@ a:link {
 				flex-direction: row-reverse;
 			}
 
+
 			.containerText {
 				width: 40%;
 				margin-bottom: 0px;
@@ -619,6 +631,16 @@ a:link {
 			}
 
 			.infografLink {
+				display: block;
+				width: 40%;
+			}
+
+			.ultrafreeLink {
+				display: block;
+				width: 40%;
+			}
+
+			.formLink {
 				display: block;
 				width: 40%;
 			}
@@ -730,8 +752,8 @@ a:link {
 
 		@media (min-width: 1000px) {
 			.indexAbout p {
-				font-size: 18px;
-				line-height: 20px;
+				font-size: 16px;
+				line-height: 18px;
 				margin-bottom: 20px;
 			}
 
@@ -744,8 +766,8 @@ a:link {
 			/*Desktop*/
 			@media (min-width: 1050px) {
 				.indexAbout p {
-					font-size: 20px;
-					line-height: 22px;
+					font-size: 16px;
+					line-height: 18px;
 					margin-bottom: 20px;
 				}
 
@@ -754,8 +776,8 @@ a:link {
 		/*Desktop*/
 		@media (min-width: 1100px) {
 			.indexAbout p {
-				font-size: 22px;
-				line-height: 24px;
+				font-size: 20px;
+				line-height: 22px;
 				margin-bottom: 20px;
 			}
 
@@ -771,8 +793,12 @@ a:link {
 			}
 
 			.indexAbout p {
-				font-size: 25px;
-				line-height: 30px;
+				font-size: 20px;
+				line-height: 28px;
+			}
+
+			.indexContact {
+				margin-top: 85px;
 			}
 
 			.indexContact img {

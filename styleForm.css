@@ -1,0 +1,291 @@
+
+/* reset som nollställer alla default värden så att det blir lika i varje webbläsare. */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*prefix, en del properties är inte standars i alla webbläsare, då får man använda prefix för att sätta dem som standard*/
+
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+/*--------------------------------------------------------------------*/
+
+p {
+    font-family: 'Economica', sans-serif;
+    font-size: 15px;
+    color: #4A4A4A;
+}
+
+h1 {
+  font-family: 'Economica', sans-serif;
+  font-size: 35px;
+  color: #4A4A4A;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Economica', sans-serif;
+  font-size: 90px;
+  color: #417505;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.thumb {
+  margin: 0 auto;
+  margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.checkbox {
+  margin-top: -2px;
+  margin-left: -50%;
+  width: 20px;
+  height: 20px;
+}
+
+
+label {
+  font-family: 'Economica', sans-serif;
+  font-size: 15px;
+  color: #4A4A4A;
+  margin-top: 10px;
+}
+
+
+a {
+  font-family: 'Economica', sans-serif;
+  font-size: 15px;
+  color: #417505;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+body {
+  background-color: #E8E5E5;
+}
+
+
+input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 30px;
+  border: 1px solid #4A4A4A;
+  border-radius: 6px;
+  width: 100%;
+  margin-top: 5px;
+	padding-left: 5px;
+}
+
+.partTwo input {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.partTwo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.socialMedia {
+  margin-top: 30px;
+}
+
+.button {
+  margin-top: 15px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.buttonTwo {
+  width: 45%;
+  margin-top: 20px;
+}
+
+
+
+.container {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  width: calc(100% - 20%);
+  margin: 20% 20% 20% 10%;
+  padding: 8% 8% 8% 8%;
+  background-color: #ffffff;
+}
+
+form {
+}
+.partOne {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.crossContainer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.cross {
+  width: 20px;
+  height: 20px;
+  align-self: flex-end;
+}
+
+img {
+  width: 100%
+}
+
+select {
+  border: 1px solid #417505;
+  border-radius: 6px;
+  height: 30px;
+  border-radius: 6px;
+  width: 100%;
+  margin-top: 5px;
+  color: #417505;
+}
+
+
+.labelContainer {
+  width: 45%;
+  margin-top: 10px;
+
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.consent {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  height: 30px;
+  margin-bottom: 20px;
+
+}
+
+.consent p {
+  width: 100%;
+}
+
+/*--------------Ipad--------------------------------------------------*/
+
+  @media (min-width: 700px) {
+    .container {
+      width: calc(100% - 46%);
+      margin: 23% 23% 23% 23%;
+      padding: 8% 8% 8% 8%;
+    }
+
+    .checkbox {
+      margin-top: -2px;
+      margin-left: -65%;
+    }
+
+    h2{
+      margin-top: 50px;
+    }
+
+/*--------------ipad pro--------------------------------------------------*/
+    @media (min-width: 900px) {
+      .container {
+        width: calc(100% - 60%);
+        margin: 30% 50% 50% 30%;
+        padding: 5% 8% 5% 8%;
+      }
+
+      .checkbox {
+        margin-top: -2px;
+        margin-left: -70%;
+      }
+
+
+      /*--------------Desktop--------------------------------------------------*/
+          @media (min-width: 1200px) {
+            .container {
+              width: calc(100% - 60%);
+              margin: 5% 50% 50% 30%;
+              padding: 5% 8% 5% 8%;
+            }
+
+            .checkbox {
+              margin-top: -2px;
+              margin-left: -70%;
+            }
+
+            h2{
+              margin-top: 20px;
+            }
+
+            .thumbsUp {
+              margin-bottom: 20px;
+            }
