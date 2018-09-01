@@ -1,42 +1,50 @@
-<head>
-  <!--Här importeras utf8 som gör så att åäö kan användas-->
-  <meta charset="utf-8">
 
-  <!--Här gör det så att storleken på fönstret är lika brett som fönstret på mobilen.-->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE HTML>
+<html>
 
-    <!--Här importeras fonten economika-->
-    <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
-    <link href='styleForm.css' rel='stylesheet' type='text/css'>
-    <!--Här importeras javascript-->
-    <script src="submit-form.js"></script>
+	<meta charset="utf8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-</head>
+  <head>
+    <!--Här importeras utf8 som gör så att åäö kan användas-->
+    <meta charset="utf-8">
 
-<body>
+    <!--Här gör det så att storleken på fönstret är lika brett som fönstret på mobilen.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <div class="container">
-    <a class="crossContainer" href="projectPortfolio.html"><img class="cross" src="cross.svg"></a>
-    <h1>Logga in</h1>
-    <form class="form">
+      <!--Här importeras fonten economika-->
+      <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
+      <link href='styleForm.css' rel='stylesheet' type='text/css'>
+      <!--Här importeras javascript-->
+      <script src="submit-form.js"></script>
 
-      <div class="partOne">
-        <label for="name">Användarnamn:</label> <input type="text" class="cell" id="name" name="name" required></input>
-        <label for="password">Lösenord:</label><input type="password" class="cell" id="password" pattern="^[0]([0-9]{2})[-]([0-9]{7})$"></input>
-      </div>
+  </head>
 
-      <div class="partTwo">
-        <a class="buttonTwo" href="correct.html"><img src="loginSmall.svg"></a>
-        <a class="buttonTwo" href="signin.html"><img src="signin.svg"></a>
-      </div>
+  <body>
 
-      <div class="partOne socialMedia">
+    <div class="container">
+      <a class="crossContainer" href="projectPortfolio.html"><img class="cross" src="cross.svg"></a>
+      <h1>Logga in</h1>
+      <form class="form">
 
-        <a class="button" href="correct.html"><img src="facebook.svg"></a>
-        <a class="button" href="correct.html"><img src="google.svg"></a>
-        <a class="button" href="correct.html"><img src="twitter.svg"></a>
-      </div>
+        <div class="partOne">
+          <label for="name">Användarnamn:</label> <input type="text" class="cell" id="name" name="name" required></input>
+          <label for="password">Lösenord:</label><input type="password" class="cell" id="password" pattern="^[0]([0-9]{2})[-]([0-9]{7})$"></input>
+        </div>
 
-    </form>
-  </div>
-</body>
+        <div class="partTwo">
+          <a class="buttonTwo" href="correct.html"><img src="loginSmall.svg"></a>
+          <a class="buttonTwo" href="signin.html"><img src="signin.svg"></a>
+        </div>
+
+        <div class="partOne socialMedia">
+
+          <a class="button" href="correct.html"><img src="facebook.svg"></a>
+          <a class="button" href="correct.html"><img src="google.svg"></a>
+          <a class="button" href="correct.html"><img src="twitter.svg"></a>
+        </div>
+
+      </form>
+    </div>
+  </body>
+</html>

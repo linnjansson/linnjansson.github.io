@@ -8,61 +8,62 @@
 		<link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
     <link href='style.css' rel='stylesheet' type='text/css'>
 
-</head>
+	</head>
 
-<body>
+	<body>
 
 
 
-  <!--Dropdown menu och header-->
-  <div class="menuMobile">
+	  <!--Dropdown menu och header-->
+	  <div class="menuMobile">
 
-    <button onclick="myFunction()" class="burgerMenu"><img src="burgerMenu.svg"></button>
-      <div id="myDropdown" class="dropdownContent">
-        <a href="index.html">Home</a>
-        <a href="picturesPortfolio.html" class="active">Pictures</a>
-        <a href="illustrationsPortfolio.html">Illustrations</a>
+	    <button onclick="myFunction()" class="burgerMenu"><img src="burgerMenu.svg"></button>
+	      <div id="myDropdown" class="dropdownContent">
+	        <a href="index.html">Home</a>
+	        <a href="picturesPortfolio.html" class="active">Pictures</a>
+	        <a href="illustrationsPortfolio.html">Illustrations</a>
+					<a href="projectPortfolio.html">Projects</a>
+	      </div>
+	    </div>
+	  </div>
+
+		<!--Javascript funktion för att när man klikcar på hamburgemenyknappen så visas eller döljs innehållet-->
+	  <script>
+	  function myFunction() {
+	       document.getElementById("myDropdown").classList.toggle("show");
+	  }
+	  </script>
+
+		<div class="pagePictures">
+			<!--Meny Desktop-->
+
+			<div class="menu">
+				<a href="index.html">Home</a>
+				<a href="picturesPortfolio.html" class="active">Pictures</a>
+				<a href="illustrationsPortfolio.html">Illustrations</a>
 				<a href="projectPortfolio.html">Projects</a>
-      </div>
-    </div>
-  </div>
-
-	<!--Javascript funktion för att när man klikcar på hamburgemenyknappen så visas eller döljs innehållet-->
-  <script>
-  function myFunction() {
-       document.getElementById("myDropdown").classList.toggle("show");
-  }
-  </script>
-
-	<div class="pagePictures">
-		<!--Meny Desktop-->
-
-		<div class="menu">
-			<a href="index.html">Home</a>
-			<a href="picturesPortfolio.html" class="active">Pictures</a>
-			<a href="illustrationsPortfolio.html">Illustrations</a>
-			<a href="projectPortfolio.html">Projects</a>
-		</div>
-
-
-		<div class="pictures">
-			<div class="containerPicturesStory"><img src="pictures.svg"></div>
-
-			<div class="containerPictures">
-				<div class="containerPicturesSingle"><img src="city.jpg"></div>
 			</div>
 
-			<div class="containerPictures">
-				<div class="containerPicturesRow">
-					<div class="containerPicturesRowOne"><img src="crane.jpg"></div>
-					<div class="containerPicturesRowTwo"><img src="door.jpg"></div>
+
+			<div class="pictures">
+				<div class="containerPicturesStory"><img src="pictures.svg"></div>
+
+				<div class="containerPictures">
+					<div class="containerPicturesSingle"><img src="city.jpg"></div>
+				</div>
+
+				<div class="containerPictures">
+					<div class="containerPicturesRow">
+						<div class="containerPicturesRowOne"><img src="crane.jpg"></div>
+						<div class="containerPicturesRowTwo"><img src="door.jpg"></div>
+					</div>
+				</div>
+
+				<div class="containerPictures">
+					<div class="containerPicturesSingle"><img src="grafitti.jpg"></div>
 				</div>
 			</div>
-
-			<div class="containerPictures">
-				<div class="containerPicturesSingle"><img src="grafitti.jpg"></div>
-			</div>
 		</div>
-	</div>
 
-</body>
+	</body>
+</html>
