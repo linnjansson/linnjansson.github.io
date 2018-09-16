@@ -94,7 +94,7 @@ h1 {
 }
 
 a {
-  color: #F1C929;
+  color: #DCBC3F;
   font-family: 'Hind Vadodara', sans-serif;
   font-size: 20px;
   font-weight: 200px;
@@ -158,7 +158,7 @@ img {
 
 /*När menyval är iklickat syns denna färg*/
 .active {
-	color: #F1C929 !important;
+	color: #DCBC3F !important;
 }
 
 /*---------Index mobile-----------------------------------------------------------*/
@@ -347,7 +347,7 @@ a:link {
 	color: #F5F5F5;
 }
 .containerYellow {
-	background-color: #F1C929;
+	background-color: #DCBC3F;
 	display: flex;
 	flex-direction: column-reverse;
 	justify-content: space-around;
@@ -371,7 +371,7 @@ a:link {
 
 
 .report {
-	color: #F1C929;
+	color: #DCBC3F;
 }
 
 .asos {
@@ -436,7 +436,7 @@ a:link {
 			}
 
 			.menu a:hover {
-				color: #F1C929;
+				color: #DCBC3F;
 			}
 
 
@@ -806,7 +806,7 @@ a:link {
 			}
 
 			.contactMail :hover {
-				background-color: #F1C929;
+				background-color: #DCBC3F;
 				margin-bottom: -10px;
 			}
 
@@ -848,7 +848,7 @@ a:link {
 			}
 
 			.indexProject img:hover{
-				border: 10px solid #F1C929;
+				border: 10px solid #DCBC3F;
 			}
 
 			.indexPicture img {
@@ -939,7 +939,7 @@ a:link {
 			}
 
 			.containerGrey a:hover {
-				color: #F1C929;
+				color: #DCBC3F;
 			}
 
 
