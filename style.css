@@ -449,6 +449,7 @@ a:link {
 				display: flex;
 				flex-direction: column;
 				justify-content: center;
+				margin-bottom: 150px;
 			}
 
 			.indexPortfolio {
@@ -523,6 +524,7 @@ a:link {
 			.pagePictures {
 				width: 70%;
 				margin: 0 auto;
+				margin-bottom: 150px;
 			}
 
 			.pictures {
@@ -539,6 +541,7 @@ a:link {
 			.pageIllustrations {
 				width: 70%;
 				margin: 0 auto;
+				margin-bottom: 150px;
 			}
 
 			.containerIllustrations {
@@ -556,6 +559,7 @@ a:link {
 			.pageProjects {
 				width: 70%;
 				margin: 0 auto;
+				margin-bottom: 150px;
 			}
 
 			.pictureNothing {
@@ -840,7 +844,6 @@ a:link {
 			.indexPicture {
 				width: 100%;
 				margin-top: 80px;
-				margin-bottom: 150px;
 			}
 
 
@@ -891,9 +894,7 @@ a:link {
 				border: 10px solid transparent;
 			}
 
-			.pictureAttention{
-				margin-bottom: 150px;
-			}
+
 
 			/*--------------Projects Desktop--------------------------------------------------*/
 
