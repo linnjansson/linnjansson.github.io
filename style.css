@@ -207,7 +207,8 @@ img {
 
 
 .indexPicture {
-  margin-top: 50px;
+  margin-top: 30px;
+	margin-bottom: 50px;
 }
 
 .indexIllustrations {
@@ -216,7 +217,6 @@ img {
 
 .indexProject {
 	margin-top: 30px;
-	margin-bottom: 50px;
 }
 
 
@@ -356,7 +356,7 @@ a:link {
 }
 
 .containerYellow a {
-	color: #B4928F
+	color: #F5F5F5;
 }
 
 .containerGrey {
@@ -368,7 +368,9 @@ a:link {
 	height: 450px;
 }
 
-
+.flip {
+	flex-direction: column;
+}
 
 .report {
 	color: #DCBC3F;
@@ -379,7 +381,7 @@ a:link {
 }
 
 .pictureAttention {
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 	margin-top: 30px;
 }
 
@@ -424,7 +426,7 @@ a:link {
  		@media (min-width: 760px) {
 
 			.menu {
-				margin-top: 100px;
+				margin-top: 180px;
 				width: 100%;
 				display: flex;
 				justify-content: space-between;
@@ -527,6 +529,9 @@ a:link {
 				width: 100%;
 				margin-bottom: 100px;
 				margin-top: 100px;
+			}
+			.containerPicturesStory {
+				margin-top: 50px;
 			}
 
 		/*--------------Illustrations Ipad--------------------------------------------------*/
@@ -834,7 +839,8 @@ a:link {
 
 			.indexPicture {
 				width: 100%;
-				margin-top: 100px;
+				margin-top: 80px;
+				margin-bottom: 150px;
 			}
 
 
@@ -844,7 +850,8 @@ a:link {
 
 
 			.indexProject {
-				margin-top: 80px;
+				margin-top: 100px;
+				margin-bottom: 0px;
 			}
 
 			.indexProject img:hover{
@@ -866,13 +873,14 @@ a:link {
 			/*--------------Pictures Desktop--------------------------------------------------*/
 
 			.containerPicturesStory {
-				margin-bottom: 50px;
+				margin-top: 130px;
+				margin-bottom: 150px;
 			}
 
 			/*--------------Illustrations Desktop--------------------------------------------------*/
 
 			.containerIllustrationsArt {
-				margin-bottom: 50px;
+				margin-bottom: 150px;
 			}
 
 			.indexIllustrations img:hover{
@@ -883,13 +891,16 @@ a:link {
 				border: 10px solid transparent;
 			}
 
+			.pictureAttention{
+				margin-bottom: 150px;
+			}
+
 			/*--------------Projects Desktop--------------------------------------------------*/
 
 
 
-
 			.pictureNothing {
-				margin-top: 80px;
+				margin-top: 100px;
 			}
 
 
@@ -931,7 +942,7 @@ a:link {
 
 
 			.containerYellow a:hover {
-				color: #B4928F
+				color: #F5F5F5;
 			}
 
 			.containerGrey {
