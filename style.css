@@ -238,10 +238,11 @@ a:link {
 .pagePictures {
 	width: 260px;
 	margin: 0 auto;
+	margin-bottom: 60px;
 }
 
 .pictures {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 /*Rubrikbild pictures*/
@@ -263,6 +264,10 @@ a:link {
 
 .containerPicturesRowOne {
 	padding-right: 2em;
+}
+
+.containerPicturesSingle {
+	margin-bottom: 10px;
 }
 
 /*None mobile*/
@@ -288,6 +293,9 @@ a:link {
 
 }
 
+.illustrationsContainer {
+	margin-bottom: 30px;
+}
 /*Illustrationer*/
 .containerIllustrations{
 	width: 260px;
@@ -316,6 +324,7 @@ a:link {
 	width: 70%;
 	margin-top: 20px;
 }
+
 
 .containerText {
 	width: 70%;
@@ -543,12 +552,18 @@ a:link {
 
 			.pictures {
 				width: 100%;
-				margin-bottom: 100px;
 				margin-top: 100px;
+				margin-bottom: 40px;
 			}
 			.containerPicturesStory {
 				margin-top: 50px;
 			}
+
+			.containerPicturesSingle {
+				margin-bottom: 50px;
+			}
+
+
 
 		/*--------------Illustrations Ipad--------------------------------------------------*/
 
@@ -566,6 +581,10 @@ a:link {
 			.containerIllustrationsArt {
 				width: 100%;
 				margin-top: 100px;
+			}
+
+			.illustrationsContainer {
+				margin-bottom: 80px;
 			}
 
 			/*--------------Projects Ipad--------------------------------------------------*/
