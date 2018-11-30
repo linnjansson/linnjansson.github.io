@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Cairo|Hind+Vadodara" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Cairo:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Helvetica" rel="stylesheet">
+    <link href='style3.css' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <!--Dropdown menu och header-->
+    <div class="row menu mobile">
+      <div class="logo"><img src="logo.svg"></div>
+      <button onclick="myFunction()" class="burgerMenu"><img src="burgerMenu.svg"></button>
+      <div id="myDropdown" class="dropdownContent">
+        <a href="index.html">Home</a>
+        <a href="project.html">Projects</a>
+        <a href="illustrations.html">Illustrations</a>
+        <a href="pictures.html" class="active">Pictures</a>
+      </div>
+    </div>
+
+    <!--Javascript funktion för att när man klikcar på hamburgemenyknappen så visas eller döljs innehållet-->
+    <script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+    </script>
+
+    <!--Meny Desktop-->
+
+    <div class="row menu desktop">
+      <div class="links">
+        <a href="index.html" >Home</a>
+        <a href="project.html">Projects</a>
+        <a href="illustrations.html">Illustrations</a>
+        <a href="pictures.html" class="active">Pictures</a>
+      </div>
+    </div>
+
+    <div class="pictures">
+      <h1 class="desktop">PICTURES</h1>
+
+      <section class="row section first">
+        <h1 class="mobile">PICTURES</h1>
+        <img class="image-city" src="city.jpg">
+        <img class="image-boat" src="boat.jpg">
+        <img class="image-flower" src="flower.jpg">
+        <img class="image-eye" src="eye.jpg">
+      </section>
+
+      <div class="row attention"><a class="image-link" href="mailto:linn.u.e.jansson@gmail.com"><img src="story.svg"></a></div>
+
+    </div>
+
+  </body>
+</html>

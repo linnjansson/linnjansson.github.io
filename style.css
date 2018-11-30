@@ -71,13 +71,15 @@ html {
 /* Gul; F1C929
   Grå: F5F5F5
   Rosa: B4928F
+	Grön: 244005
 
   p: font-family: 'Hind Vadodara', sans-serif;
   h1: font-family: 'Economica', sans-serif;
+
 */
 
 p {
-  color: #000000;
+  color: #244005;
 	font-family: 'Cairo', sans-serif;
   font-size: 14px;
   font-weight: 200;
@@ -86,7 +88,7 @@ p {
 }
 
 h1 {
-  color: #000000;
+  color: #244005;
 	font-family: 'Anton', sans-serif;
   font-size: 36px;
   font-weight: 200px;
@@ -94,7 +96,7 @@ h1 {
 }
 
 a {
-  color: #DCBC3F;
+  color: #244005;
 	font-family: 'Cairo', sans-serif;
   font-size: 20px;
   font-weight: 200px;
@@ -111,9 +113,16 @@ img {
 /*Dropdown menu*/
 
 .menuMobile {
-	background-color: #ffffff;
+	background-color: #DCBC3F;
 	width: 100%;
 	height: 75px;
+}
+
+.containerMenu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .asos {
@@ -126,29 +135,37 @@ img {
 
 /*Burgarmenunloggan/knappen*/
 .burgerMenu {
-  background-color: #ffffff;
-  width: 80px;
-  height: 80px;
-	padding: 5px 5px 5px 5px;
+  background-color: #DCBC3F;
+  width: 70px;
+  height: 70px;
+	padding: 8px 8px 8px 8px;
+}
+
+.logo {
+	width: 70px;
+	height: 70px;
+	display: flex;
+	justify-content: flex-start;
+	padding: 8px 8px 8px 8px;
 }
 
 /*Stylingen av dropdown boxen i sig*/
 .dropdownContent {
-  background-color: #ffffff;
-	font-family: 'Cairo', sans-serif;
+  background-color: #DCBC3F;
   display: none;
   position: absolute;
 	width: 100%;
+	margin-top: -5px;
   overflow: auto;
   z-index: 1;
 }
 
 /*Varje item i lisan i dropdown menyn*/
 .dropdownContent a {
-  color: #000000;
-  padding: 30px 20px;
-  border: 1px solid #000000;
-  font-size: 30px;
+  color: #244005;
+	font-family: 'Anton', sans-serif;
+  padding: 45px 20px;
+  font-size: 45px;
   text-decoration: none;
   display: block;
 }
@@ -156,7 +173,7 @@ img {
 /*När menyval hovras över syns denna färg*/
 .dropdown a:hover {
   background-color: #ffffff;
-  color: #ffffff;
+  color: #000000;
 }
 
 /*Denna funktion gör så att dropdownmenyn visas*/
@@ -166,7 +183,7 @@ img {
 
 /*När menyval är iklickat syns denna färg*/
 .active {
-	color: #DCBC3F !important;
+	color: #ffffff !important;
 }
 
 /*---------Index mobile-----------------------------------------------------------*/
@@ -174,15 +191,19 @@ img {
 /*index*/
 
 .indexPage {
-  width: 260px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
 }
 
+
+.menu {
+	width: 260px;
+}
 .uxDesign {
-  margin-top: 40px;
+  margin-top: 70px;
 }
 
 .indexPortfolio {
@@ -191,28 +212,35 @@ img {
   margin-top: 40px;
 }
 
-.indexAbout {
-  margin-top: 40px;
-}
 
 .indexAbout p {
-	padding: 20px 20px 30px 20px;
-	background-color: #F5F5F5;
+	padding: 30px 0px 30px 0px;
+
 }
 
 .indexAbout h1 {
-	padding: 30px 20px 0px 20px;
-	background-color: #F5F5F5;
+	padding: 0px 0px 0px 0px;
 }
 
 .indexContact {
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   list-style: none;
   justify-content: space-between;
 }
 
+.contactMail {
+	width: 30%;
+}
+
+.contactLinkedin {
+	width: 30%;
+}
+
+.contactPhone {
+	width: 30%;
+}
 
 .indexPicture {
   margin-top: 30px;
@@ -224,7 +252,7 @@ img {
 }
 
 .indexProject {
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 
@@ -233,28 +261,24 @@ a:link {
 }
 
 
+
 /*--------Picture mobile------------------------------------------------------------*/
 
 .pagePictures {
-	width: 260px;
+	width: 100%;
 	margin: 0 auto;
-	margin-bottom: 60px;
 }
 
 .pictures {
-  margin-bottom: 10px;
+	margin: 0 auto;
+	width: 80%;
+	margin-top: -200px;
 }
 
-/*Rubrikbild pictures*/
-.containerPicturesStory {
-	width: 100%;
-	margin-top: 40px;
-	margin-bottom: 30px;
 
-}
 /*Pictures*/
 .containerPictures {
-	margin: 2em auto 0;
+	margin: 1em auto 0;
 }
 
 /*Container mittenbilden 1*/
@@ -263,36 +287,43 @@ a:link {
 }
 
 .containerPicturesRowOne {
-	padding-right: 2em;
+	padding-right: 1em;
 }
 
 .containerPicturesSingle {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 /*None mobile*/
 
-.pictureBig {
-	display: none;
+
+.pictureTell {
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 80%;
 }
+
+/*None mobile*/
+
+
 
 .menu {
 	display: none;
 }
 
-
+.picturesLogo {
+	display: none;
+}
 
 
 
 /*--------Illustrations mobile------------------------------------------------------------*/
 
 /*Rubrikbild illustrationer*/
-.containerIllustrationsArt {
-	width: 260px;
-	margin: 0 auto;
-	margin-top: 40px;
-	margin-bottom: 30px;
 
+.illustrationsLogo {
+	display: none;
 }
 
 .illustrationsContainer {
@@ -300,32 +331,69 @@ a:link {
 }
 /*Illustrationer*/
 .containerIllustrations{
-	width: 260px;
+	width: 100%;
 	margin: 0 auto;
   margin-bottom: 60px;
+	margin-top: -1px;
+}
+
+.illustrationsBig {
+		display: none;
 }
 
 
+.containerIllustrationsArt {
+	margin: 0 auto;
+	width: 85%;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
 
 /*------Project Mobile--------------------------------------------------------------*/
 
 .pageProjects {
-	width: 260px;
+	width: 100%;
 	margin: 0 auto;
 }
 
-.pictureNothing {
-	margin-top: 40px;
-}
 
 .containerProject {
-	margin-top: 30px;
+	background-image: url(backgroundIndex.svg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 740px;
+	width: 100%;
 }
 
-.containerProject img {
-	width: 70%;
-	margin-top: 20px;
+.containerProjectFlip {
+	background-image: url(backgroundIndexFlip.svg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 740px;
+	width: 100%;
 }
+
+.containerProjectLogo {
+	background-image: url(backgroundProjects.svg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 740px;
+	width: 100%;
+}
+
+
 
 
 .containerText {
@@ -333,115 +401,69 @@ a:link {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	margin-bottom: 20px;
 }
 
-
-.containerText p {
-	font-size: 12px;
-	line-height: 14px;
-	margin-top: 5px;
-}
-
-.containerText h1 {
-	font-size: 20px;
-}
-
-.containerText a {
-	font-size: 18px;
-	margin-top: 10px;
-}
-
-.asos {
-	font-size: 18px;
-	margin-top: 10px;
-}
-
-.containerPink {
-	background-color: #B4928F;
+.containerTextLogo {
+	width: 70%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-	height: 450px;
+	text-align: center;
+	margin-top: 50px;
 }
 
 
-.containerPink a {
-	color: #F5F5F5;
-}
-.containerYellow {
-	background-color: #DCBC3F;
-	display: flex;
-	flex-direction: column-reverse;
-	justify-content: space-around;
-	align-items: center;
-	height: 450px;
+.pageProjects p {
+	font-size: 18px;
+	line-height: 22px;
+	margin-top: 20px;
 }
 
-.containerYellow a {
-	color: #F5F5F5;
+.pageProjects h1 {
+	font-size: 25px;
+	margin-top: 150px;
 }
 
-.containerGrey {
-	background-color: #F5F5F5;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-	height: 450px;
+.pageProjects a {
+	font-size: 25px;
+	margin-top: 25px;
+	color: #244005;
 }
+
+
 
 .flip {
 	flex-direction: column;
 }
 
-.report {
-	color: #DCBC3F;
+.pictureTarot img {
+	margin-top: 40px;
+	width: 70%;
 }
 
-.asos {
-	color: #000000;
+.pictureASOS img {
+	margin-top: 70px;
+	width: 80%;
 }
 
-.pictureAttention {
-	margin-bottom: 50px;
-	margin-top: 30px;
+.pictureForm img {
+	margin-top: 40px;
+	width: 50%;
 }
 
-.reportLink {
-	display: block;
-	width: 100%;
-}
-
-.tarotAppenLink {
-	display: block;
-	width: 100%;
-}
-
-.cafeKoyaLink {
-	display: block;
-	width: 100%;
-}
-
-.infografLink {
-	display: block;
-	width: 100%;
-}
-
-.formLink {
-	display: block;
-	width: 100%;
-}
-
-.ultrafreeLink {
-	display: block;
+.pictureCafeKoya img {
+	margin-top: 100px;
 	width: 100%;
 }
 
 .pictureAttention {
-	display: block;
-	margin-top: 50px;
+	margin: 0 auto;
+	width: 85%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.projectsLogo {
+	display: none;
 }
 
 
@@ -450,8 +472,9 @@ a:link {
  		@media (min-width: 760px) {
 
 			.menu {
+				margin: 0 auto;
 				margin-top: 180px;
-				width: 100%;
+				width: 70%;
 				display: flex;
 				justify-content: space-between;
 				font-family: 'Cairo', sans-serif;
@@ -466,6 +489,46 @@ a:link {
 				color: #DCBC3F;
 			}
 
+			.menu a:active {
+				color: #DCBC3F;
+			}
+
+			.containerProject {
+				background-image: url(backgroundIndex.svg);
+				background-repeat: no-repeat;
+				background-position: right top;
+				background-size: contain;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				height: 900px;
+				width: 100%;
+			}
+
+			.containerProjectFlip {
+				background-image: url(backgroundIndexFlip.svg);
+				background-repeat: no-repeat;
+				background-position: right top;
+				background-size: contain;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				height: 900px;
+				width: 100%;
+			}
+
+			.containerProjectLogo {
+				background-image: url(backgroundIndex.svg);
+				background-repeat: no-repeat;
+				background-position: right top;
+				background-size: contain;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				height: 900px;
+				width: 100%;
+				margin-top: 100px;
+			}
 
 	/*---------Index Ipad-----------------------------------------------------------*/
 
@@ -544,6 +607,8 @@ a:link {
 			}
 
 
+
+
 			/*--------------Pictures Ipad--------------------------------------------------*/
 
 			.pagePictures {
@@ -552,8 +617,14 @@ a:link {
 				margin-bottom: 150px;
 			}
 
+			.picturesLogo {
+				margin: 0 auto;
+				display: block;
+				margin-bottom: 50px;
+			}
+
 			.pictures {
-				width: 100%;
+				width: 70%;
 				margin-top: 100px;
 				margin-bottom: 60px;
 			}
@@ -565,7 +636,29 @@ a:link {
 				margin-bottom: 50px;
 			}
 
+			.backgrondPictures {
+				display: none;
+			}
 
+
+			/*Pictures*/
+			.containerPictures {
+				margin: 2em auto 0;
+			}
+
+			.containerPicturesRowOne {
+				padding-right: 2em;
+			}
+
+			.containerPicturesSingle {
+				margin-bottom: 0px;
+			}
+
+			.pictureTell {
+				width: 70%;
+				margin-top: 100px;
+				margin-bottom: 100px;
+			}
 
 		/*--------------Illustrations Ipad--------------------------------------------------*/
 
@@ -573,6 +666,7 @@ a:link {
 				width: 70%;
 				margin: 0 auto;
 				margin-bottom: 150px;
+				margin-top: 50px;
 			}
 
 			.containerIllustrations {
@@ -587,6 +681,18 @@ a:link {
 
 			.illustrationsContainer {
 				margin-bottom: 80px;
+			}
+
+			.illustrations {
+				display: none;
+			}
+
+			.illustrationsLogo {
+				display: block;
+			}
+
+			.illustrationsBig {
+				display: block;
 			}
 
 			/*--------------Projects Ipad--------------------------------------------------*/
@@ -615,33 +721,6 @@ a:link {
 				margin-top: 0px;
 			}
 
-			.containerPink {
-				height: 350px;
-				display: flex;
-				flex-direction: row;
-				justify-content: space-around;
-				align-items: center;
-			}
-
-			.containerYellow {
-				height: 350px;
-				display: flex;
-				flex-direction: row;
-				justify-content: space-around;
-				align-items: center;
-			}
-
-			.containerGrey {
-				height: 350px;
-				display: flex;
-				flex-direction: row;
-				justify-content: space-around;
-				align-items: center;
-			}
-
-			.flip {
-				flex-direction: row-reverse;
-			}
 
 
 			.containerText {
@@ -667,39 +746,6 @@ a:link {
 				margin-top: 15px;
 			}
 
-			.asos a {
-				font-size: 14px;
-				margin-top: 10px;
-				font-size: 30px;
-				margin-top: 15px;
-			}
-
-			.reportLink {
-				width: 40%;
-			}
-
-			.tarotAppenLink {
-				width: 40%;
-			}
-
-			.cafeKoyaLink {
-				width: 40%;
-			}
-
-			.infografLink {
-				display: block;
-				width: 40%;
-			}
-
-			.ultrafreeLink {
-				display: block;
-				width: 40%;
-			}
-
-			.formLink {
-				display: block;
-				width: 40%;
-			}
 
 			.pictureAttention a {
 				display: block;
@@ -721,19 +767,8 @@ a:link {
 				margin-top: 70px;
 			}
 
-			.containerPink {
-				height: 400px;
-			}
 
-			.containerYellow {
-				height: 400px;
-			}
 
-			.containerGrey {
-				height: 400px;
-			}
-
-		}
 
 
 		/*--------------Adjust 912px--------------------------------------------------*/
@@ -871,7 +906,7 @@ a:link {
 			}
 
 			.contactLinkedin :hover {
-				background-color: #0277B5;
+				background-color: #DCBC3F;
 				margin-bottom: -10px;
 			}
 
@@ -884,7 +919,7 @@ a:link {
 			}
 
 			.contactPhone :hover {
-				background-color: #000000;
+				background-color: #DCBC3F;
 				margin-bottom: -10px;
 			}
 
@@ -904,14 +939,14 @@ a:link {
 			}
 
 			.indexProject img:hover{
-				border: 10px solid #DCBC3F;
+				border: 10px solid #000000;
 			}
 
 			.indexPicture img {
 				border: 10px solid transparent;
 			}
 			.indexPicture img:hover{
-				border: 10px solid #B4928F;
+				border: 10px solid #000000;
 			}
 
 			.indexProject img {
@@ -921,15 +956,17 @@ a:link {
 
 			/*--------------Pictures Desktop--------------------------------------------------*/
 
-			.containerPicturesStory {
-				margin-top: 130px;
-				margin-bottom: 150px;
-			}
+
 
 			/*--------------Illustrations Desktop--------------------------------------------------*/
 
+
+
 			.containerIllustrationsArt {
 				margin-bottom: 150px;
+			}
+			.illustrationsLogo {
+				display: block;
 			}
 
 			.indexIllustrations img:hover{
@@ -940,33 +977,90 @@ a:link {
 				border: 10px solid transparent;
 			}
 
+			.illustrationsBig {
+					display: block;
+			}
+
+
 
 
 			/*--------------Projects Desktop--------------------------------------------------*/
 
 
+			.containerProject {
+				background-image: url(backgroundProject.svg);
+				background-repeat: no-repeat;
+				background-position: right top;
+				background-size: contain;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				height: 900px;
+				width: 100%;
+				display: flex;
+				flex-direction: row-reverse;
+				justify-content: space-around;
+				align-items: center;
+			}
 
-			.pictureNothing {
-				margin-top: 100px;
+			.containerProjectFlip {
+				background-image: url(backgroundProjectFlip.svg);
+				background-repeat: no-repeat;
+				background-position: right top;
+				background-size: contain;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				height: 900px;
+				width: 100%;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				align-items: center;
+			}
+
+			.containerProjectLogo {
+				background-image: url(backgroundProject.svg);
+				background-repeat: no-repeat;
+				background-position: right top;
+				background-size: contain;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				height: 900px;
+				width: 100%;
+				display: flex;
+				flex-direction: row-reverse;
+				justify-content: space-around;
+				align-items: center;
 			}
 
 
-			.containerProject {
-				margin-top: 100px;
+
+			.containerProject img {
+				width: 80%;
 			}
 
 			.containerText h1 {
 				font-size: 60px;
 			}
 
-			.containerProject p {
-				font-size: 30px;
+			.containerTextLogo {
+				width: 20%;
+			}
+
+			.pageProjects p {
+				font-size: 25px;
 				line-height: 40px;
 				margin-top: 20px;
 			}
 
+			.pageProjects h1 {
+				font-size: 60px;
+			}
 
-			.containerText a {
+
+			.pageProjects a {
 				font-size: 14px;
 				margin-top: 10px;
 				font-size: 45px;
@@ -974,35 +1068,33 @@ a:link {
 				color: #000000;
 			}
 
-			.containerPink {
-				height: 650px;
-			}
-
-
-			.containerPink a:hover {
-				color: #F5F5F5;
-			}
-
-			.containerYellow {
-				height: 650px;
-			}
-
-
-			.containerYellow a:hover {
-				color: #F5F5F5;
-			}
-
-			.containerGrey {
-				height: 650px;
-			}
-
-			.containerGrey a:hover {
-				color: #DCBC3F;
-			}
-
 
 			.pictureAttention {
 				margin-top: 100px;
+			}
+			.pictureTarot img {
+				margin-top: 40px;
+				width: 70%;
+			}
+
+			.pictureASOS img {
+				margin-top: 70px;
+				width: 80%;
+			}
+
+			.pictureForm img {
+				margin-top: 70px;
+				width: 30%;
+			}
+
+			.pictureUltrafree img {
+				margin-top: 70px;
+				width: 80%;
+			}
+
+			.pictureCafeKoya img {
+				margin-top: 70px;
+				width: 100%;
 			}
 
 	}

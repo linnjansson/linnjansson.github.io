@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="63px" height="64px" viewBox="0 0 63 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>Triangle</title>
+<svg width="322px" height="323px" viewBox="0 0 322 323" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 2</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="Triangle" fill="#417505" transform="translate(31.500000, 32.100000) scale(1, -1) translate(-31.500000, -32.100000) " points="31.5 0.6 63 63.6 0 63.6"></polygon>
+        <polygon id="Rectangle-2" fill="#DCBC3F" points="0.109183044 0 322 0 322 323"></polygon>
     </g>
 </svg>

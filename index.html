@@ -1,82 +1,76 @@
 <!DOCTYPE HTML>
 <html>
 
-	<meta charset="utf8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<head>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Cairo|Hind+Vadodara" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Anton|Cairo:300" rel="stylesheet">
-    <link href='style.css' rel='stylesheet' type='text/css'>
-	</head>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Cairo|Hind+Vadodara" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Cairo:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Helvetica" rel="stylesheet">
+    <link href='style3.css' rel='stylesheet' type='text/css'>
+  </head>
 
-	<body>
+  <body>
+    <!--Dropdown menu och header-->
+    <div class="row menu mobile">
+      <div class="logo"><img src="logo.svg"></div>
+      <button onclick="myFunction()" class="burgerMenu"><img src="burgerMenu.svg"></button>
+      <div id="myDropdown" class="dropdownContent">
+        <a href="index.html" class="active">Home</a>
+        <a href="project.html">Projects</a>
+        <a href="illustrations.html">Illustrations</a>
+        <a href="pictures.html">Pictures</a>
+      </div>
+    </div>
 
+    <!--Javascript funktion för att när man klikcar på hamburgemenyknappen så visas eller döljs innehållet-->
+    <script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+    </script>
 
-	  <!--Dropdown menu och header-->
-	  <div class="menuMobile">
-	    <button onclick="myFunction()" class="burgerMenu"><img src="burgerMenu.svg"></button>
-	      <div id="myDropdown" class="dropdownContent">
-	        <a href="index.html" class="active">Home</a>
-					<a href="projectPortfolio.html">Projects</a>
-	        <a href="illustrationsPortfolio.html">Illustrations</a>
-	        <a href="picturesPortfolio.html">Pictures</a>
-	      </div>
-	    </div>
-	  </div>
+    <!--Meny Desktop-->
 
-		<!--Javascript funktion för att när man klikcar på hamburgemenyknappen så visas eller döljs innehållet-->
-	  <script>
-	  function myFunction() {
-	       document.getElementById("myDropdown").classList.toggle("show");
-	  }
-	  </script>
-
-
-		  <!--Kontakt menu-->
-		<div class="indexPage">
-
-			<!--Meny Desktop-->
-
-			<div class="menu">
-				<a href="index.html" class="active">Home</a>
-				<a href="projectPortfolio.html">Projects</a>
-				<a href="illustrationsPortfolio.html">Illustrations</a>
-				<a href="picturesPortfolio.html">Pictures</a>
-			</div>
+    <div class="row menu desktop">
+      <div class="links">
+        <a href="index.html" class="active">Home</a>
+        <a href="project.html">Projects</a>
+        <a href="illustrations.html">Illustrations</a>
+        <a href="pictures.html">Pictures</a>
+      </div>
+    </div>
 
 
-			<img src="uxDesign.svg" class="uxDesign" alt="Ux-Design"/>
-			<div class="indexPortfolio">
-				<img src="pictureSmall.jpg" class="pictureSmall" alt="Profile picture"/>
-				<img src="pictureBig.jpg" class="pictureBig" alt="Profile picture"/>
-				<section class="indexAbout">
-					<h1>Linndesign.se</h1>
-					<p>Designer with great experience in working with people. I have worked my entire life with people and feel its an important inspiration in my design. Simplicity and functionality based on human cognition. UX is also something that I constantly develop through my education in UX design at DSV Stockholms University. Vector graphics is very useful in web design and creating logos. Its a big interest of mine.<br><br>Design programs: <br>Adobe Illustrator, Inkscape and Sketch. <br><br>Programming languages: <br>Python, Javascript, HTML and CSS.</p>
+    <div class="index">
+    <!--Profile picture mobile-->
+    <img src="pictureSmall.jpg" class="image-profile mobile" alt="Profile picture"/>
 
+      <section class="row section first">
+        <img src="uxDesign.svg" class="image-uxdesign" alt="Ux-Design"/>
+        <img src="pictureBig.jpg" class="image-profile desktop" alt="Profile picture"/>
+        <div class="copy">
+          <p>Designer with focus on user experience. With a background in health care, I have great experience in bridging the gap between user and system design. Simplicity and functionality are fundamental pieces in my designs based on human cognition. I currently study interaction design at DSV Stockholm University and I'm also very fond of creating artwork using vector graphics.
 
-					<nav class="indexContact">
-				    <li class="contactMail"><a href="mailto:linn.u.e.jansson@gmail.com"><img src="logoMail.svg"></a></li>
-				    <li class="contactLinkedin"><a href="https://www.linkedin.com/in/linn-jansson-a3228581/" target="_blank"><img src="logoLinkedin.svg" ></a></li>
-						<li class="contactPhone"><a href="tel:0046703821717"><img src="logoMobile.svg"></a></li>
-					</nav>
-				</section>
-			</div>
-			<section class="indexProject">
-				<a href="projectPortfolio.html"><img src="indexProjects.jpg" alt="A button witha the text projects and a picture of a door with a yellow arrow behind"></a>
-			</section>
+            <h2>Design tools</h2>
+            <p>Adobe Illustrator, Photoshop, Inkscape and Sketch.</p>
+            <h2>Programming languages</h2>
+            <p>Python, Javascript, HTML and CSS.</p>
+            <ul>
+              <li><a href="mailto:linn.u.e.jansson@gmail.com"><img src="logoMail.svg"></a></li>
+              <li><a href="https://www.linkedin.com/in/linn-jansson-a3228581/" target="_blank"><img src="logoLinkedin.svg" ></a></li>
+              <li><a href="tel:0046703821717"><img src="logoMobile.svg"></a></li>
+            </ul>
+        </div>
+      </section>
+      <section class="row section links">
+        <a class="image-link project" href="project.html"><img src="indexProjects.svg" alt="A button witha the text projects and a picture of a door with a yellow arrow behind"></a>
+        <a class="image-link illustrations" href="illustrations.html"><img src="indexIllustrations.svg" alt=" A button with the text illustrations and Vector Illustrations of people"/></a>
+        <a class="image-link pictures" href="pictures.html"><img src="indexPictures.jpg" alt="A button whith the text Pictures and a painted picture behind of monsters"/></a>
+      </section>
+    </div>
 
-			<section class="indexIllustrations">
-				<a href="illustrationsPortfolio.html"><img src="indexIllustrations.svg" alt=" A button with the text illustrations and Vector Illustrations of people"/></a>
-			</section>
-
-			<section class="indexPicture">
-				<a href="picturesPortfolio.html"><img src="indexPictures.jpg" alt="A button whith the text Pictures and a painted picture behind of monsters"/></a>
-			</section>
-
-
-		</div>
-	</body>
+  </body>
 </html>

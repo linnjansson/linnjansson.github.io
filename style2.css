@@ -1,0 +1,1450 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* reset som nollställer alla default värden så att det blir lika i varje webbläsare. */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*prefix, en del properties är inte standars i alla webbläsare, då får man använda prefix för att sätta dem som standard*/
+
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+/*--------------------------------------------------------------------*/
+
+
+/* Gul; F1C929
+  Grå: F5F5F5
+  Rosa: B4928F
+	Grön: 244005
+
+  p: font-family: 'Helvetica', sans-serif;
+  h1: font-family: 'Anton', sans-serif;
+  a: font-family: 'Arial', sans-serif;
+
+
+*/
+
+p {
+  color: #244005;
+	font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  text-align: center;
+	line-height: 18px;
+}
+
+h1 {
+  color: #244005;
+	font-family: 'Anton', sans-serif;
+  font-size: 36px;
+  font-weight: 200px;
+  text-align: center;
+}
+
+h2 {
+  color: #244005;
+	font-family: 'Anton', sans-serif;
+  font-size: 36px;
+  font-weight: 200px;
+  text-align: center;
+}
+
+a {
+  color: #000000;
+	font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  font-weight: 200px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+
+/*--------Menu mobile------------------------------------------------------------*/
+
+/*Dropdown menu*/
+
+.menuMobile {
+	background-color: #DCBC3F;
+	width: 100%;
+	height: 75px;
+}
+
+.containerMenu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/*Burgarmenunloggan/knappen*/
+.burgerMenu {
+  background-color: #DCBC3F;
+  width: 70px;
+  height: 70px;
+	padding: 8px 8px 8px 8px;
+}
+
+.logo {
+	width: 70px;
+	height: 70px;
+	display: flex;
+	justify-content: flex-start;
+	padding: 8px 8px 8px 8px;
+}
+
+/*Stylingen av dropdown boxen i sig*/
+.dropdownContent {
+  background-color: #DCBC3F;
+  display: none;
+  position: absolute;
+	width: 100%;
+	margin-top: -5px;
+  overflow: auto;
+  z-index: 1;
+}
+
+/*Varje item i lisan i dropdown menyn*/
+.dropdownContent a {
+  color: #244005;
+	font-family: 'Anton', sans-serif;
+  padding: 30px 10px;
+  font-size: 47px;
+  text-decoration: none;
+  display: block;
+}
+
+/*När menyval hovras över syns denna färg*/
+.dropdown a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/*Denna funktion gör så att dropdownmenyn visas*/
+.show {
+	display:block;
+}
+
+/*När menyval är iklickat syns denna färg*/
+.active {
+	color: #ffffff !important;
+}
+
+.menuDesktop {
+  display: none;
+}
+
+.headerLinndesign {
+  display: none;
+}
+
+
+/*---------Index mobile-----------------------------------------------------------*/
+
+/*index*/
+
+.indexPage {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.uxDesign {
+  margin-top: 70px;
+}
+
+.containerPortfolio {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+
+.containerAbout p {
+	padding: 20px 0px 30px 0px;
+
+}
+
+.containerAbout h1 {
+	padding: 0px 0px 0px 0px;
+}
+
+.containerContact {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactMail {
+	width: 30%;
+}
+
+.contactLinkedin {
+	width: 30%;
+}
+
+.contactPhone {
+	width: 30%;
+}
+
+.buttonPicture {
+  margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.buttonIllustrations {
+	margin-top: 30px;
+}
+
+.buttonProject {
+	margin-top: 50px;
+}
+
+footer {
+  height: 50px:
+}
+
+.profilePictureDesktop {
+  display: none;
+}
+
+.containerTools h2 {
+  font-size: 20px;
+}
+
+/*------Project Mobile--------------------------------------------------------------*/
+
+.pageProjects {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+.containerProject {
+	background-image: url(backgroundIndex.svg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 670px;
+	width: 100%;
+}
+
+.containerProjectFlip {
+	background-image: url(backgroundIndexFlip.svg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 670px;
+	width: 100%;
+}
+
+.containerProjectLogo {
+	background-image: url(backgroundProjects.svg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 670px;
+	width: 100%;
+}
+
+
+.containerText {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.containerTextLogo {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+.pageProjects p {
+	font-size: 18px;
+	line-height: 22px;
+	margin-top: 20px;
+}
+
+.pageProjects h1 {
+	font-size: 25px;
+	margin-top: 120px;
+}
+
+.pageProjects a {
+	font-size: 25px;
+	color: #244005;
+}
+
+.flip {
+	flex-direction: column;
+}
+
+.participantDesign {
+	margin-top: 30px;
+  display: block;
+	width: 60%;
+}
+
+.participantDesign img {
+	width: 100%;
+}
+
+.pictureTarot {
+  display: block;
+  margin-top: 30px;
+  width: 40%;
+}
+
+.pictureTarot img {
+	width: 100%;
+}
+
+.pictureASOS {
+  display: block;
+  margin-top: 60px;
+  width: 80%;
+}
+
+.pictureASOS img {
+	width: 100%;
+}
+
+.pictureUltrafree {
+	margin-top: 40px;
+  display: block;
+	width: 60%;
+}
+
+.pictureUltrafree img {
+	width: 100%;
+}
+
+.pictureForm {
+	margin-top: 50px;
+	width: 50%;
+}
+.pictureForm img {
+	width: 100%;
+}
+
+.pictureCafeKoya {
+  display: block;
+  margin-top: 40px;
+  width: 60%;
+}
+
+.pictureCafeKoya img {
+	width: 100%;
+}
+
+.pictureAttention {
+	margin: 0 auto;
+	width: 85%;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.projectsLogo {
+	display: none;
+}
+
+.button {
+  display: none;
+}
+
+/*--------Illustrations mobile------------------------------------------------------------*/
+
+/*Rubrikbild illustrationer*/
+
+.illustrationsLogo {
+	display: none;
+}
+
+.illustrationsContainer {
+	margin-bottom: 30px;
+}
+/*Illustrationer*/
+.containerIllustrations{
+	width: 100%;
+	margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.illustrationsBig {
+		display: none;
+}
+
+.containerIllustrationsArt {
+	margin: 0 auto;
+	width: 85%;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+/*--------Picture mobile------------------------------------------------------------*/
+
+.pagePictures {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.pictures {
+	margin: 0 auto;
+	width: 80%;
+	margin-top: -200px;
+}
+
+
+/*Pictures*/
+.containerPictures {
+	margin: 1em auto 0;
+}
+
+/*Container mittenbilden 1*/
+.containerPicturesRow {
+	display: flex;
+	width: 100%;
+}
+
+.containerPicturesRowOne {
+	padding-right: 1em;
+}
+
+.containerPicturesSingle {
+	margin-bottom: 10px;
+}
+
+/*None mobile*/
+
+.pictureTell {
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 80%;
+}
+
+/*None*/
+
+.picturesLogo {
+	display: none;
+}
+
+/*--------------------------Adjust width 340px----------------------------------------------*/
+
+@media (min-width: 340px) {
+
+	.pictureASOS {
+	  display: block;
+	  margin-top: 90px;
+	  width: 80%;
+	}
+
+}
+
+/*--------------------------Adjust width 370px----------------------------------------------*/
+
+@media (min-width: 370px) {
+
+	.pictureASOS {
+	  display: block;
+	  margin-top: 110px;
+	  width: 80%;
+	}
+
+}
+
+/*--------------------------Adjust width 370px----------------------------------------------*/
+
+@media (min-width: 370px) {
+
+	.pictureASOS {
+	  display: block;
+	  margin-top: 105px;
+	  width: 70%;
+	}
+
+}
+
+/*--------------------------Adjust width 410px----------------------------------------------*/
+
+@media (min-width: 420px) {
+
+	.pictureASOS {
+	  display: block;
+	  margin-top: 100px;
+	  width: 80%;
+	}
+
+}
+
+/*--------------------------Adjust width 430px----------------------------------------------*/
+
+@media (min-width: 430px) {
+
+	.section { height: 800px;
+
+	}
+
+	.text p {
+		font-size: 20px;
+	}
+
+	.text h1 {
+		font-size: 40px;
+	}
+
+	.containerTextLogo {
+		margin-top: 100px;
+	}
+
+}
+
+/*--------------------------Adjust width 430px----------------------------------------------*/
+
+@media (min-width: 530px) {
+
+	.section {
+		height: 900px;
+	}
+
+	.text p {
+		font-size: 25px;
+		line-height: 30px;
+	}
+
+	.containerTextLogo {
+		margin-top: 180px;
+		}
+
+
+}
+
+/*--------------------------Adjust width 430px----------------------------------------------*/
+
+@media (min-width: 630px) {
+
+	.section { height: 1000px;
+
+	}
+
+	.text p {
+		font-size: 30px;
+		line-height: 35px;
+	}
+
+}
+
+
+/*--------------------------Ipad width 760px----------------------------------------------*/
+
+@media (min-width: 760px) {
+
+  p {
+  	font-size: 20px;
+		line-height: 20px;
+	}
+
+	h1 {
+  	color: #244005;
+		font-family: 'Anton', sans-serif;
+	  font-size: 36px;
+	  font-weight: 200px;
+	  text-align: center;
+	}
+
+	h2 {
+	  color: #244005;
+		font-family: 'Anton', sans-serif;
+	  font-size: 36px;
+	  font-weight: 200px;
+	  text-align: center;
+	}
+
+	a {
+	  color: #000000;
+		font-family: 'Helvetica', sans-serif;
+	  font-size: 25px;
+	  font-weight: 200px;
+	  text-align: center;
+	}
+
+/*---------Menu Ipad-----------------------------------------------------------*/
+
+  .menuDesktop {
+    margin: 0 auto;
+    margin-top: 180px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: 50px;
+  }
+
+  .menuDesktop a {
+    color: #000000;
+  }
+
+  .menuDesktop a:hover {
+    color: #DCBC3F;
+  }
+
+  .menuDesktop a:active {
+    color: #DCBC3F;
+  }
+
+  /*När menyval är iklickat syns denna färg*/
+  .active {
+  	color: #244005 !important;
+  }
+
+  /*---------Index Ipad-----------------------------------------------------------*/
+
+	.indexPage {
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-bottom: 150px;
+	}
+
+	.containerPortfolio {
+		display: flex;
+	  flex-direction: row;
+		justify-content: space-between;
+		margin-top: 80px;
+	}
+
+	.profilePictureDesktop {
+		display: flex;
+		width: 55%;
+		height: 55%;
+	}
+
+	.containerAbout {
+		width: 40%;
+		margin-top: -10px;
+	}
+
+	.containerAbout h1{
+		margin-top: 10px;
+		background-color: #ffffff;
+		text-align: left;
+		font-size: 35px;
+		padding: 0px 0px 12px 0px;
+	}
+
+	.containerAbout p {
+		font-size: 12px;
+		background-color: #ffffff;
+		line-height: 14px;
+		text-align: left;
+		padding: 0px 0px 0px 0px;
+	}
+
+  .containerTools h2 {
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  .containerTools p {
+    text-align: center;
+  }
+
+  .headerLinndesign {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+	.containerContact img {
+		width: 100%;
+		margin-top: 10px;
+	}
+
+  .buttonPicture {
+  	width: 100%;
+  	margin-top: 70px;
+		margin-bottom: 0px;
+	}
+
+	.buttonIllustrations {
+  	width: 100%;
+  	margin-top: 70px;
+	}
+
+  .buttonProject {
+  	width: 100%;
+  	margin-top: 70px;
+	}
+
+  footer {
+    height: 200px:
+  }
+
+	/*None ipad index*/
+
+	.profilePictureMobile {
+		display: none;
+	}
+
+	.menuMobile {
+		display: none;
+	}
+
+
+
+    /*--------------Projects Ipad--------------------------------------------------*/
+
+  .containerProject {
+    background-image: url(backgroundProject.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+		background-size: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .containerProjectFlip {
+    background-image: url(backgroundProjectFlip.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  .containerProjectLogo {
+    background-image: url(backgroundProject.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .pageProjects {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+	.pageProjects h1 {
+		margin-top: 0px;
+	}
+
+
+	.section {
+		height: 350px;
+		padding: 50px 50px 50px 50px;
+	}
+
+	.text p {
+		font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+	}
+
+	.text h1 {
+		font-size: 25px;
+	}
+
+	.containerText {
+		display: flex;
+		align-items: center;
+		width: 40%;
+	}
+
+	.containerTextLogo {
+		display: flex;
+		align-items: center;
+		width: 40%;
+		margin-top: 0px;
+	}
+
+
+	.text a {
+    font-size: 20px;
+    margin-top: 15px;
+		padding: 5px 10px 5px 10px;
+		width: 70%;
+		color: #ffffff;
+  }
+
+
+	.participantDesign {
+		width: 32%;
+		margin-top: 0px;
+		margin-right: 4%;
+	}
+
+
+	.pictureTarot {
+		max-width: 500px;
+	}
+
+
+	.pictureASOS {
+	  margin-top: 0px;
+	  width: 40%;
+		margin-left: 4%;
+	}
+
+
+	.pictureUltrafree {
+		margin-top: 0px;
+		margin-right: 4%;
+		width: 30%;
+	}
+
+
+	.pictureForm {
+		margin-top: 0px;
+		width: 25%;
+		margin-left: 4%;
+	}
+
+
+	.pictureCafeKoya {
+	  margin-top: 0px;
+		margin-left: 4%;
+	  width: 30%;
+	}
+
+
+	.pictureAttention {
+		display: block;
+		margin: 0 auto;
+		width: 80%;
+		margin-top: 100px;
+		margin-bottom: 4%;
+	}
+
+
+  .button {
+    display: block;
+		padding: 15px 10px 15px 10px;
+		background-color: #244005;
+		color: #ffffff;
+		font-family: 'Arial', sans-serif;
+		border-radius: 28px;
+  }
+
+	.projectsLogo {
+		display: block;
+	}
+
+	/*--------------Pictures Ipad--------------------------------------------------*/
+
+	.pagePictures {
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 150px;
+	}
+
+	.picturesLogo {
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 50px;
+	}
+
+	.pictures {
+		width: 100%;
+		margin-top: 100px;
+		margin-bottom: 60px;
+	}
+	.containerPicturesStory {
+		margin-top: 50px;
+	}
+
+	.containerPicturesSingle {
+		margin-bottom: 50px;
+	}
+
+	.backgrondPictures {
+		display: none;
+	}
+
+
+	/*Pictures*/
+	.containerPictures {
+		margin: 2em auto 0;
+	}
+
+	.containerPicturesRow {
+		display: flex;
+		width: 100%;
+	}
+
+	.containerPicturesRowOne {
+		padding-right: 2em;
+	}
+
+	.containerPicturesSingle {
+		margin-bottom: 0px;
+	}
+
+	.pictureTell {
+		width: 70%;
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+
+}
+
+
+/*--------------Illustrations Ipad--------------------------------------------------*/
+
+	.pageIllustrations {
+		width: 70%;
+		margin: 0 auto;
+		margin-bottom: 150px;
+		margin-top: 50px;
+	}
+
+	.containerIllustrations {
+		width: 100%;
+		margin-bottom: 100px;
+	}
+
+	.containerIllustrationsArt {
+		width: 100%;
+		margin-top: 100px;
+	}
+
+	.illustrationsContainer {
+		margin-bottom: 80px;
+	}
+
+	.illustrations {
+		display: none;
+	}
+
+	.illustrationsLogo {
+		display: block;
+	}
+
+	.illustrationsBig {
+		display: block;
+	}
+
+
+
+  /*--------------Adjust 820px--------------------------------------------------*/
+
+@media (min-width: 820px) {
+  .containerAbout p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .containerTools h2 {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+		.section {
+			height: 400px;
+			padding: 30px 30px 30px 30px;
+		}
+
+		.text p {
+			font-size: 18px;
+		}
+
+		.text h1 {
+			font-size: 30px;
+		}
+
+		.text a {
+			margin-top: 30px;
+		}
+
+
+}
+
+  /*--------------Adjust 912px--------------------------------------------------*/
+
+@media (min-width: 912px) {
+  .containerAbout p {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+
+}
+
+    /*--------------Adjust 970px--------------------------------------------------*/
+
+@media (min-width: 970px) {
+
+
+	.section { height: 450px;
+	}
+
+	.text p {
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	.text h1 {
+		font-size: 35px;
+	}
+
+  .text a {
+		font-size: 24px;
+		padding: 8px 12px 8px 12px;
+		width: 80%;
+		color: #ffffff;
+		margin-top: 40px;
+  }
+
+	.participantDesign {
+		width: 10%;
+	}
+
+
+	.pictureTarot img {
+		width: 50%;
+		margin-top: 0px;
+
+	}
+
+
+	.pictureASOS {
+		margin-top: 0px;
+		width: 40%;
+		margin-left: 4%;
+	}
+
+
+	.pictureUltrafree {
+		margin-top: 0px;
+		margin-right: 4%;
+		width: 30%;
+	}
+
+
+	.pictureForm {
+		margin-top: 0px;
+		width: 25%;
+		margin-left: 4%;
+	}
+
+
+	.pictureCafeKoya {
+		margin-top: 0px;
+		margin-left: 4%;
+		width: 30%;
+	}
+
+}
+
+    /*--------------Adjust 1000px--------------------------------------------------*/
+
+@media (min-width: 1000px) {
+  .containerAbout p {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+
+
+  .containerTools h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .containerTools p {
+    text-align: center;
+  }
+
+	.text a {
+		font-size: 24px;
+		margin-top: 30px;
+		padding: 8px 12px 8px 12px;
+		width: 70%;
+		color: #ffffff;
+	}
+
+
+}
+
+    /*--------------Adjust 1050px--------------------------------------------------*/
+
+@media (min-width: 1050px) {
+  .containerAbout p {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+
+	.section { height: 500px;
+	}
+
+	.text p {
+		font-size: 20px;
+	}
+
+	.text h1 {
+		font-size: 40px;
+	}
+
+
+}
+
+    /*--------------Adjust 1100px--------------------------------------------------*/
+
+@media (min-width: 1100px) {
+  .containerAbout p {
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+	.text a {
+	width: 60%;
+	}
+
+}
+
+
+/*--------------Index Desktop 1200px--------------------------------------------------*/
+
+@media (min-width: 1200px) {
+
+  .containerAbout h1{
+    margin-top: 10px;
+    font-size: 80px;
+    padding: 0px 0px 30px 0px;
+  }
+
+  .containerAbout p {
+    font-size: 21px;
+    line-height: 28px;
+  }
+
+  .containerTools {
+    margin-top: 40px;
+  }
+
+  .containerTools h2 {
+    line-height: 40px;
+  }
+
+  .containerTools p {
+    text-align: center;
+  }
+
+	.containerContact {
+  	margin-top: 40px;
+	}
+	.containerContact img {
+  	width: 100%;
+	}
+
+	.contactMail :hover {
+  	background-color: #DCBC3F;
+  	margin-bottom: -10px;
+	}
+
+	.contactMail a:hover {
+  	background-color: transparent;
+	}
+
+	.contactLinkedin :hover {
+  	background-color: #DCBC3F;
+  	margin-bottom: -10px;
+	}
+
+	.contactLinkedin a:hover {
+  	background-color: transparent;
+	}
+
+	.contactPhone a:hover {
+  	background-color: transparent;
+	}
+
+	.contactPhone :hover {
+  	background-color: #DCBC3F;
+  	margin-bottom: -10px;
+	}
+
+	.buttonPicture {
+  	width: 100%;
+  	margin-top: 80px;
+	}
+
+	.buttonPicture img {
+  	border: 10px solid transparent;
+	}
+
+	.buttonPicture img:hover{
+  	border: 10px solid #000000;
+	}
+
+	.buttonIllustrations {
+    margin-top: 80px;
+  }
+
+  .buttonProject img:hover{
+    border: 10px solid #000000;
+  }
+
+  .buttonProject {
+    margin-top: 100px;
+  }
+
+  .buttonProject img {
+    border: 10px solid transparent;
+  }
+
+	/*--------------Illustrations Desktop--------------------------------------------------*/
+
+
+
+	.containerIllustrationsArt {
+		margin-bottom: 150px;
+	}
+	.illustrationsLogo {
+		display: block;
+	}
+
+	.indexIllustrations img:hover{
+		border: 10px solid #000000;
+	}
+
+	.indexIllustrations img {
+		border: 10px solid transparent;
+	}
+
+	.illustrationsBig {
+			display: block;
+	}
+
+
+			/*--------------Projects Desktop--------------------------------------------------*/
+
+
+
+			.text a {
+				font-size: 24px;
+				margin-top: 30px;
+				padding: 8px 12px 8px 12px;
+				width: 60%;
+				color: #ffffff;
+			}
+
+				.projectsLogo {
+					display: block;
+				}
+
+
+				.section {
+					height: 550px;
+				}
+
+				.text p {
+					font-size: 20px;
+				}
+
+				.text h1 {
+					font-size: 45px;
+				}
+
+				.participantDesign {
+					max-width: 500px;
+				}
+
+				.pictureTarot {
+					max-width: 500px;
+				}
+
+
+				.pictureASOS {
+					max-width: 500px;
+				}
+
+
+				.pictureUltrafree {
+					max-width: 400px;
+				}
+
+
+				.pictureForm {
+					max-width: 350px;
+				}
+
+
+				.pictureCafeKoya {
+					max-width: 400px;
+				}
+
+
+
+
+}
+
+/*--------------Adjust 1300px--------------------------------------------------*/
+
+@media (min-width: 1300px) {
+
+	.section { height: 600px;
+	}
+
+	.text p {
+		font-size: 30px;
+		line-height: 35px;
+	}
+
+	.text h1 {
+		font-size: 40px;
+	}
+
+	.text a {
+	font-size: 28px;
+	margin-top: 50px;
+	padding: 12px 14px 12px 14px;
+	width: 50%;
+	color: #ffffff;
+}
+
+}
+
+/*--------------Adjust 1500px--------------------------------------------------*/
+
+@media (min-width: 1500px) {
+
+	.section {
+		height: 700px;
+	}
+
+	.text h1 {
+		font-size: 45px;
+	}
+
+	.text a {
+	width: 60%;
+	}
+}
+
+/*--------------Adjust 1800px--------------------------------------------------*/
+
+@media (min-width: 1800px) {
+
+	.text a {
+	font-size: 30px;
+	margin-top: 50px;
+	padding: 14px 18px 14px 18px;
+	width: 40%;
+	}
+
+	.section {
+		height: 800px;
+	}
+
+}
+
+/*--------------Adjust 2100px--------------------------------------------------*/
+
+@media (min-width: 2100px) {
+
+	.section {
+		height: 900px;
+	}
+
+	.section h1 {
+		font-size: 50px;
+	}
+
+	.section p {
+		font-size: 35px;
+	}
+
+}

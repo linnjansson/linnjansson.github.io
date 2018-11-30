@@ -1,0 +1,1765 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/17d07a3/
+*	style.css	/^*, *:before, *:after {$/;"	s
+*	style2.css	/^*, *:before, *:after {$/;"	s
+*	style3.css	/^*, *:before, *:after {$/;"	s
+*:after	style.css	/^*, *:before, *:after {$/;"	s
+*:after	style2.css	/^*, *:before, *:after {$/;"	s
+*:after	style3.css	/^*, *:before, *:after {$/;"	s
+*:before	style.css	/^*, *:before, *:after {$/;"	s
+*:before	style2.css	/^*, *:before, *:after {$/;"	s
+*:before	style3.css	/^*, *:before, *:after {$/;"	s
+.active	style.css	/^.active {$/;"	c
+.active	style2.css	/^  .active {$/;"	c
+.active	style2.css	/^.active {$/;"	c
+.asos	style.css	/^.asos {$/;"	c
+.attention .image-link	style3.css	/^  .attention .image-link {$/;"	c
+.attention .image-link	style3.css	/^.attention .image-link {$/;"	c
+.attention .image-link img	style3.css	/^.attention .image-link img {$/;"	s
+.backgrondPictures	style.css	/^			.backgrondPictures {$/;"	c
+.backgrondPictures	style2.css	/^	.backgrondPictures {$/;"	c
+.burgerMenu	style.css	/^.burgerMenu {$/;"	c
+.burgerMenu	style2.css	/^.burgerMenu {$/;"	c
+.burgerMenu	style3.css	/^.burgerMenu {$/;"	c
+.button	style2.css	/^  .button {$/;"	c
+.button	style2.css	/^.button {$/;"	c
+.buttonIllustrations	style2.css	/^	.buttonIllustrations {$/;"	c
+.buttonIllustrations	style2.css	/^.buttonIllustrations {$/;"	c
+.buttonPicture	style2.css	/^	.buttonPicture {$/;"	c
+.buttonPicture	style2.css	/^  .buttonPicture {$/;"	c
+.buttonPicture	style2.css	/^.buttonPicture {$/;"	c
+.buttonPicture img	style2.css	/^	.buttonPicture img {$/;"	s
+.buttonPicture img:hover	style2.css	/^	.buttonPicture img:hover{$/;"	s
+.buttonProject	style2.css	/^  .buttonProject {$/;"	c
+.buttonProject	style2.css	/^.buttonProject {$/;"	c
+.buttonProject img	style2.css	/^  .buttonProject img {$/;"	s
+.buttonProject img:hover	style2.css	/^  .buttonProject img:hover{$/;"	s
+.contactLinkedin	style.css	/^.contactLinkedin {$/;"	c
+.contactLinkedin	style2.css	/^.contactLinkedin {$/;"	c
+.contactLinkedin :hover	style.css	/^			.contactLinkedin :hover {$/;"	s
+.contactLinkedin :hover	style2.css	/^	.contactLinkedin :hover {$/;"	s
+.contactLinkedin a:hover	style.css	/^			.contactLinkedin a:hover {$/;"	s
+.contactLinkedin a:hover	style2.css	/^	.contactLinkedin a:hover {$/;"	s
+.contactMail	style.css	/^.contactMail {$/;"	c
+.contactMail	style2.css	/^.contactMail {$/;"	c
+.contactMail :hover	style.css	/^			.contactMail :hover {$/;"	s
+.contactMail :hover	style2.css	/^	.contactMail :hover {$/;"	s
+.contactMail a:hover	style.css	/^			.contactMail a:hover {$/;"	s
+.contactMail a:hover	style2.css	/^	.contactMail a:hover {$/;"	s
+.contactPhone	style.css	/^.contactPhone {$/;"	c
+.contactPhone	style2.css	/^.contactPhone {$/;"	c
+.contactPhone :hover	style.css	/^			.contactPhone :hover {$/;"	s
+.contactPhone :hover	style2.css	/^	.contactPhone :hover {$/;"	s
+.contactPhone a:hover	style.css	/^			.contactPhone a:hover {$/;"	s
+.contactPhone a:hover	style2.css	/^	.contactPhone a:hover {$/;"	s
+.containerAbout	style2.css	/^	.containerAbout {$/;"	c
+.containerAbout h1	style2.css	/^	.containerAbout h1{$/;"	s
+.containerAbout h1	style2.css	/^  .containerAbout h1{$/;"	s
+.containerAbout h1	style2.css	/^.containerAbout h1 {$/;"	s
+.containerAbout p	style2.css	/^	.containerAbout p {$/;"	s
+.containerAbout p	style2.css	/^  .containerAbout p {$/;"	s
+.containerAbout p	style2.css	/^.containerAbout p {$/;"	s
+.containerContact	style2.css	/^	.containerContact {$/;"	c
+.containerContact	style2.css	/^.containerContact {$/;"	c
+.containerContact img	style2.css	/^	.containerContact img {$/;"	s
+.containerGrey	style.css	/^				.containerGrey {$/;"	c
+.containerGrey	style.css	/^			.containerGrey {$/;"	c
+.containerIllustrations	style.css	/^			.containerIllustrations {$/;"	c
+.containerIllustrations	style.css	/^.containerIllustrations{$/;"	c
+.containerIllustrations	style2.css	/^	.containerIllustrations {$/;"	c
+.containerIllustrations	style2.css	/^.containerIllustrations{$/;"	c
+.containerIllustrationsArt	style.css	/^			.containerIllustrationsArt {$/;"	c
+.containerIllustrationsArt	style.css	/^.containerIllustrationsArt {$/;"	c
+.containerIllustrationsArt	style2.css	/^	.containerIllustrationsArt {$/;"	c
+.containerIllustrationsArt	style2.css	/^.containerIllustrationsArt {$/;"	c
+.containerMenu	style.css	/^.containerMenu {$/;"	c
+.containerMenu	style2.css	/^.containerMenu {$/;"	c
+.containerPictures	style.css	/^			.containerPictures {$/;"	c
+.containerPictures	style.css	/^.containerPictures {$/;"	c
+.containerPictures	style2.css	/^	.containerPictures {$/;"	c
+.containerPictures	style2.css	/^.containerPictures {$/;"	c
+.containerPicturesRow	style.css	/^.containerPicturesRow {$/;"	c
+.containerPicturesRow	style2.css	/^	.containerPicturesRow {$/;"	c
+.containerPicturesRow	style2.css	/^.containerPicturesRow {$/;"	c
+.containerPicturesRowOne	style.css	/^			.containerPicturesRowOne {$/;"	c
+.containerPicturesRowOne	style.css	/^.containerPicturesRowOne {$/;"	c
+.containerPicturesRowOne	style2.css	/^	.containerPicturesRowOne {$/;"	c
+.containerPicturesRowOne	style2.css	/^.containerPicturesRowOne {$/;"	c
+.containerPicturesSingle	style.css	/^			.containerPicturesSingle {$/;"	c
+.containerPicturesSingle	style.css	/^.containerPicturesSingle {$/;"	c
+.containerPicturesSingle	style2.css	/^	.containerPicturesSingle {$/;"	c
+.containerPicturesSingle	style2.css	/^.containerPicturesSingle {$/;"	c
+.containerPicturesStory	style.css	/^			.containerPicturesStory {$/;"	c
+.containerPicturesStory	style2.css	/^	.containerPicturesStory {$/;"	c
+.containerPink	style.css	/^				.containerPink {$/;"	c
+.containerPink	style.css	/^			.containerPink {$/;"	c
+.containerPortfolio	style2.css	/^	.containerPortfolio {$/;"	c
+.containerPortfolio	style2.css	/^.containerPortfolio {$/;"	c
+.containerProject	style.css	/^				.containerProject {$/;"	c
+.containerProject	style.css	/^			.containerProject {$/;"	c
+.containerProject	style.css	/^.containerProject {$/;"	c
+.containerProject	style2.css	/^  .containerProject {$/;"	c
+.containerProject	style2.css	/^.containerProject {$/;"	c
+.containerProject img	style.css	/^			.containerProject img {$/;"	s
+.containerProject p	style.css	/^				.containerProject p {$/;"	s
+.containerProject p	style.css	/^			.containerProject p {$/;"	s
+.containerProjectFlip	style.css	/^			.containerProjectFlip {$/;"	c
+.containerProjectFlip	style.css	/^.containerProjectFlip {$/;"	c
+.containerProjectFlip	style2.css	/^  .containerProjectFlip {$/;"	c
+.containerProjectFlip	style2.css	/^.containerProjectFlip {$/;"	c
+.containerProjectLogo	style.css	/^			.containerProjectLogo {$/;"	c
+.containerProjectLogo	style.css	/^.containerProjectLogo {$/;"	c
+.containerProjectLogo	style2.css	/^  .containerProjectLogo {$/;"	c
+.containerProjectLogo	style2.css	/^.containerProjectLogo {$/;"	c
+.containerText	style.css	/^			.containerText {$/;"	c
+.containerText	style.css	/^.containerText {$/;"	c
+.containerText	style2.css	/^	.containerText {$/;"	c
+.containerText	style2.css	/^.containerText {$/;"	c
+.containerText a	style.css	/^				.containerText a {$/;"	s
+.containerText a	style.css	/^			.containerText a {$/;"	s
+.containerText h1	style.css	/^				.containerText h1 {$/;"	s
+.containerText h1	style.css	/^			.containerText h1 {$/;"	s
+.containerTextLogo	style.css	/^			.containerTextLogo {$/;"	c
+.containerTextLogo	style.css	/^.containerTextLogo {$/;"	c
+.containerTextLogo	style2.css	/^	.containerTextLogo {$/;"	c
+.containerTextLogo	style2.css	/^.containerTextLogo {$/;"	c
+.containerTools	style2.css	/^  .containerTools {$/;"	c
+.containerTools h2	style2.css	/^  .containerTools h2 {$/;"	s
+.containerTools h2	style2.css	/^.containerTools h2 {$/;"	s
+.containerTools p	style2.css	/^  .containerTools p {$/;"	s
+.containerYellow	style.css	/^				.containerYellow {$/;"	c
+.containerYellow	style.css	/^			.containerYellow {$/;"	c
+.dropdown a:hover	style.css	/^.dropdown a:hover {$/;"	s
+.dropdown a:hover	style2.css	/^.dropdown a:hover {$/;"	s
+.dropdown a:hover	style3.css	/^.dropdown a:hover {$/;"	s
+.dropdownContent	style.css	/^.dropdownContent {$/;"	c
+.dropdownContent	style2.css	/^.dropdownContent {$/;"	c
+.dropdownContent	style3.css	/^.dropdownContent {$/;"	c
+.dropdownContent a	style.css	/^.dropdownContent a {$/;"	s
+.dropdownContent a	style2.css	/^.dropdownContent a {$/;"	s
+.dropdownContent a	style3.css	/^.dropdownContent a {$/;"	s
+.flip	style.css	/^.flip {$/;"	c
+.flip	style2.css	/^.flip {$/;"	c
+.headerLinndesign	style2.css	/^  .headerLinndesign {$/;"	c
+.headerLinndesign	style2.css	/^.headerLinndesign {$/;"	c
+.illustrations	style.css	/^			.illustrations {$/;"	c
+.illustrations	style2.css	/^	.illustrations {$/;"	c
+.illustrations .section	style3.css	/^  .illustrations .section {$/;"	c
+.illustrations .section img.desktop	style3.css	/^  .illustrations .section img.desktop {$/;"	c
+.illustrations .section img.desktop	style3.css	/^.illustrations .section img.desktop {$/;"	c
+.illustrations .section img.mobile	style3.css	/^  .illustrations .section img.mobile {$/;"	c
+.illustrations .section img.mobile	style3.css	/^.illustrations .section img.mobile {$/;"	c
+.illustrationsBig	style.css	/^			.illustrationsBig {$/;"	c
+.illustrationsBig	style.css	/^.illustrationsBig {$/;"	c
+.illustrationsBig	style2.css	/^	.illustrationsBig {$/;"	c
+.illustrationsBig	style2.css	/^.illustrationsBig {$/;"	c
+.illustrationsContainer	style.css	/^			.illustrationsContainer {$/;"	c
+.illustrationsContainer	style.css	/^.illustrationsContainer {$/;"	c
+.illustrationsContainer	style2.css	/^	.illustrationsContainer {$/;"	c
+.illustrationsContainer	style2.css	/^.illustrationsContainer {$/;"	c
+.illustrationsLogo	style.css	/^			.illustrationsLogo {$/;"	c
+.illustrationsLogo	style.css	/^.illustrationsLogo {$/;"	c
+.illustrationsLogo	style2.css	/^	.illustrationsLogo {$/;"	c
+.illustrationsLogo	style2.css	/^.illustrationsLogo {$/;"	c
+.image-boat	style3.css	/^  .image-boat {$/;"	c
+.image-boat	style3.css	/^.image-boat {$/;"	c
+.image-city	style3.css	/^  .image-city,$/;"	c
+.image-city	style3.css	/^.image-city,$/;"	c
+.image-eye	style3.css	/^  .image-eye {$/;"	c
+.image-eye	style3.css	/^.image-eye {$/;"	c
+.image-flower	style3.css	/^  .image-flower {$/;"	c
+.image-flower	style3.css	/^.image-flower {$/;"	c
+.image-link	style3.css	/^.image-link {$/;"	c
+.image-link img	style3.css	/^.image-link img {$/;"	s
+.image-link.participant-design img	style3.css	/^.image-link.participant-design img {$/;"	s
+.image-link.ultra-free img	style3.css	/^.image-link.ultra-free img {$/;"	s
+.image-profile	style3.css	/^  .image-profile {$/;"	c
+.image-profile.desktop	style3.css	/^  .image-profile.desktop {$/;"	c
+.image-profile.desktop	style3.css	/^.image-profile.desktop {$/;"	c
+.image-profile.mobile	style3.css	/^  .image-profile.mobile {$/;"	c
+.image-uxdesign	style3.css	/^  .image-uxdesign {$/;"	c
+.image-uxdesign	style3.css	/^.image-uxdesign {$/;"	c
+.image-uxdesign	style3.css	/^.image-uxdesign,$/;"	c
+.index	style3.css	/^  .index {$/;"	c
+.index .copy li	style3.css	/^.index .copy li {$/;"	s
+.index .copy li > a	style3.css	/^.index .copy li > a {$/;"	s
+.index .copy li > a:hover	style3.css	/^  .index .copy li > a:hover {$/;"	s
+.index .copy ul	style3.css	/^  .index .copy ul {$/;"	s
+.index .copy ul	style3.css	/^.index .copy ul {$/;"	s
+.index .illustrations.image-link:hover img	style3.css	/^  .index .illustrations.image-link:hover img {$/;"	s
+.index .image-link	style3.css	/^  .index .image-link {$/;"	c
+.index .image-link	style3.css	/^.index .image-link {$/;"	c
+.index .image-link img	style3.css	/^.index .image-link img {$/;"	s
+.index .pictures.image-link:hover img	style3.css	/^  .index .pictures.image-link:hover img {$/;"	s
+.index .project.image-link:hover img	style3.css	/^  .index .project.image-link:hover img,$/;"	s
+.index .section	style3.css	/^.index .section {$/;"	c
+.index .section .copy	style3.css	/^  .index .section .copy {$/;"	c
+.index .section .copy	style3.css	/^.index .section .copy {$/;"	c
+.index .section .copy h2	style3.css	/^  .index .section .copy h2 {$/;"	s
+.index .section .copy p	style3.css	/^  .index .section .copy p {$/;"	s
+.index .section.first	style3.css	/^  .index .section.first {$/;"	c
+.index .section:not(.first)	style3.css	/^.index .section:not(.first) {$/;"	c
+.index img	style3.css	/^.index img {$/;"	s
+.indexAbout	style.css	/^			.indexAbout {$/;"	c
+.indexAbout h1	style.css	/^			.indexAbout h1{$/;"	s
+.indexAbout h1	style.css	/^.indexAbout h1 {$/;"	s
+.indexAbout p	style.css	/^				.indexAbout p {$/;"	s
+.indexAbout p	style.css	/^			.indexAbout p {$/;"	s
+.indexAbout p	style.css	/^.indexAbout p {$/;"	s
+.indexContact	style.css	/^			.indexContact {$/;"	c
+.indexContact	style.css	/^.indexContact {$/;"	c
+.indexContact img	style.css	/^			.indexContact img {$/;"	s
+.indexIllustrations	style.css	/^			.indexIllustrations {$/;"	c
+.indexIllustrations	style.css	/^.indexIllustrations {$/;"	c
+.indexIllustrations img	style.css	/^			.indexIllustrations img {$/;"	s
+.indexIllustrations img	style2.css	/^	.indexIllustrations img {$/;"	s
+.indexIllustrations img:hover	style.css	/^			.indexIllustrations img:hover{$/;"	s
+.indexIllustrations img:hover	style2.css	/^	.indexIllustrations img:hover{$/;"	s
+.indexPage	style.css	/^			.indexPage {$/;"	c
+.indexPage	style.css	/^.indexPage {$/;"	c
+.indexPage	style2.css	/^	.indexPage {$/;"	c
+.indexPage	style2.css	/^.indexPage {$/;"	c
+.indexPicture	style.css	/^			.indexPicture {$/;"	c
+.indexPicture	style.css	/^.indexPicture {$/;"	c
+.indexPicture img	style.css	/^			.indexPicture img {$/;"	s
+.indexPicture img:hover	style.css	/^			.indexPicture img:hover{$/;"	s
+.indexPortfolio	style.css	/^			.indexPortfolio {$/;"	c
+.indexPortfolio	style.css	/^.indexPortfolio {$/;"	c
+.indexProject	style.css	/^			.indexProject {$/;"	c
+.indexProject	style.css	/^.indexProject {$/;"	c
+.indexProject img	style.css	/^			.indexProject img {$/;"	s
+.indexProject img:hover	style.css	/^			.indexProject img:hover{$/;"	s
+.logo	style.css	/^.logo {$/;"	c
+.logo	style2.css	/^.logo {$/;"	c
+.logo	style3.css	/^.logo {$/;"	c
+.menu	style.css	/^			.menu {$/;"	c
+.menu	style.css	/^.menu {$/;"	c
+.menu .links	style3.css	/^  .menu .links {$/;"	c
+.menu .links .active	style3.css	/^  .menu .links .active {$/;"	c
+.menu .links a	style3.css	/^  .menu .links a {$/;"	s
+.menu a	style.css	/^			.menu a {$/;"	s
+.menu a:active	style.css	/^			.menu a:active {$/;"	s
+.menu a:hover	style.css	/^			.menu a:hover {$/;"	s
+.menu.desktop.row	style3.css	/^  .menu.desktop.row {$/;"	c
+.menu.desktop.row	style3.css	/^.menu.desktop.row,$/;"	c
+.menu.mobile	style3.css	/^.menu.mobile {$/;"	c
+.menu.mobile .active	style3.css	/^.menu.mobile .active {$/;"	c
+.menu.mobile.row	style3.css	/^  .menu.mobile.row,$/;"	c
+.menu.mobile.row	style3.css	/^.menu.mobile.row {$/;"	c
+.menuDesktop	style2.css	/^  .menuDesktop {$/;"	c
+.menuDesktop	style2.css	/^.menuDesktop {$/;"	c
+.menuDesktop a	style2.css	/^  .menuDesktop a {$/;"	s
+.menuDesktop a:active	style2.css	/^  .menuDesktop a:active {$/;"	s
+.menuDesktop a:hover	style2.css	/^  .menuDesktop a:hover {$/;"	s
+.menuMobile	style.css	/^			.menuMobile {$/;"	c
+.menuMobile	style.css	/^.menuMobile {$/;"	c
+.menuMobile	style2.css	/^	.menuMobile {$/;"	c
+.menuMobile	style2.css	/^.menuMobile {$/;"	c
+.pageIllustrations	style.css	/^			.pageIllustrations {$/;"	c
+.pageIllustrations	style2.css	/^	.pageIllustrations {$/;"	c
+.pagePictures	style.css	/^			.pagePictures {$/;"	c
+.pagePictures	style.css	/^.pagePictures {$/;"	c
+.pagePictures	style2.css	/^	.pagePictures {$/;"	c
+.pagePictures	style2.css	/^.pagePictures {$/;"	c
+.pageProjects	style.css	/^			.pageProjects {$/;"	c
+.pageProjects	style.css	/^.pageProjects {$/;"	c
+.pageProjects	style2.css	/^  .pageProjects {$/;"	c
+.pageProjects	style2.css	/^.pageProjects {$/;"	c
+.pageProjects a	style.css	/^			.pageProjects a {$/;"	s
+.pageProjects a	style.css	/^.pageProjects a {$/;"	s
+.pageProjects a	style2.css	/^.pageProjects a {$/;"	s
+.pageProjects h1	style.css	/^			.pageProjects h1 {$/;"	s
+.pageProjects h1	style.css	/^.pageProjects h1 {$/;"	s
+.pageProjects h1	style2.css	/^	.pageProjects h1 {$/;"	s
+.pageProjects h1	style2.css	/^.pageProjects h1 {$/;"	s
+.pageProjects p	style.css	/^			.pageProjects p {$/;"	s
+.pageProjects p	style.css	/^.pageProjects p {$/;"	s
+.pageProjects p	style2.css	/^.pageProjects p {$/;"	s
+.participantDesign	style2.css	/^				.participantDesign {$/;"	c
+.participantDesign	style2.css	/^	.participantDesign {$/;"	c
+.participantDesign	style2.css	/^.participantDesign {$/;"	c
+.participantDesign img	style2.css	/^.participantDesign img {$/;"	s
+.participatory .link	style3.css	/^  .participatory .link {$/;"	c
+.participatory .link	style3.css	/^.participatory .link {$/;"	c
+.participatory .link img	style3.css	/^  .participatory .link img {$/;"	s
+.participatory .link img	style3.css	/^.participatory .link img {$/;"	s
+.pictureASOS	style2.css	/^				.pictureASOS {$/;"	c
+.pictureASOS	style2.css	/^	.pictureASOS {$/;"	c
+.pictureASOS	style2.css	/^.pictureASOS {$/;"	c
+.pictureASOS img	style.css	/^			.pictureASOS img {$/;"	s
+.pictureASOS img	style.css	/^.pictureASOS img {$/;"	s
+.pictureASOS img	style2.css	/^.pictureASOS img {$/;"	s
+.pictureAttention	style.css	/^			.pictureAttention {$/;"	c
+.pictureAttention	style.css	/^.pictureAttention {$/;"	c
+.pictureAttention	style2.css	/^	.pictureAttention {$/;"	c
+.pictureAttention	style2.css	/^.pictureAttention {$/;"	c
+.pictureAttention a	style.css	/^			.pictureAttention a {$/;"	s
+.pictureBig	style.css	/^			.pictureBig {$/;"	c
+.pictureCafeKoya	style2.css	/^				.pictureCafeKoya {$/;"	c
+.pictureCafeKoya	style2.css	/^	.pictureCafeKoya {$/;"	c
+.pictureCafeKoya	style2.css	/^.pictureCafeKoya {$/;"	c
+.pictureCafeKoya img	style.css	/^			.pictureCafeKoya img {$/;"	s
+.pictureCafeKoya img	style.css	/^.pictureCafeKoya img {$/;"	s
+.pictureCafeKoya img	style2.css	/^.pictureCafeKoya img {$/;"	s
+.pictureForm	style2.css	/^				.pictureForm {$/;"	c
+.pictureForm	style2.css	/^	.pictureForm {$/;"	c
+.pictureForm	style2.css	/^.pictureForm {$/;"	c
+.pictureForm img	style.css	/^			.pictureForm img {$/;"	s
+.pictureForm img	style.css	/^.pictureForm img {$/;"	s
+.pictureForm img	style2.css	/^.pictureForm img {$/;"	s
+.pictureNothing	style.css	/^			.pictureNothing {$/;"	c
+.pictureSmall	style.css	/^			.pictureSmall {$/;"	c
+.pictureTarot	style2.css	/^				.pictureTarot {$/;"	c
+.pictureTarot	style2.css	/^	.pictureTarot {$/;"	c
+.pictureTarot	style2.css	/^.pictureTarot {$/;"	c
+.pictureTarot img	style.css	/^			.pictureTarot img {$/;"	s
+.pictureTarot img	style.css	/^.pictureTarot img {$/;"	s
+.pictureTarot img	style2.css	/^	.pictureTarot img {$/;"	s
+.pictureTarot img	style2.css	/^.pictureTarot img {$/;"	s
+.pictureTell	style.css	/^			.pictureTell {$/;"	c
+.pictureTell	style.css	/^.pictureTell {$/;"	c
+.pictureTell	style2.css	/^	.pictureTell {$/;"	c
+.pictureTell	style2.css	/^.pictureTell {$/;"	c
+.pictureUltrafree	style2.css	/^				.pictureUltrafree {$/;"	c
+.pictureUltrafree	style2.css	/^	.pictureUltrafree {$/;"	c
+.pictureUltrafree	style2.css	/^.pictureUltrafree {$/;"	c
+.pictureUltrafree img	style.css	/^			.pictureUltrafree img {$/;"	s
+.pictureUltrafree img	style2.css	/^.pictureUltrafree img {$/;"	s
+.pictures	style.css	/^			.pictures {$/;"	c
+.pictures	style.css	/^.pictures {$/;"	c
+.pictures	style2.css	/^	.pictures {$/;"	c
+.pictures	style2.css	/^.pictures {$/;"	c
+.pictures .section	style3.css	/^  .pictures .section,$/;"	c
+.pictures .section img	style3.css	/^.pictures .section img {$/;"	s
+.picturesLogo	style.css	/^			.picturesLogo {$/;"	c
+.picturesLogo	style.css	/^.picturesLogo {$/;"	c
+.picturesLogo	style2.css	/^	.picturesLogo {$/;"	c
+.picturesLogo	style2.css	/^.picturesLogo {$/;"	c
+.profilePictureDesktop	style2.css	/^	.profilePictureDesktop {$/;"	c
+.profilePictureDesktop	style2.css	/^.profilePictureDesktop {$/;"	c
+.profilePictureMobile	style2.css	/^	.profilePictureMobile {$/;"	c
+.projects .fill	style3.css	/^  .projects .fill {$/;"	c
+.projects .fill.cafe-koya	style3.css	/^  .projects .fill.cafe-koya,$/;"	c
+.projects .fill.form	style3.css	/^  .projects .fill.form,$/;"	c
+.projects .fill.participant-design	style3.css	/^  .projects .fill.participant-design,$/;"	c
+.projects .fill.report	style3.css	/^  .projects .fill.report {$/;"	c
+.projects .fill.tarot-appen	style3.css	/^  .projects .fill.tarot-appen {$/;"	c
+.projects .fill.ultra-free	style3.css	/^  .projects .fill.ultra-free {$/;"	c
+.projects .section .button	style3.css	/^  .projects .section .button {$/;"	c
+.projects .section .copy	style3.css	/^  .projects .section .copy {$/;"	c
+.projects .section .copy	style3.css	/^  .projects .section .copy,$/;"	c
+.projects .section .image-link	style3.css	/^  .projects .section .image-link {$/;"	c
+.projects .section .image-link	style3.css	/^  .projects .section .image-link,$/;"	c
+.projects .section.first	style3.css	/^  .projects .section.first,$/;"	c
+.projects .section.flip .copy	style3.css	/^  .projects .section.flip .copy {$/;"	c
+.projects .section.flip .copy	style3.css	/^  .projects .section.flip .copy{$/;"	c
+.projects .section.flip .image-link	style3.css	/^  .projects .section.flip .image-link {$/;"	c
+.projects .section:last-child	style3.css	/^  .projects .section:last-child {$/;"	c
+.projects .section:not(.first)	style3.css	/^  .projects .section:not(.first) {$/;"	c
+.projectsLogo	style.css	/^.projectsLogo {$/;"	c
+.projectsLogo	style2.css	/^				.projectsLogo {$/;"	c
+.projectsLogo	style2.css	/^	.projectsLogo {$/;"	c
+.projectsLogo	style2.css	/^.projectsLogo {$/;"	c
+.row	style3.css	/^  .row {$/;"	c
+.row	style3.css	/^.row {$/;"	c
+.row .image-steps	style3.css	/^  .row .image-steps {$/;"	c
+.row .image-steps	style3.css	/^.row .image-steps {$/;"	c
+.row .image-steps.desktop	style3.css	/^  .row .image-steps.desktop {$/;"	c
+.row .image-steps.desktop	style3.css	/^.row .image-steps.desktop {$/;"	c
+.row .image-steps.mobile	style3.css	/^  .row .image-steps.mobile {$/;"	c
+.section	style2.css	/^				.section {$/;"	c
+.section	style2.css	/^		.section {$/;"	c
+.section	style2.css	/^	.section { height: 1000px;$/;"	c
+.section	style2.css	/^	.section { height: 450px;$/;"	c
+.section	style2.css	/^	.section { height: 500px;$/;"	c
+.section	style2.css	/^	.section { height: 600px;$/;"	c
+.section	style2.css	/^	.section { height: 800px;$/;"	c
+.section	style2.css	/^	.section {$/;"	c
+.section	style3.css	/^.section {$/;"	c
+.section .button	style3.css	/^  .section .button,$/;"	c
+.section .button	style3.css	/^.section .button {$/;"	c
+.section .copy	style3.css	/^.section .copy {$/;"	c
+.section h1	style2.css	/^	.section h1 {$/;"	s
+.section h1	style3.css	/^.section h1 {$/;"	s
+.section h1	style3.css	/^.section h1,$/;"	s
+.section h2	style3.css	/^  .section h2,$/;"	s
+.section h2	style3.css	/^.section h2,$/;"	s
+.section p	style2.css	/^	.section p {$/;"	s
+.section p	style3.css	/^  .section p,$/;"	s
+.section p	style3.css	/^.section p {$/;"	s
+.section p	style3.css	/^.section p,$/;"	s
+.section.first	style3.css	/^.section.first {$/;"	c
+.section.flip	style3.css	/^.section.flip {$/;"	c
+.section:not(.first)	style3.css	/^.section:not(.first) {$/;"	c
+.show	style.css	/^.show {$/;"	c
+.show	style2.css	/^.show {$/;"	c
+.show	style3.css	/^.show {$/;"	c
+.text a	style2.css	/^			.text a {$/;"	s
+.text a	style2.css	/^		.text a {$/;"	s
+.text a	style2.css	/^	.text a {$/;"	s
+.text a	style2.css	/^  .text a {$/;"	s
+.text h1	style2.css	/^				.text h1 {$/;"	s
+.text h1	style2.css	/^		.text h1 {$/;"	s
+.text h1	style2.css	/^	.text h1 {$/;"	s
+.text p	style2.css	/^				.text p {$/;"	s
+.text p	style2.css	/^		.text p {$/;"	s
+.text p	style2.css	/^	.text p {$/;"	s
+.uxDesign	style.css	/^.uxDesign {$/;"	c
+.uxDesign	style2.css	/^.uxDesign {$/;"	c
+24338-google-plus-logo	form.svg	/^                <g id="24338-google-plus-logo" transform="translate(421.000000, 1727.000000)" fi/;"	i
+60%	ultrafree.svg	/^                        <path d="M52.9399084,76.3137863 C54.2247596,76.3137863 54.9985789,75.904/;"	i
+60%-Clipped	ultrafree.svg	/^                    <g id="60%-Clipped" transform="translate(4.000000, 4.000000)">$/;"	i
+ART-FOR	art.svg	/^            <path d="M18,251 L40.2061404,21 L118.061404,21 L140,251 L96.3903509,251 L93.1798246,/;"	i
+ART-SAKE	art.svg	/^            <path d="M0,476.061714 L0,266 L90.6298701,267.938286 L110.50059,476.061714 L71.00147/;"	i
+ATTENTION	attention.svg	/^                <path d="M0,403.231156 L0,229 L77.0180097,230.708149 L93.7175141,403.231156 L60./;"	i
+Användarnamn:	form.svg	/^                <path d="M36.2,297 C33.4799864,297 31.8400028,296.786669 31.28,296.36 C30.719997/;"	i
+Cafe Koya	project.html	/^          <h2>Cafe Koya<\/h2>$/;"	i
+Clip-72	tarotappen.svg	/^                                <g id="Clip-72"><\/g>$/;"	i
+Combined-Shape	form.svg	/^                <path d="M446,1995 L532,1995 C546.359403,1995 558,2006.6406 558,2021 L558,2107 C/;"	i
+Combined-Shape	illustrations.svg	/^                <path d="M143.801546,241.095332 L137.626185,241.095332 L133.821207,251.719523 L1/;"	i
+Combined-Shape	illustrations.svg	/^                <path d="M154.522274,167.839781 C153.270021,168.721364 151.722733,169.191677 150/;"	i
+Combined-Shape	illustrations.svg	/^                <path d="M89.4224713,157.344543 C89.4280414,157.341661 89.4336169,157.338787 89./;"	i
+Combined-Shape	illustrations.svg	/^            <path d="M134.699739,2423.30773 L129.754706,2424.81333 L127.997927,2421.84267 L130.0/;"	i
+Combined-Shape	illustrationsBig.svg	/^                <path d="M139.068545,230.439185 L133.107358,230.439185 L129.434345,240.593798 L1/;"	i
+Combined-Shape	illustrationsBig.svg	/^                <path d="M42.5153044,75.020182 C42.5178954,75.0188379 42.5204889,75.0174968 42.5/;"	i
+Combined-Shape	illustrationsBig.svg	/^                <path d="M64.3684616,62.7184538 L62.0249237,63.4388723 L61.1923553,62.0174305 L6/;"	i
+Combined-Shape	illustrationsBig.svg	/^                <path d="M73.7961438,80.3261526 C73.1995279,80.7717047 72.4623471,81.0094003 71./;"	i
+Combined-Shape	indexIllustrations.svg	/^                    <path d="M89.9846151,131.907202 L85.1048406,133.417543 L83.3712457,130.43752/;"	i
+Combined-Shape	logo.svg	/^                <path d="M52,29 L52,49 L0,49 L0,29 L0,0 L5.79396507,0 L5.79396507,24.0710128 L11/;"	i
+Combined-Shape	uxDesign.svg	/^                <path d="M87.1264798,0.832 L111.952089,0.832 C118.376752,0.832 123.195177,2.5999/;"	i
+DESIGN	logo.svg	/^                <path d="M2,30.1554286 L6.4556,30.1554286 C7.60867243,30.1554286 8.47346378,30.4/;"	i
+DISSAP	illustrations.svg	/^                <g id="DISSAP">$/;"	i
+DISSAP	illustrationsBig.svg	/^                <g id="DISSAP">$/;"	i
+Design tools	index.html	/^            <h2>Design tools<\/h2>$/;"	i
+Desktop-Copy	illustrationsLogo.svg	/^        <g id="Desktop-Copy" transform="translate(0.000000, -106.000000)">$/;"	i
+Desktop-Copy	picturesLogo.svg	/^        <g id="Desktop-Copy" transform="translate(0.000000, -106.000000)">$/;"	i
+Desktop-Copy	picturesLogo3.svg	/^        <g id="Desktop-Copy" transform="translate(-290.000000, -211.000000)" fill="#244005">$/;"	i
+Desktop-Copy	projectsLogo.svg	/^        <g id="Desktop-Copy" transform="translate(0.000000, -106.000000)">$/;"	i
+Desktop-Copy-2	pagePictures.svg	/^        <g id="Desktop-Copy-2" transform="translate(-344.000000, -224.000000)" fill="#244005">$/;"	i
+Desktop-Copy-2	pictureTell.svg	/^        <g id="Desktop-Copy-2" transform="translate(-136.000000, -2361.000000)">$/;"	i
+Desktop-Copy-4	ultrafree.svg	/^        <g id="Desktop-Copy-4" transform="translate(-1399.000000, -379.000000)">$/;"	i
+Desktop-menu	indexIllustrations.svg	/^        <g id="Desktop-menu" transform="translate(-132.000000, -1532.000000)">$/;"	i
+Desktop-menu	indexProjects.svg	/^        <g id="Desktop-menu" transform="translate(-132.000000, -2203.000000)">$/;"	i
+Desktop-menu	uxDesign.svg	/^        <g id="Desktop-menu" transform="translate(-338.000000, -225.000000)">$/;"	i
+Desktop-projects	attention.svg	/^        <g id="Desktop-projects" transform="translate(-136.000000, -2139.000000)">$/;"	i
+Desktop-projects	backgroundProject.svg	/^        <g id="Desktop-projects" transform="translate(-134.000000, -840.000000)">$/;"	i
+Desktop-projects	backgroundProjectFlip.svg	/^        <g id="Desktop-projects" transform="translate(-134.000000, -840.000000)">$/;"	i
+Desktop-projects	diagram.svg	/^        <g id="Desktop-projects" transform="translate(-165.000000, -1356.000000)">$/;"	i
+Desktop-projects	pageProjects.svg	/^        <g id="Desktop-projects" transform="translate(-331.000000, -224.000000)" fill="#244005">$/;"	i
+Fill-1	burgerMenu.svg	/^                <path d="M4.92342105,2.09652409e-05 L48.0765789,2.09652409e-05 C50.7825888,-0.00/;"	i
+Fill-1	tarotappen.svg	/^                        <path d="M19.6595745,48.6243745 C19.6595745,46.745964 18.3285699,45.1688/;"	i
+Fill-11	tarotappen.svg	/^                        <path d="M8.2924972,60.221709 L4.06494961,60.221709 C3.21944009,60.22170/;"	i
+Fill-13	tarotappen.svg	/^                        <path d="M24.0275409,59.6486052 L21.0824242,53.8928562 C20.9747139,53.68/;"	i
+Fill-15	tarotappen.svg	/^                        <path d="M45.2170213,56.5288684 C45.2170213,53.8619178 43.142401,51.6997/;"	i
+Fill-17	tarotappen.svg	/^                        <path d="M51.9574468,13.8698518 C51.9574468,15.7482623 50.6264623,17.325/;"	i
+Fill-19	tarotappen.svg	/^                        <path d="M64.8956389,19.9919093 C64.5275134,22.8220997 62.4414689,27 62./;"	i
+Fill-21	tarotappen.svg	/^                        <path d="M61.7371726,43.4618938 C61.7371726,43.4618938 61.8860375,37.346/;"	i
+Fill-23	tarotappen.svg	/^                        <path d="M58.6554869,52.5121755 C57.2669199,52.5121755 56.1306351,51.368/;"	i
+Fill-25	tarotappen.svg	/^                        <path d="M46.4479067,35.2471154 L40.4682689,37.9639413 L40.4682689,39.79/;"	i
+Fill-27	tarotappen.svg	/^                        <path d="M40.3095185,2.27251732 L36.0819709,2.27251732 C35.2364614,2.272/;"	i
+Fill-29	tarotappen.svg	/^                        <path d="M54.6754976,3.18617347 L51.4851422,8.84580584 C51.3683383,9.052/;"	i
+Fill-3	burgerMenu.svg	/^                <path d="M4.88929898,15 L48.110701,15 C49.8574793,15 51.471569,15.9529946 52.344/;"	i
+Fill-3	tarotappen.svg	/^                        <path d="M31.8956389,43.0080907 C31.5275134,40.1779003 29.4414689,36 29./;"	i
+Fill-31	tarotappen.svg	/^                        <path d="M12.0765957,66.7551963 C12.0765957,69.4222757 10.0018477,71.584/;"	i
+Fill-33	tarotappen.svg	/^                        <path d="M19.3787234,109.414213 C19.3787234,107.535675 18.0477188,105.95/;"	i
+Fill-35	tarotappen.svg	/^                        <path d="M31.8956389,104.008091 C31.5275134,101.1779 29.4414689,97 29.44/;"	i
+Fill-37	tarotappen.svg	/^                        <path d="M29.620873,80 C29.620873,83.0547833 29.7750691,86.1132722 29.62/;"	i
+Fill-39	tarotappen.svg	/^                        <path d="M26.0767635,70.7718892 C24.6880696,70.7718892 23.5519116,71.915/;"	i
+Fill-41	tarotappen.svg	/^                        <path d="M7.88961251,85.3201234 L7.88961251,83.4842723 C10.2797233,83.03/;"	i
+Fill-43	tarotappen.svg	/^                        <path d="M7.74605353,122.431871 L2.92628689,122.431871 C2.08916953,122.4/;"	i
+Fill-45	tarotappen.svg	/^                        <path d="M23.5009592,119.813876 L20.3105653,114.154152 C20.1938846,113.9/;"	i
+Fill-47	tarotappen.svg	/^                        <path d="M44.6553191,117.034642 C44.6553191,114.367563 42.5806989,112.20/;"	i
+Fill-49	tarotappen.svg	/^                        <path d="M51.6765957,74.3756255 C51.6765957,76.2541635 50.3456113,77.831/;"	i
+Fill-5	burgerMenu.svg	/^                <path d="M4.88929889,29 L48.1107011,29 C50.8109863,29 53,31.2385763 53,34 C53,36/;"	i
+Fill-5	tarotappen.svg	/^                        <path d="M29.7201514,19.0323326 C29.7201514,22.0883428 29.8690162,25.148/;"	i
+Fill-51	tarotappen.svg	/^                        <path d="M63.6418138,80.5720155 C63.2489377,83.2518726 61.02264,87.20785/;"	i
+Fill-53	tarotappen.svg	/^                        <path d="M61.4563216,104.251732 C61.4563216,101.195722 61.6051864,98.136/;"	i
+Fill-55	tarotappen.svg	/^                        <path d="M58.3746358,113.017949 C56.9860688,113.017949 55.849784,111.874/;"	i
+Fill-57	tarotappen.svg	/^                        <path d="M40.1874178,98.469715 L40.1874178,100.305566 C42.5776695,100.75/;"	i
+Fill-59	tarotappen.svg	/^                        <path d="M40.5263158,63 L36.4736842,63 C35.6631579,63 35,63.7043478 35,6/;"	i
+Fill-61	tarotappen.svg	/^                        <path d="M55.7989019,63.9759625 L52.6085465,69.6356863 C52.4917426,69.84/;"	i
+Fill-63	tarotappen.svg	/^                        <path d="M6.52544707,1.29443001 L11.0853841,8.40287169 C11.252295,8.6630/;"	i
+Fill-65	tarotappen.svg	/^                        <path d="M30.0153389,57.9654258 C29.6384163,56.7211897 30.1949284,55.411/;"	i
+Fill-67	tarotappen.svg	/^                        <path d="M32.8953067,119.891465 C33.2723565,118.647362 32.7155902,117.33/;"	i
+Fill-69	tarotappen.svg	/^                        <path d="M32.7481941,66.3826393 C32.3553117,64.2387881 30.1291091,61.073/;"	i
+Fill-7	tarotappen.svg	/^                        <path d="M26.6384656,9.98205084 C25.2497717,9.98205084 24.1136138,11.125/;"	i
+Fill-71	tarotappen.svg	/^                                <path d="M5.20570736,3.78141761 C4.81525588,5.92526564 2.6028276/;"	i
+Fill-74	tarotappen.svg	/^                        <path d="M63.6167781,73.2886836 L62.2044985,73.2886836 C61.3571307,73.28/;"	i
+Fill-76	tarotappen.svg	/^                        <path d="M65.9870629,3.7870181 C65.858095,5.13932702 64.7893742,6.183451/;"	i
+Fill-78	tarotappen.svg	/^                        <path d="M65.8886223,118.934602 C65.4957462,116.790751 63.2694485,113.62/;"	i
+Fill-80	tarotappen.svg	/^                        <path d="M16.0085106,4.40300231 C16.0085106,5.89349071 14.8767838,7.1016/;"	i
+Fill-9	tarotappen.svg	/^                        <path d="M8.45131464,24.2462204 L8.45131464,22.4104963 C10.8414255,21.96/;"	i
+GRAB-MY	attention.svg	/^                    <path d="M26.0775483,204.538429 C19.4841969,194.523363 16.1875706,179.348091/;"	i
+Group	attention.svg	/^            <g id="Group" transform="translate(136.000000, 2139.000000)">$/;"	i
+Group	backgroundIllustrations.svg	/^            <g id="Group" transform="translate(0.000000, 70.000000)">$/;"	i
+Group	illustrations.svg	/^            <g id="Group" transform="translate(161.888805, 4446.781743) rotate(90.000000) transl/;"	i
+Group	story.svg	/^        <g id="Group" fill-rule="nonzero">$/;"	i
+Group	uxDesign.svg	/^            <g id="Group" transform="translate(338.000000, 225.000000)">$/;"	i
+Group-10	pictureSmall.svg	/^                <g id="Group-10" transform="translate(0.000000, 102.000000)">$/;"	i
+Group-107	indexIllustrations.svg	/^                <g id="Group-107" transform="translate(257.000000, 349.000000)" fill="#D1AE24" f/;"	i
+Group-11	illustrations.svg	/^            <g id="Group-11" transform="translate(6.000000, 358.802982)" fill-rule="nonzero">$/;"	i
+Group-11	pictureSmall.svg	/^            <g id="Group-11" transform="translate(0.000000, 70.000000)">$/;"	i
+Group-12	illustrations.svg	/^            <g id="Group-12" transform="translate(10.000000, 0.500000)" fill="#3F5E01" fill-rule/;"	i
+Group-12	tarotappen.svg	/^                    <g id="Group-12" transform="translate(1.000000, 2.000000)">$/;"	i
+Group-128	illustrations.svg	/^            <g id="Group-128" transform="translate(57.288344, 927.635371)" fill-rule="nonzero">$/;"	i
+Group-129	illustrations.svg	/^            <g id="Group-129" transform="translate(37.533742, 868.290393)">$/;"	i
+Group-13	illustrations.svg	/^            <g id="Group-13" transform="translate(0.000000, 1317.000000)">$/;"	i
+Group-13	tarotappen.svg	/^            <g id="Group-13" transform="translate(219.000000, 244.000000)">$/;"	i
+Group-14	illustrationsBig.svg	/^            <g id="Group-14" transform="translate(172.000000, 523.000000)" fill-rule="nonzero">$/;"	i
+Group-15	illustrationsBig.svg	/^            <g id="Group-15" transform="translate(0.000000, 520.000000)" fill-rule="nonzero">$/;"	i
+Group-15	indexIllustrations.svg	/^                <g id="Group-15" transform="translate(504.000000, 50.000000)" fill-rule="nonzero/;"	i
+Group-15	tarotappen.svg	/^                <g id="Group-15" transform="translate(5.000000, 6.000000)">$/;"	i
+Group-16	illustrationsBig.svg	/^            <g id="Group-16" transform="translate(17.000000, 1293.000000)">$/;"	i
+Group-17	illustrationsBig.svg	/^            <g id="Group-17" transform="translate(0.000000, 1036.000000)">$/;"	i
+Group-18	illustrationsBig.svg	/^            <g id="Group-18" transform="translate(172.000000, 1040.000000)">$/;"	i
+Group-19	illustrationsBig.svg	/^            <g id="Group-19" transform="translate(173.000000, 350.000000)" fill-rule="nonzero">$/;"	i
+Group-2	backgroundPictures.svg	/^            <g id="Group-2" transform="translate(0.000000, 70.000000)">$/;"	i
+Group-2	diagram.svg	/^            <g id="Group-2" transform="translate(165.000000, 1356.000000)">$/;"	i
+Group-2	illustrations.svg	/^        <g id="Group-2">$/;"	i
+Group-2	indexIllustrations.svg	/^                <g id="Group-2" transform="translate(409.000000, 367.000000)">$/;"	i
+Group-2	tabel.svg	/^            <g id="Group-2" transform="translate(42.000000, 842.000000)">$/;"	i
+Group-20	illustrationsBig.svg	/^            <g id="Group-20" transform="translate(0.000000, 350.000000)">$/;"	i
+Group-21	illustrationsBig.svg	/^            <g id="Group-21" fill="#3F5E01" fill-rule="nonzero">$/;"	i
+Group-22	illustrationsBig.svg	/^        <g id="Group-22">$/;"	i
+Group-23	pictureTell.svg	/^            <g id="Group-23" transform="translate(136.000000, 2361.000000)">$/;"	i
+Group-28	attention.svg	/^                <g id="Group-28">$/;"	i
+Group-3	backgroundProjectMobile.svg	/^            <g id="Group-3" transform="translate(-1.000000, 559.000000)">$/;"	i
+Group-3	form.svg	/^        <g id="Group-3">$/;"	i
+Group-3	indexIllustrations.svg	/^                <g id="Group-3" transform="translate(263.000000, 164.000000)" fill-rule="nonzero/;"	i
+Group-3	tarotappen.svg	/^                            <g id="Group-3">$/;"	i
+Group-32	art.svg	/^        <g id="Group-32">$/;"	i
+Group-4	backgroundProject.svg	/^            <g id="Group-4" transform="translate(134.000000, 840.000000)">$/;"	i
+Group-4	backgroundProjectFlip.svg	/^            <g id="Group-4" transform="translate(511.500000, 1043.000000) scale(-1, 1) translate/;"	i
+Group-4	backgroundProjects.svg	/^            <g id="Group-4" transform="translate(0.000000, 70.000000)">$/;"	i
+Group-4	indexIllustrations.svg	/^                <g id="Group-4" transform="translate(131.000000, 152.000000)" fill-rule="nonzero/;"	i
+Group-4	indexIllustrations.svg	/^                <g id="Group-4" transform="translate(62.000000, 483.000000)" fill-rule="nonzero"/;"	i
+Group-4	tarotappen.svg	/^                        <g id="Group-4" transform="translate(28.085106, 0.000000)">$/;"	i
+Group-4	ultrafree.svg	/^                <g id="Group-4">$/;"	i
+Group-49	indexIllustrations.svg	/^            <g id="Group-49" transform="translate(132.000000, 1532.000000)">$/;"	i
+Group-5	logo.svg	/^            <g id="Group-5" transform="translate(14.000000, 11.000000)">$/;"	i
+Group-5	ultrafree.svg	/^            <g id="Group-5" transform="translate(1399.000000, 379.000000)">$/;"	i
+Group-6	burgerMenu.svg	/^            <g id="Group-6" transform="translate(250.000000, 18.000000)">$/;"	i
+Group-6	illustrationsLogo.svg	/^            <g id="Group-6" transform="translate(0.000000, 106.000000)">$/;"	i
+Group-6	indexProjects.svg	/^            <g id="Group-6" transform="translate(132.000000, 2203.000000)">$/;"	i
+Group-6	picturesLogo.svg	/^            <g id="Group-6" transform="translate(0.000000, 106.000000)">$/;"	i
+Group-6	projectsLogo.svg	/^            <g id="Group-6" transform="translate(0.000000, 106.000000)">$/;"	i
+Group-68	indexIllustrations.svg	/^                <g id="Group-68" transform="translate(447.500000, 264.000000) rotate(5.000000) t/;"	i
+Group-7	illustrations.svg	/^            <g id="Group-7" transform="translate(76.055215, 3276.422003)" fill-rule="nonzero">$/;"	i
+Group-7	logoLinkedin.svg	/^            <g id="Group-7" transform="translate(29.000000, 854.000000)">$/;"	i
+Group-8	form.svg	/^            <g id="Group-8">$/;"	i
+Group-8	logoMail.svg	/^            <g id="Group-8" transform="translate(124.000000, 854.000000)">$/;"	i
+Group-9	logoMobile.svg	/^            <g id="Group-9" transform="translate(218.000000, 854.000000)">$/;"	i
+ILLUSTRATIONS	backgroundIllustrations.svg	/^                <text id="ILLUSTRATIONS" font-family="Anton-Regular, Anton" font-size="50" font-/;"	i
+ILLUSTRATIONS	illustrations.html	/^        <h1 class="mobile">ILLUSTRATIONS<\/h1>$/;"	h
+ILLUSTRATIONS	illustrations.html	/^      <h1 class="desktop">ILLUSTRATIONS<\/h1>$/;"	h
+ILLUSTRATIONS	illustrationsLogo.svg	/^                <path d="M155,220.930286 L155,106.069714 L177.196571,106.069714 L177.196571,220./;"	i
+ILLUSTRATIONS	indexIllustrations.svg	/^                <path d="M62,120.350857 L62,50.6491429 L75.8514907,50.6491429 L75.8514907,120.35/;"	i
+Layer_1-2	cafeKoya.svg	/^                <g id="Layer_1-2">$/;"	i
+Layer_1-2	indexIllustrations.svg	/^                        <g id="Layer_1-2">$/;"	i
+Layer_1-2	totoro.svg	/^<svg id="Layer_1" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 635.6 732.6"><style>.st0{f/;"	i
+Layer_2	cafeKoya.svg	/^            <g id="Layer_2" transform="translate(77.000000, 334.000000)">$/;"	i
+Layer_2	indexIllustrations.svg	/^                    <g id="Layer_2">$/;"	i
+Layer_2	totoro.svg	/^<svg id="Layer_1" xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 635.6 732.6"><style>.st0{f/;"	i
+Logga in	form.html	/^      <h1>Logga in<\/h1>$/;"	h
+Logga-in	form.svg	/^                <path d="M278.85,1116.1 C282.450018,1116.1 284.566664,1116.36666 285.2,1116.9 C2/;"	i
+Logga-in	form.svg	/^                <path d="M40.555,82.43 C45.2350234,82.43 47.9866626,82.7766632 48.81,83.47 C49.6/;"	i
+Logga-in-med-Faceboo	form.svg	/^                <path d="M653.44,1548.96 C656.320014,1548.96 658.013331,1549.17333 658.52,1549.6/;"	i
+Logga-in-med-Google	form.svg	/^                <path d="M658.44,1809.44 C661.320014,1809.44 663.013331,1809.65333 663.52,1810.0/;"	i
+Logga-in-med-Twitter	form.svg	/^                <path d="M658.44,2078.48 C661.320014,2078.48 663.013331,2078.69333 663.52,2079.1/;"	i
+Login form	project.html	/^          <h2>Login form<\/h2>$/;"	i
+Lösenord:	form.svg	/^                <path d="M26.3,649.88 C29.1800144,649.88 30.8733308,650.093331 31.38,650.52 C31./;"	i
+Mobile-Copy	backgroundIndex.svg	/^        <g id="Mobile-Copy" transform="translate(0.000000, -70.000000)" fill="#DCBC3F">$/;"	i
+Mobile-Copy	burgerMenu.svg	/^        <g id="Mobile-Copy" transform="translate(-250.000000, -18.000000)" fill="#FFFFFF" fill-r/;"	i
+Mobile-Copy	logo.svg	/^        <g id="Mobile-Copy" transform="translate(-14.000000, -11.000000)">$/;"	i
+Mobile-Copy	logoLinkedin.svg	/^        <g id="Mobile-Copy" transform="translate(-29.000000, -854.000000)" fill="#2B3E16" fill-r/;"	i
+Mobile-Copy	logoMail.svg	/^        <g id="Mobile-Copy" transform="translate(-124.000000, -854.000000)" fill="#2B3E16" fill-/;"	i
+Mobile-Copy	logoMobile.svg	/^        <g id="Mobile-Copy" transform="translate(-218.000000, -854.000000)" fill-rule="nonzero">$/;"	i
+Mobile-Copy	pictureSmall.svg	/^        <g id="Mobile-Copy" transform="translate(0.000000, -70.000000)">$/;"	i
+Mobile-Copy-2	backgroundIllustrations.svg	/^        <g id="Mobile-Copy-2" transform="translate(0.000000, -70.000000)">$/;"	i
+Mobile-Copy-2	backgroundIndexFlip.svg	/^        <g id="Mobile-Copy-2" transform="translate(-1.000000, -559.000000)" fill="#DCBC3F" fill-/;"	i
+Mobile-Copy-2	backgroundPictures.svg	/^        <g id="Mobile-Copy-2" transform="translate(0.000000, -70.000000)">$/;"	i
+Mobile-Copy-2	backgroundProjectMobile.svg	/^        <g id="Mobile-Copy-2" transform="translate(0.000000, -559.000000)" fill-rule="nonzero">$/;"	i
+Mobile-Copy-2	backgroundProjects.svg	/^        <g id="Mobile-Copy-2" transform="translate(0.000000, -70.000000)">$/;"	i
+Mobile-Copy-2	cafeKoya.svg	/^        <g id="Mobile-Copy-2" transform="translate(-77.000000, -334.000000)" fill="#000000" fill/;"	i
+Mobile-Copy-2	tabel.svg	/^        <g id="Mobile-Copy-2" transform="translate(-42.000000, -842.000000)">$/;"	i
+Mobile-Korset	tarotappen.svg	/^        <g id="Mobile-Korset" transform="translate(-219.000000, -244.000000)">$/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="103.004222" cy="147.717533" rx="1.32056695/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="110.267341" cy="145.091444" rx="1.98085043/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="118.851026" cy="143.778399" rx="1.32056695/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="125.453861" cy="137.869698" rx="1.32056695/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="13.2056695" cy="120.143594" rx="1.32056695/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="134.697829" cy="128.021862" rx="1.32056695/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="137.338963" cy="119.487071" rx="1.32056695/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="15.8468035" cy="125.395773" rx="1.32056695/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="23.7702052" cy="135.900131" rx="1.32056695/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="32.3538904" cy="146.404489" rx="1.98085043/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="42.918426" cy="145.747966" rx="1.98085043"/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="51.5021112" cy="146.404489" rx="1.32056695/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="58.7652295" cy="148.374056" rx="1.98085043/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="66.0283477" cy="147.717533" rx="1.32056695/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="7.92340173" cy="116.20446" rx="1.32056695"/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="74.6120329" cy="147.717533" rx="1.98085043/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="80.5545842" cy="147.717533" rx="1.32056695/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="88.4779859" cy="148.374056" rx="1.32056695/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#190E25" cx="96.4013877" cy="147.061011" rx="1.32056695/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#DCBC3F" cx="152.5" cy="153" rx="152.5" ry="153"><\/ell/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="104.324789" cy="158.878414" rx="2.64113391/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="110.927624" cy="158.221891" rx="2.64113391/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="119.511309" cy="156.908847" rx="3.30141739/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="13.865953" cy="133.930564" rx="1.98085043"/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="136.018396" cy="136.556653" rx="1.32056695/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="141.300664" cy="134.587086" rx="1.32056695/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="20.4687878" cy="138.52622" rx="1.98085043"/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="34.3347408" cy="158.221891" rx="1.32056695/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="40.9375756" cy="158.878414" rx="1.32056695/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="47.5404104" cy="158.878414" rx="1.32056695/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="5.94255129" cy="129.991429" rx="3.30141739/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="56.1240956" cy="159.534936" rx="1.98085043/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="64.7077808" cy="159.534936" rx="2.64113391/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="72.6311825" cy="159.534936" rx="2.64113391/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="79.8943007" cy="160.191458" rx="1.98085043/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="87.8177025" cy="159.534936" rx="1.98085043/;"	i
+Oval	illustrations.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="96.4013877" cy="160.191458" rx="2.64113391/;"	i
+Oval	illustrationsBig.svg	/^                <circle id="Oval" fill="#190E25" cx="88" cy="61" r="1"><\/circle>$/;"	i
+Oval	illustrationsBig.svg	/^                <circle id="Oval" fill="#E9A267" cx="50" cy="58" r="1"><\/circle>$/;"	i
+Oval	illustrationsBig.svg	/^                <circle id="Oval" fill="#E9A267" cx="75" cy="67" r="1"><\/circle>$/;"	i
+Oval	illustrationsBig.svg	/^                <circle id="Oval" fill="#E9A267" cx="78" cy="67" r="1"><\/circle>$/;"	i
+Oval	illustrationsBig.svg	/^                <circle id="Oval" fill="#E9A267" cx="82" cy="67" r="1"><\/circle>$/;"	i
+Oval	illustrationsBig.svg	/^                <circle id="Oval" fill="#E9A267" cx="85" cy="67" r="1"><\/circle>$/;"	i
+Oval	illustrationsBig.svg	/^                <circle id="Oval" fill="#E9A267" cx="88" cy="67" r="1"><\/circle>$/;"	i
+Oval	illustrationsBig.svg	/^                <circle id="Oval" fill="#E9A267" cx="98.5" cy="57.5" r="1"><\/circle>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#190E25" cx="100.5" cy="50" rx="1" ry="1"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#190E25" cx="44.5" cy="49" rx="1" ry="1"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#190E25" cx="46.5" cy="50.5" rx="1" ry="1.5"><\/ellipse/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#190E25" cx="48.5" cy="53" rx="1" ry="1"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#190E25" cx="52.5" cy="58" rx="1" ry="1"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#190E25" cx="55" cy="61.5" rx="1" ry="1.5"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#190E25" cx="59" cy="61.5" rx="1" ry="1.5"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#190E25" cx="62.5" cy="61.5" rx="1" ry="1.5"><\/ellipse/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#190E25" cx="66" cy="62.5" rx="1" ry="1.5"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#190E25" cx="68.5" cy="62.5" rx="1" ry="1.5"><\/ellipse/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#190E25" cx="73" cy="62.5" rx="1" ry="1.5"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#190E25" cx="75.5" cy="62.5" rx="1" ry="1.5"><\/ellipse/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#190E25" cx="78.5" cy="62" rx="1" ry="1"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#190E25" cx="81.5" cy="61.5" rx="1" ry="1.5"><\/ellipse/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#190E25" cx="84.5" cy="62.5" rx="1" ry="1.5"><\/ellipse/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#190E25" cx="92.5" cy="60.5" rx="1" ry="1.5"><\/ellipse/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#190E25" cx="95.5" cy="58" rx="1" ry="1"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#190E25" cx="98.5" cy="54" rx="1" ry="1"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#DCBC3F" cx="145.5" cy="147" rx="145.5" ry="147"><\/ell/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="100.5" cy="57" rx="1" ry="1"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="43.5" cy="54" rx="1.5" ry="1"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="47" cy="56.5" rx="1" ry="1"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="55.5" cy="67" rx="1" ry="1"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="58.5" cy="67" rx="1" ry="1"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="60.5" cy="67" rx="1" ry="1"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="65" cy="67.5" rx="1" ry="1.5"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="68" cy="67.5" rx="1" ry="1.5"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="71" cy="67.5" rx="1" ry="1.5"><\/ellipse>$/;"	i
+Oval	illustrationsBig.svg	/^                <ellipse id="Oval" fill="#E9A267" cx="91.5" cy="66" rx="1.5" ry="1"><\/ellipse>$/;"	i
+Oval	indexIllustrations.svg	/^                        <ellipse id="Oval" cx="4.99928413" cy="4.84055941" rx="4.94421088" ry="4/;"	i
+Oval	logoMobile.svg	/^                <circle id="Oval" fill="#000000" cx="37" cy="61.4042553" r="3.93617021"><\/circl/;"	i
+Oval	logoMobile.svg	/^                <circle id="Oval" fill="#2B3E16" cx="37" cy="61.4042553" r="3.93617021"><\/circl/;"	i
+Oval	logoMobile.svg	/^                <circle id="Oval" fill="#F1C929" cx="37" cy="61.4042553" r="3.93617021"><\/circl/;"	i
+Oval	ultrafree.svg	/^                    <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="79.5" cy="79.5" r="/;"	i
+Oval-2	indexIllustrations.svg	/^                    <ellipse id="Oval-2" fill="#000000" cx="249.955366" cy="27.3439169" rx="1" r/;"	i
+PEAR	illustrations.svg	/^                <path d="M131.430294,27.1952226 L131.430294,0.869614675 C131.430294,0.777382354 /;"	i
+PEAR	illustrationsBig.svg	/^                <path d="M80.8352905,43.3042213 L80.8352905,30.4254257 C80.8352905,30.3803045 80/;"	i
+PICTURES	backgroundPictures.svg	/^                <text id="PICTURES" font-family="Anton-Regular, Anton" font-size="50" font-weigh/;"	i
+PICTURES	pagePictures.svg	/^            <path d="M344.15,225.1 L366.85,225.1 C373.716701,225.1 378.616652,227.316644 381.55,/;"	i
+PICTURES	pictures.html	/^        <h1 class="mobile">PICTURES<\/h1>$/;"	h
+PICTURES	pictures.html	/^      <h1 class="desktop">PICTURES<\/h1>$/;"	h
+PICTURES	picturesLogo.svg	/^                <path d="M290,106.067146 L320.280276,106.067146 C329.439994,106.067146 335.97619/;"	i
+PICTURES	picturesLogo3.svg	/^            <path d="M290,212.067146 L320.280276,212.067146 C329.439994,212.067146 335.976199,21/;"	i
+PICTURES-TELL	pictureTell.svg	/^                <path d="M14.5525292,12.7900183 L46.0501458,12.7900183 C55.5781069,12.7900183 62/;"	i
+PICTURES-TELL	story.svg	/^            <path d="M14.5525292,12.7900183 L46.0501458,12.7900183 C55.5781069,12.7900183 62.377/;"	i
+PROJECTS	backgroundProjects.svg	/^                <text id="PROJECTS" font-family="Anton-Regular, Anton" font-size="50" font-weigh/;"	i
+PROJECTS	indexProjects.svg	/^                <path d="M85,83.36 L123.59,83.36 C135.263392,83.36 143.593308,87.1282956 148.58,/;"	i
+PROJECTS	pageProjects.svg	/^            <path d="M331.1,225.1 L353.8,225.1 C360.666701,225.1 365.566652,227.316644 368.5,231/;"	i
+PROJECTS	project.html	/^        <h1 class="mobile">PROJECTS<\/h1>$/;"	h
+PROJECTS	project.html	/^      <h1 class="desktop">PROJECTS<\/h1>$/;"	h
+PROJECTS	projectsLogo.svg	/^                <path d="M274,107.061611 L304.123223,107.061611 C313.235433,107.061611 319.73773/;"	i
+Page-1	art.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	attention.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	backgroundIllustrations.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	backgroundIndex.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	backgroundIndexFlip.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	backgroundPictures.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	backgroundProject.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	backgroundProjectFlip.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	backgroundProjectMobile.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	backgroundProjects.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	burgerMenu.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	cafeKoya.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	diagram.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	form.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	illustrations.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	illustrationsBig.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	illustrationsLogo.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	indexIllustrations.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	indexProjects.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	logo.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	logoLinkedin.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	logoMail.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	logoMobile.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	pagePictures.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	pageProjects.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	pictureSmall.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	pictureTell.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	picturesLogo.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	picturesLogo3.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	projectsLogo.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	story.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	tabel.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	tarotappen.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	triangle.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	triangleFlip.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	ultrafree.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Page-1	uxDesign.svg	/^    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">$/;"	i
+Participatory design	project.html	/^          <h2>Participatory design<\/h2>$/;"	i
+Path	illustrations.svg	/^                <path d="M100.223572,0 C33.4078575,41.1080118 9.81238881e-15,82.3486171 0,123.72/;"	i
+Path	illustrations.svg	/^                <path d="M101.002961,0 C44.829265,41.1080118 16.742417,82.3486171 16.742417,123./;"	i
+Path	illustrations.svg	/^                <path d="M101.147292,0 C59.3874701,41.1080118 38.5075592,82.3486171 38.5075592,1/;"	i
+Path	illustrations.svg	/^                <path d="M101.147292,0 C71.1071621,41.1080118 56.0870971,82.3486171 56.0870971,1/;"	i
+Path	illustrations.svg	/^                <path d="M101.609152,2.92218037 C91.9100963,43.4765489 87.0605686,84.1617252 87./;"	i
+Path	illustrations.svg	/^                <path d="M101.854515,0 C81.1093129,41.1080118 70.736712,82.3486171 70.736712,123/;"	i
+Path	illustrationsBig.svg	/^                <path d="M74.3238965,16.179082 C42.68067,36.3978687 26.8590568,56.681871 26.8590/;"	i
+Path	illustrationsBig.svg	/^                <path d="M74.5938938,16.2781949 C47.9906167,36.4969816 34.6889781,56.7809839 34./;"	i
+Path	illustrationsBig.svg	/^                <path d="M74.9595863,15.9808561 C55.1825698,36.1996429 45.2940615,56.4836451 45./;"	i
+Path	illustrationsBig.svg	/^                <path d="M75.1570269,16.2074705 C70.5636553,36.1539504 68.2669695,56.1647675 68./;"	i
+Path	illustrationsBig.svg	/^                <path d="M75.2569251,15.6835173 C61.0302326,35.9023041 53.9168863,56.1863064 53./;"	i
+Path	illustrationsBig.svg	/^                <path d="M75.4927456,15.7826303 C65.6680341,36.001417 60.7556784,56.2854193 60.7/;"	i
+Path-10	illustrations.svg	/^                <path d="M106.341436,144.300653 C118.691453,144.300653 124.379917,139.236248 131/;"	i
+Path-10	illustrationsBig.svg	/^                <path d="M78.7841734,127.623921 C84.6820191,127.623921 87.3985892,125.215482 90./;"	i
+Path-10	indexIllustrations.svg	/^                    <path d="M63.2374066,89.7299189 C70.5733995,89.7299189 73.9523854,86.5980223/;"	i
+Path-11	illustrations.svg	/^                <path d="M100.564959,158.856709 C101.037407,170.628883 101.037407,177.692188 100/;"	i
+Path-11	illustrations.svg	/^                <path d="M127.422514,158.856709 C127.894962,170.628883 127.894962,177.692188 127/;"	i
+Path-11	illustrationsBig.svg	/^                <path d="M76.0255724,134.546229 C76.2511935,140.144629 76.2511935,143.503669 76./;"	i
+Path-11	illustrationsBig.svg	/^                <path d="M88.8516048,134.546229 C89.0772259,140.144629 89.0772259,143.503669 88./;"	i
+Path-11	indexIllustrations.svg	/^                    <path d="M59.8516589,97.5251368 C60.1295989,104.796586 60.1295989,109.159456/;"	i
+Path-11	indexIllustrations.svg	/^                    <path d="M75.3774026,97.5251368 C75.6553426,104.796586 75.6553426,109.159456/;"	i
+Path-12	illustrations.svg	/^                <path d="M103.545136,33.8391959 C101.929383,28.0011016 101.40958,22.8194756 102./;"	i
+Path-12	illustrationsBig.svg	/^                <path d="M77.4487786,75.092639 C76.6771637,72.3162626 76.4289273,69.8520776 77.1/;"	i
+Path-12	indexIllustrations.svg	/^                    <path d="M62.5761323,21.0063409 C61.651443,17.3822299 61.3539609,14.1656345 /;"	i
+Path-3	backgroundIndexFlip.svg	/^            <polygon id="Path-3" points="321 559 1 882.5 1 559"><\/polygon>$/;"	i
+Path-3	backgroundProjectMobile.svg	/^                <polygon id="Path-3" fill="#DCBC3F" points="321 0 1 323.5 1 0"><\/polygon>$/;"	i
+Path-3	indexIllustrations.svg	/^                    <path d="M17.442628,49.8826881 C16.3272134,52.2593566 14.8439493,57.2546308 /;"	i
+Path-4	indexIllustrations.svg	/^                    <path d="M0,38.7287579 C-5.13564372e-14,38.0971882 2.54835083,37.309728 4.15/;"	i
+Path-5	indexIllustrations.svg	/^                    <path d="M193.760348,28.7694663 C193.642534,29.7133454 194.549436,29.347967 /;"	i
+Path-6	illustrations.svg	/^            <path d="M113.279743,3001.98072 C113.279743,2991.99994 119.864754,2973.68079 127.327/;"	i
+Path-6	illustrations.svg	/^            <path d="M115.621622,4858.42906 C115.621622,4848.85614 121.942847,4831.28558 129.106/;"	i
+Path-6	illustrations.svg	/^            <path d="M31.6141474,3004.61685 C31.6141474,2977.06121 49.8980628,2926.48442 70.6198/;"	i
+Path-6	illustrations.svg	/^            <path d="M36.7027022,4860.94185 C36.7027022,4834.61632 54.1914271,4786.2973 74.01198/;"	i
+Path-6	illustrations.svg	/^            <path d="M64.0836013,3003.51032 C64.0836013,2983.33179 77.5338379,2946.29524 92.7774/;"	i
+Path-6	illustrations.svg	/^            <path d="M68.2702701,4859.89757 C68.2702701,4840.53416 81.1936652,4804.99373 95.8401/;"	i
+Path-6	indexIllustrations.svg	/^                    <path d="M253.214889,31.4108691 C250.490699,31.9760843 254.210417,28.6108077/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(106.884/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(107.868/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(108.716/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(110.195/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(119.183/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(121.540/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(124.102/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(125.486/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(136.401/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(137.817/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(142.256/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(143.289/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(155.574/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(155.588/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(161.491/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(161.493/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(172.837/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(173.790/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(179.250/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(179.694/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(190.594/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(191.993/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(195.527/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(196.913/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(204.898/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(206.260/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(207.364/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(211.180/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(218.216/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(221.019/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(223.641/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(226.430/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(233.506/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(236.466/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(237.745/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(240.697/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(241.891/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(246.109/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(246.824/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(247.810/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(250.045/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(250.770/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(252.250/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(252.504/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(253.236/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(254.964/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(256.932/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(257.424/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(63.5916/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(65.0675/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(65.5594/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(68.0192/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(68.5112/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(68.7635/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(69.7500/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(72.2162/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(73.2027/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(76.3826/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(80.6013/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(84.2540/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(87.0135/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(89.6655/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(93.4256/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(96.5530/;"	i
+Path-7	illustrations.svg	/^            <polygon id="Path-7" fill="#000000" fill-rule="nonzero" transform="translate(98.3581/;"	i
+Path-7	indexIllustrations.svg	/^                    <path d="M248.913016,27.4130524 C249.629981,27.7312175 250.179309,27.9118426/;"	i
+Path-8	indexIllustrations.svg	/^                    <path d="M145.928904,40.9656162 C165.338539,39.9326019 178.393829,38.3321248/;"	i
+Path-9	illustrations.svg	/^                <path d="M103.835646,237.418779 C91.3822922,237.418779 91.5096025,257.425685 71./;"	i
+Path-9	illustrations.svg	/^                <path d="M70.543221,265.419241 C49.7997251,264.019139 45.9577556,266.156556 27.1/;"	i
+Path-9	illustrationsBig.svg	/^                <path d="M61.6884596,185.223331 C51.7822431,184.557495 49.9474809,185.57397 40.9/;"	i
+Path-9	illustrationsBig.svg	/^                <path d="M77.587514,171.907372 C71.6403188,171.907372 71.7011169,181.421899 62.3/;"	i
+Path-9	indexIllustrations.svg	/^                    <path d="M42.1232187,163.431369 C29.73673,162.571027 27.4425886,163.884438 1/;"	i
+Path-9	indexIllustrations.svg	/^                    <path d="M62.9387497,146.056208 C55.4808685,146.056208 55.5571102,158.386749/;"	i
+Path-9	indexIllustrations.svg	/^                    <path d="M9.03508243,40.7375215 C10.0180645,42.0067533 11.5623496,42.0050984/;"	i
+Programming languages	index.html	/^            <h2>Programming languages<\/h2>$/;"	i
+Påfyllning	ultrafree.svg	/^                        <path d="M54.3231145,94.9663206 C54.3231145,95.3905059 54.2816188,95.637/;"	i
+Påfyllning-Clipped	ultrafree.svg	/^                    <g id="Påfyllning-Clipped" transform="translate(4.000000, 4.000000)">$/;"	i
+Rectangle	illustrations.svg	/^            <rect id="Rectangle" fill="#2B3E16" fill-rule="nonzero" x="0" y="1873" width="322" h/;"	i
+Rectangle	illustrationsBig.svg	/^                <rect id="Rectangle" fill="#2B3E16" fill-rule="nonzero" x="0" y="0" width="153" /;"	i
+Rectangle-11	diagram.svg	/^                <rect id="Rectangle-11" fill="#DCBC3F" fill-rule="nonzero" x="141.607595" y="48./;"	i
+Rectangle-11	tabel.svg	/^                <rect id="Rectangle-11" fill="#DCBC3F" fill-rule="nonzero" x="113" y="39" width=/;"	i
+Rectangle-12	diagram.svg	/^                <rect id="Rectangle-12" fill="#BA908E" fill-rule="nonzero" x="56.3924051" y="56./;"	i
+Rectangle-12	tabel.svg	/^                <rect id="Rectangle-12" fill="#BA908E" fill-rule="nonzero" x="45" y="45" width="/;"	i
+Rectangle-13	diagram.svg	/^                <rect id="Rectangle-13" fill="#244005" fill-rule="nonzero" x="228.075949" y="110/;"	i
+Rectangle-13	tabel.svg	/^                <rect id="Rectangle-13" fill="#244005" fill-rule="nonzero" x="182" y="88" width=/;"	i
+Rectangle-2	backgroundIllustrations.svg	/^                <polygon id="Rectangle-2" fill="#DCBC3F" points="0 0 322 0 322 323"><\/polygon>$/;"	i
+Rectangle-2	backgroundIndex.svg	/^            <polygon id="Rectangle-2" points="0 70 322 70 322 393"><\/polygon>$/;"	i
+Rectangle-2	backgroundPictures.svg	/^                <polygon id="Rectangle-2" fill="#DCBC3F" points="0 0 322 0 322 323"><\/polygon>$/;"	i
+Rectangle-2	backgroundProject.svg	/^                <polygon id="Rectangle-2" fill="#DCBC3F" transform="translate(201.254658, 202.56/;"	i
+Rectangle-2	backgroundProjectFlip.svg	/^                <polygon id="Rectangle-2" fill="#DCBC3F" transform="translate(201.254658, 202.56/;"	i
+Rectangle-2	backgroundProjects.svg	/^                <polygon id="Rectangle-2" fill="#DCBC3F" points="0 0 322 0 322 323"><\/polygon>$/;"	i
+Rectangle-2	form.svg	/^                <rect id="Rectangle-2" fill="#244005" x="0" y="1695" width="1669" height="200" r/;"	i
+Rectangle-2	form.svg	/^                <rect id="Rectangle-2" fill="#244005" x="4" y="987" width="775" height="200" rx=/;"	i
+Rectangle-2	form.svg	/^                <rect id="Rectangle-2" fill="#244005" x="5" y="1426" width="1659" height="200" r/;"	i
+Rectangle-2	form.svg	/^                <rect id="Rectangle-2" fill="#244005" x="5" y="1964" width="1659" height="200" r/;"	i
+Rectangle-2	form.svg	/^                <rect id="Rectangle-2" fill="#DCBC3E" x="888" y="987" width="775" height="200" r/;"	i
+Rectangle-2	form.svg	/^                <rect id="Rectangle-2" stroke="#4A4A4A" stroke-width="3" x="5.5" y="331.5" width/;"	i
+Rectangle-2	form.svg	/^                <rect id="Rectangle-2" stroke="#4A4A4A" stroke-width="3" x="5.5" y="685.5" width/;"	i
+Rectangle-2	illustrationsLogo.svg	/^                <rect id="Rectangle-2" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="102/;"	i
+Rectangle-2	indexIllustrations.svg	/^                <rect id="Rectangle-2" fill="#F5F5F5" fill-rule="nonzero" x="0" y="0" width="779/;"	i
+Rectangle-2	pictureSmall.svg	/^                    <polygon id="Rectangle-2" fill="#2B3E16" transform="translate(91.000000, 259/;"	i
+Rectangle-2	pictureSmall.svg	/^                <polygon id="Rectangle-2" fill="#DCBC3F" points="0 0 322 0 322 323"><\/polygon>$/;"	i
+Rectangle-2	picturesLogo.svg	/^                <rect id="Rectangle-2" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="102/;"	i
+Rectangle-2	projectsLogo.svg	/^                <rect id="Rectangle-2" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="102/;"	i
+Rectangle-2	tarotappen.svg	/^                <rect id="Rectangle-2" stroke="#979797" stroke-width="0.7" fill="#FFFFFF" x="0.3/;"	i
+Rectangle-2	triangle.svg	/^        <polygon id="Rectangle-2" fill="#DCBC3F" points="0.109183044 0 322 0 322 323"><\/polygon/;"	i
+Rectangle-2	triangleFlip.svg	/^        <polygon id="Rectangle-2" fill="#DCBC3F" transform="translate(161.054592, 161.500000) sc/;"	i
+Rectangle-3	backgroundProject.svg	/^                <rect id="Rectangle-3" fill="#FFFFFF" fill-rule="nonzero" x="1" y="0" width="754/;"	i
+Rectangle-3	backgroundProjectFlip.svg	/^                <rect id="Rectangle-3" fill="#FFFFFF" fill-rule="nonzero" x="1" y="0" width="754/;"	i
+Rectangle-3	backgroundProjectMobile.svg	/^                <rect id="Rectangle-3" fill="#FFFFFF" x="0" y="0" width="321" height="491"><\/re/;"	i
+Rectangle-3	illustrations.svg	/^            <rect id="Rectangle-3" fill="#2B3E16" fill-rule="nonzero" x="0" y="3233" width="322"/;"	i
+Rectangle-3	illustrations.svg	/^            <rect id="Rectangle-3" fill="#2B3E16" fill-rule="nonzero" x="0" y="804" width="322" /;"	i
+Rectangle-3	illustrations.svg	/^            <rect id="Rectangle-3" fill="#DCBC3F" fill-rule="nonzero" x="0" y="2317.52071" width/;"	i
+Rectangle-3	illustrationsBig.svg	/^                <rect id="Rectangle-3" fill="#2B3E16" x="0" y="0" width="154" height="216"><\/re/;"	i
+Rectangle-3	illustrationsBig.svg	/^                <rect id="Rectangle-3" fill="#2B3E16" x="0" y="9" width="154" height="154"><\/re/;"	i
+Rectangle-3	illustrationsBig.svg	/^                <rect id="Rectangle-3" fill="#DCBC3F" x="0" y="12" width="153" height="153"><\/r/;"	i
+Rectangle-6	illustrations.svg	/^            <rect id="Rectangle-6" fill="#DCBC3F" fill-rule="nonzero" x="0" y="4291" width="322"/;"	i
+Rectangle-6	illustrationsBig.svg	/^                <rect id="Rectangle-6" fill="#DCBC3F" x="0" y="0" width="153" height="153"><\/re/;"	i
+Rectangle-6	indexProjects.svg	/^                <rect id="Rectangle-6" fill="#2B3E16" fill-rule="nonzero" x="0" y="0" width="779/;"	i
+Rectangle-6	tarotappen.svg	/^                    <rect id="Rectangle-6" fill="#F5F5F5" x="0" y="0" width="68" height="128"><\//;"	i
+Rectangle-8	art.svg	/^            <polygon id="Rectangle-8" fill="#DCBC3F" points="0 0 819 0 819 270.51259 0 271"><\/p/;"	i
+Rectangle-8	attention.svg	/^                    <rect id="Rectangle-8" fill="#DCBC3F" x="0" y="0" width="754" height="238.22/;"	i
+Rectangle-8	pictureTell.svg	/^                <rect id="Rectangle-8" fill="#DCBC3F" x="0" y="0" width="748" height="148.788991/;"	i
+Rectangle-8	story.svg	/^            <rect id="Rectangle-8" fill="#DCBC3F" x="0" y="0" width="748" height="148.788991"><\//;"	i
+Rectangle-path	illustrations.svg	/^            <rect id="Rectangle-path" fill="#24242D" fill-rule="nonzero" transform="translate(16/;"	i
+Rectangle-path	illustrationsBig.svg	/^                <rect id="Rectangle-path" fill="#24242D" transform="translate(75.504481, 55.4999/;"	i
+Rectangle-path	indexIllustrations.svg	/^                    <rect id="Rectangle-path" fill="#24242D" transform="translate(115.304779, 11/;"	i
+Rectangle-path	indexIllustrations.svg	/^                    <rect id="Rectangle-path" fill="#5E5642" transform="translate(53.757217, 12./;"	i
+Registrera	form.svg	/^                <path d="M1109.9,1125 L1107.5,1125 L1107.5,1052.9 L1121.8,1051.8 C1127.80003,105/;"	i
+Shape	cafeKoya.svg	/^                    <path d="M100.593249,55.3862037 C98.5745685,53.5016071 95.7169545,53.5016071/;"	i
+Shape	cafeKoya.svg	/^                    <path d="M110.214757,97.0043816 C109.611774,94.858035 108.799058,92.7378641 /;"	i
+Shape	cafeKoya.svg	/^                    <path d="M118.866248,158.908149 C118.604081,159.067251 118.368132,159.226354/;"	i
+Shape	cafeKoya.svg	/^                    <path d="M119.285714,159.588697 C118.971115,159.798097 118.656515,160.007497/;"	i
+Shape	cafeKoya.svg	/^                    <path d="M136.116798,162.310893 C133.67865,157.390002 127.701256,156.290654 /;"	i
+Shape	cafeKoya.svg	/^                    <path d="M166.397017,176.393018 C164.063737,177.230617 161.730455,177.989691/;"	i
+Shape	cafeKoya.svg	/^                    <path d="M47.8715856,159.012849 C43.8080063,156.840327 38.1714286,158.17525 /;"	i
+Shape	cafeKoya.svg	/^                    <path d="M63.5804939,131.110347 C63.4476972,131.163382 63.3414596,131.189898/;"	i
+Shape	cafeKoya.svg	/^                    <path d="M68.6613815,95.8003336 C68.110832,93.6539875 67.2456831,91.612341 6/;"	i
+Shape	cafeKoya.svg	/^                    <path d="M71.8598118,54.8888798 C70.9946624,53.7371817 69.6313972,53.0566328/;"	i
+Shape	cafeKoya.svg	/^                    <path d="M77.4177393,20.5996892 C77.076923,20.8614387 76.6312404,21.0184885 /;"	i
+Shape	cafeKoya.svg	/^                    <path d="M77.8899815,19.3436335 C77.8899815,19.3436335 77.8634225,19.3171164/;"	i
+Shape	cafeKoya.svg	/^                    <path d="M77.9689742,19.5812611 C77.9689742,19.5282268 77.9424152,19.4486755/;"	i
+Shape	cafeKoya.svg	/^                    <path d="M79.6461539,17.7727941 C79.6727129,17.7993112 79.6992725,17.8258284/;"	i
+Shape	cafeKoya.svg	/^                    <path d="M79.7772371,18.0345437 C79.7510202,17.9821938 79.7248039,17.9298439/;"	i
+Shape	cafeKoya.svg	/^                    <path d="M79.7779225,18.0362544 C79.7513629,17.9832202 79.7248039,17.930186 /;"	i
+Shape	cafeKoya.svg	/^                    <path d="M84.4175826,59.364797 C83.5262168,59.2600969 79.0693876,58.3963233 /;"	i
+Shape	cafeKoya.svg	/^                    <path d="M87.3276298,167.15326 C84.7583989,166.94386 82.110518,166.708285 79/;"	i
+Shape	cafeKoya.svg	/^                    <path d="M87.8278017,20.6783661 C87.7746832,20.6783661 87.7215646,20.6783661/;"	i
+Shape	cafeKoya.svg	/^                    <path d="M88.8481944,19.6573908 C88.8481944,19.7097407 88.8481944,19.7620906/;"	i
+Shape	cafeKoya.svg	/^                    <path d="M90.6833595,93.0781381 C89.844427,88.7592708 86.5411303,84.2048286 /;"	i
+Shape	cafeKoya.svg	/^                    <path d="M91.0241758,19.2909415 C90.3687596,17.8774939 88.7433281,16.3593466/;"	i
+Shape	cafeKoya.svg	/^                    <path d="M93.5457709,128.205611 C93.4129742,128.179095 93.3067371,128.179095/;"	i
+Shape	cafeKoya.svg	/^                    <path d="M95.4592433,128.70362 C95.4326838,128.70362 95.4061248,128.70362 95/;"	i
+Shape	cafeKoya.svg	/^                    <path d="M96.5296702,58.6580728 C96.4510202,59.1030475 96.1626376,59.4956718/;"	i
+Shape	form.svg	/^                    <path d="M0.107887163,116.351168 C0.0752641398,116.012607 0.0475217265,115.6/;"	i
+Shape	form.svg	/^                <path d="M532.625232,1459 L443.374768,1459 C430.944341,1459 421,1468.94434 421,1/;"	i
+Shape	illustrations.svg	/^                <path d="M100.748466,205.296114 C101.447346,205.769147 102.165114,206.147564 102/;"	i
+Shape	illustrations.svg	/^                <path d="M105.986725,159.706716 C104.995829,157.725037 100.534488,156.371492 98./;"	i
+Shape	illustrations.svg	/^                <path d="M106.965923,544.801192 C106.965923,544.801192 111.615469,539.02275 113./;"	i
+Shape	illustrations.svg	/^                <path d="M107.214923,90.9336982 L108.674946,95.9430792 L104.621143,95.9430792 L1/;"	i
+Shape	illustrations.svg	/^                <path d="M108.258369,208.776858 C106.594217,208.402013 103.600627,206.54776 102./;"	i
+Shape	illustrations.svg	/^                <path d="M108.650307,209.735043 C106.945647,208.878572 105.295409,207.886836 103/;"	i
+Shape	illustrations.svg	/^                <path d="M110.729128,44.2862205 C110.22875,46.0262095 109.392118,48.8613016 108./;"	i
+Shape	illustrations.svg	/^                <path d="M112.191545,520.705935 C111.174761,517.240898 112.645683,509.821011 112/;"	i
+Shape	illustrations.svg	/^                <path d="M116.957186,542.515395 L117.874499,541.015109 L122.749703,538.348344 C1/;"	i
+Shape	illustrations.svg	/^                <path d="M118.527607,236.988801 C118.527607,236.988801 122.70919,236.513178 124./;"	i
+Shape	illustrations.svg	/^                <path d="M120.503067,271.021177 C120.503067,271.021177 130.596202,295.596834 130/;"	i
+Shape	illustrations.svg	/^                <path d="M122,293.801099 C122,293.801099 115.663621,284.936147 109.327242,277.79/;"	i
+Shape	illustrations.svg	/^                <path d="M129.681515,153.51921 C129.681515,153.51921 131.706437,152.442303 133.8/;"	i
+Shape	illustrations.svg	/^                <path d="M131.368098,172.141026 C131.368098,172.141026 133.802382,173.211847 134/;"	i
+Shape	illustrations.svg	/^                <path d="M136.306748,198.517281 C136.306748,198.517281 134.585529,195.689252 134/;"	i
+Shape	illustrations.svg	/^                <path d="M136.452774,298.023476 C138.634096,300.195921 144.71477,302.281658 147./;"	i
+Shape	illustrations.svg	/^                <path d="M139.764805,168.471998 C139.764805,168.471998 147.038854,170.646984 149/;"	i
+Shape	illustrations.svg	/^                <path d="M14.8639228,106.490444 C13.9326877,105.900876 13.2056695,100.972594 13./;"	i
+Shape	illustrations.svg	/^                <path d="M141.65488,297 C139.942364,289.69572 137.658645,282.538931 134.82504,27/;"	i
+Shape	illustrations.svg	/^                <path d="M142.980219,367.652528 L149.224066,292.398641 L148.266676,283.617664 C1/;"	i
+Shape	illustrations.svg	/^                <path d="M146.753156,358.331828 C149.337791,356.731513 152.070827,354.300128 154/;"	i
+Shape	illustrations.svg	/^                <path d="M147,295 C147.222744,294.549506 147.579901,293.854676 148.056111,293.04/;"	i
+Shape	illustrations.svg	/^                <path d="M148.08197,369.562575 L153.819175,369.562575 L149.66178,364.277854 L155/;"	i
+Shape	illustrations.svg	/^                <path d="M148.608798,296 C148.446608,295.517811 148.222632,294.773311 147.975487/;"	i
+Shape	illustrations.svg	/^                <path d="M149.669204,297 C149.941394,296.567775 150.349679,295.904001 150.804625/;"	i
+Shape	illustrations.svg	/^                <path d="M150.716111,363.713393 C150.716111,363.713393 146.705929,347.673195 146/;"	i
+Shape	illustrations.svg	/^                <path d="M152.634547,223.070648 C151.239116,221.822735 147.177503,221.571253 145/;"	i
+Shape	illustrations.svg	/^                <path d="M152.807914,217.649573 C152.807914,217.649573 155.743364,220.685434 155/;"	i
+Shape	illustrations.svg	/^                <path d="M153.251323,216.380828 C153.251323,216.380828 160.26898,248.185318 161./;"	i
+Shape	illustrations.svg	/^                <path d="M154.08589,262.338939 L180.597721,271.07265 C181.561788,264.966612 183./;"	i
+Shape	illustrations.svg	/^                <path d="M161.018361,359.211524 C161.018361,359.211524 161.222677,342.557886 161/;"	i
+Shape	illustrations.svg	/^                <path d="M169.702388,294.783458 C169.571853,291.534211 169.396564,286.383155 169/;"	i
+Shape	illustrations.svg	/^                <path d="M172.912423,295 C174.70535,290.454107 176.256318,285.817871 177.558913,/;"	i
+Shape	illustrations.svg	/^                <path d="M174.869198,207.63157 C171.549256,210.435798 163.790079,215.077099 159./;"	i
+Shape	illustrations.svg	/^                <path d="M176.104468,154.309202 C173.045341,153.01864 165.337697,151.294419 162./;"	i
+Shape	illustrations.svg	/^                <path d="M178.777348,296 C175.522845,289.698922 173.037754,283.022844 171.376507/;"	i
+Shape	illustrations.svg	/^                <path d="M18.8938178,295 C23.0325927,288.86565 26.5580591,282.347597 29.4203914,/;"	i
+Shape	illustrations.svg	/^                <path d="M184.337401,295 C189.787856,291.572593 194.659074,287.294857 198.767647/;"	i
+Shape	illustrations.svg	/^                <path d="M19.4073677,162.8564 C25.5929961,162.676422 31.7818029,163.081283 37.89/;"	i
+Shape	illustrations.svg	/^                <path d="M191.748504,175.826916 C190.02793,171.385154 185.932479,164.845196 181./;"	i
+Shape	illustrations.svg	/^                <path d="M195.316451,175.914912 C194.604106,172.390154 192.071325,165.212879 189/;"	i
+Shape	illustrations.svg	/^                <path d="M196.307084,188.187062 C195.857859,185.205531 195.112406,182.263329 194/;"	i
+Shape	illustrations.svg	/^                <path d="M200.835657,206.767094 L191.699402,229.154755 L199.926841,211.90814 L19/;"	i
+Shape	illustrations.svg	/^                <path d="M207.169278,296 C206.734632,290.851769 206.206847,282.610743 206.354316/;"	i
+Shape	illustrations.svg	/^                <path d="M21.5229928,97.1653108 C21.5229928,97.1653108 29.9505721,117.824931 35./;"	i
+Shape	illustrations.svg	/^                <path d="M214.169975,295.988422 C211.148843,286.038497 207.440858,276.311106 203/;"	i
+Shape	illustrations.svg	/^                <path d="M218.422155,294.872791 C197.183038,233.238327 192.294824,209.026302 192/;"	i
+Shape	illustrations.svg	/^                <path d="M222.608058,162.860251 C216.422429,162.680273 210.233623,163.085134 204/;"	i
+Shape	illustrations.svg	/^                <path d="M223.452328,295 C221.828182,290.556031 220.060839,283.797816 220.886101/;"	i
+Shape	illustrations.svg	/^                <path d="M23.1269163,539.661389 L22.4496382,543.952505 C22.4496382,543.952505 26/;"	i
+Shape	illustrations.svg	/^                <path d="M23.7702052,235.486509 L39.2049862,259.431223 C39.2049862,259.431223 38/;"	i
+Shape	illustrations.svg	/^                <path d="M23.7702052,521.635995 C23.7702052,521.635995 28.4742657,520.832221 29./;"	i
+Shape	illustrations.svg	/^                <path d="M233.942886,294.885619 C236.308787,289.405488 238.358065,283.793573 240/;"	i
+Shape	illustrations.svg	/^                <path d="M235.911073,295.946154 C232.814467,291.242313 230.403018,287.215395 228/;"	i
+Shape	illustrations.svg	/^                <path d="M239.900867,319.24976 C218.696176,317.532657 211.855342,313.588081 203./;"	i
+Shape	illustrations.svg	/^                <path d="M241.138852,296 C241.00287,295.510722 240.804725,294.755615 240.614349,/;"	i
+Shape	illustrations.svg	/^                <path d="M247.546935,294.803576 C247.435037,290.256622 246.891229,285.730326 245/;"	i
+Shape	illustrations.svg	/^                <path d="M25.0446773,531.78312 C25.0446773,531.78312 30.5387929,538.022654 31.50/;"	i
+Shape	illustrations.svg	/^                <path d="M25.0907721,515.249574 L25.0907721,510.820623 C25.0907721,510.820623 29/;"	i
+Shape	illustrations.svg	/^                <path d="M250.360528,294.361624 C245.562178,289.981562 241.499279,284.871997 238/;"	i
+Shape	illustrations.svg	/^                <path d="M250.631813,297 C256.955051,286.59035 262.027844,275.471528 265.745059,/;"	i
+Shape	illustrations.svg	/^                <path d="M266.397386,298.254403 C256.223341,293.885079 237.229267,273.160499 234/;"	i
+Shape	illustrations.svg	/^                <path d="M32.982287,154.806913 C33.1613346,160.428977 35.9284189,172.397214 37.7/;"	i
+Shape	illustrations.svg	/^                <path d="M38.2964417,278.195454 C38.2964417,278.195454 43.8358824,282.406146 46./;"	i
+Shape	illustrations.svg	/^                <path d="M38.7440372,142.650675 C38.7440372,142.650675 40.4617547,139.627416 41./;"	i
+Shape	illustrations.svg	/^                <path d="M39.4758893,141.98778 C39.4758893,141.98778 41.1983482,138.532223 42.33/;"	i
+Shape	illustrations.svg	/^                <path d="M45,295 C36.4222644,286.233709 28.922532,276.499211 22.6563327,265.9983/;"	i
+Shape	illustrations.svg	/^                <path d="M48.8838377,83.9226174 C51.5151488,79.8230453 56.810663,80.7941124 58.1/;"	i
+Shape	illustrations.svg	/^                <path d="M49.7375831,298 C49.1693833,296.840214 47.3488247,292.699776 46.4636699/;"	i
+Shape	illustrations.svg	/^                <path d="M50.9420517,245.350427 C50.9420517,245.350427 47.2306259,259.992409 47./;"	i
+Shape	illustrations.svg	/^                <path d="M51.1101897,280.965812 C50.5872731,281.912241 50.0014142,282.890836 49./;"	i
+Shape	illustrations.svg	/^                <path d="M51.5021112,549.708878 C51.5021112,549.708878 61.6587469,550.927383 64./;"	i
+Shape	illustrations.svg	/^                <path d="M52.1705668,547.01034 C50.1009693,547.853325 47.3215684,551.140589 45.2/;"	i
+Shape	illustrations.svg	/^                <path d="M55.2298666,85.9366659 C55.6317603,88.2335591 57.9426534,92.4816066 59./;"	i
+Shape	illustrations.svg	/^                <path d="M56.6786756,253.528898 C61.9827676,254.695551 72.9989574,254.573178 78./;"	i
+Shape	illustrations.svg	/^                <path d="M56.8911185,531.014008 C58.4969801,533.422807 63.1620112,537.247348 64./;"	i
+Shape	illustrations.svg	/^                <path d="M58.0297341,35.005819 C61.9454882,36.4738027 63.2246899,44.6435212 63.2/;"	i
+Shape	illustrations.svg	/^                <path d="M58.0372065,37.6336313 C61.9584779,39.1013574 63.2394819,47.2696107 63./;"	i
+Shape	illustrations.svg	/^                <path d="M59.1724031,52.3000878 C59.1724031,52.3000878 59.8762846,60.0698176 60./;"	i
+Shape	illustrations.svg	/^                <path d="M63.2147239,67.3123133 C63.2147239,67.3123133 81.152204,36.9481191 88.6/;"	i
+Shape	illustrations.svg	/^                <path d="M65.2905813,543.614304 C65.2905813,543.472823 65.6734976,544.400366 65./;"	i
+Shape	illustrations.svg	/^                <path d="M69.1411043,194.895299 C69.1411043,194.895299 79.7999212,213.087984 82./;"	i
+Shape	illustrations.svg	/^                <path d="M69.6830983,297 C73.9195726,292.782562 86.5365632,278.730862 86.7368329/;"	i
+Shape	illustrations.svg	/^                <path d="M71.3675113,273.95157 C74.3452283,269.09917 76.5033845,263.778706 77.75/;"	i
+Shape	illustrations.svg	/^                <path d="M78.8531504,150.122235 C79.4199297,157.987117 79.2849822,159.504631 79./;"	i
+Shape	illustrations.svg	/^                <path d="M79.0184049,177.644919 C79.0184049,177.644919 85.1165636,179.993538 87./;"	i
+Shape	illustrations.svg	/^                <path d="M80.006135,311.634615 C82.5527355,308.714409 85.622252,305.583577 88.89/;"	i
+Shape	illustrations.svg	/^                <path d="M83,144 C83,144 70.6588767,144.848882 57.1414902,152.874673 C41.4721202/;"	i
+Shape	illustrations.svg	/^                <path d="M83.2353366,149.679881 C81.8634161,149.249734 79.0812016,148.432997 77./;"	i
+Shape	illustrations.svg	/^                <path d="M84.2997731,136.893705 C87.5668036,132.457043 93.3625246,123.045629 95./;"	i
+Shape	illustrations.svg	/^                <path d="M84.5820242,540.581226 C84.8592727,541.477341 86.2535487,542.845115 86./;"	i
+Shape	illustrations.svg	/^                <path d="M85.1599037,531.78312 C85.1599037,531.78312 84.8989826,536.069264 85.74/;"	i
+Shape	illustrations.svg	/^                <path d="M85.836852,526.530941 L85.836852,538.836471 C85.836852,538.836471 90.77/;"	i
+Shape	illustrations.svg	/^                <path d="M87.3699599,512.066618 C87.3699599,512.066618 91.7811934,512.250044 92./;"	i
+Shape	illustrations.svg	/^                <path d="M87.465351,298.409541 C86.8439942,293.893835 86.6538488,289.330001 86.8/;"	i
+Shape	illustrations.svg	/^                <path d="M88.4867082,514.713539 C88.4867082,514.713539 95.806796,525.607437 93.1/;"	i
+Shape	illustrations.svg	/^                <path d="M90.6683073,42.0174317 L89.7985529,40.704387 L90.1965771,40.7525865 C90/;"	i
+Shape	illustrations.svg	/^                <path d="M91.7917368,84.9364177 C91.7917368,84.9364177 97.800526,85.0249743 99.3/;"	i
+Shape	illustrations.svg	/^                <path d="M94.8220859,226.197065 C94.8220859,226.197065 96.9266138,224.288185 97./;"	i
+Shape	illustrations.svg	/^                <path d="M94.8220859,226.197065 C94.8220859,226.197065 96.9266151,224.288185 97./;"	i
+Shape	illustrations.svg	/^                <path d="M95,145 C95,145 107.34303,145.84899 120.862502,153.8758 C136.534289,163/;"	i
+Shape	illustrations.svg	/^                <path d="M96.196106,170.406158 C94.55444,170.133739 91.2949712,171.602852 89.634/;"	i
+Shape	illustrations.svg	/^                <path d="M96.797546,231.5 C96.797546,231.5 100.0862,236.018504 101.577511,237.07/;"	i
+Shape	illustrations.svg	/^                <path d="M98.8802663,298 C98.9227463,297.497209 98.9806736,296.721913 98.9961208/;"	i
+Shape	illustrations.svg	/^                <path d="M98.8969748,197.863248 C98.8969748,197.863248 99.8125245,192.8582 100.3/;"	i
+Shape	illustrations.svg	/^                <path d="M99.7607362,231.5 C99.7607362,231.5 102.818953,233.921223 103.778098,23/;"	i
+Shape	illustrations.svg	/^                <polygon id="Shape" fill="#190E25" points="124.642192 159.46027 125.467634 152.1/;"	i
+Shape	illustrations.svg	/^                <polygon id="Shape" fill="#190E25" points="30.37304 152.340975 28.9012196 161.50/;"	i
+Shape	illustrations.svg	/^                <polygon id="Shape" fill="#190E25" points="50.2174043 170.65351 55.5572507 180.0/;"	i
+Shape	illustrations.svg	/^                <polygon id="Shape" fill="#C2A392" points="28.6988023 498.204836 27.731906 512.0/;"	i
+Shape	illustrations.svg	/^                <polygon id="Shape" fill="#C2A392" points="89.7985529 487.995761 90.1946456 506./;"	i
+Shape	illustrations.svg	/^                <polygon id="Shape" fill="#D7AA63" points="134.679838 240.287188 137.338963 282./;"	i
+Shape	illustrations.svg	/^                <polygon id="Shape" fill="#DCBC3F" fill-rule="nonzero" points="322 247.198626 0 /;"	i
+Shape	illustrations.svg	/^                <polygon id="Shape" fill="#FFFFFF" points="110.417926 509.46136 96.4013877 509.7/;"	i
+Shape	illustrations.svg	/^                <polygon id="Shape" fill="#FFFFFF" points="36.9758747 512.907909 44.1932438 512./;"	i
+Shape	illustrations.svg	/^                <polyline id="Shape" fill="#FFFFFF" fill-rule="nonzero" opacity="0.16" points="1/;"	i
+Shape	illustrations.svg	/^            <path d="M102.261622,2307.47353 C114.559238,2306.60673 128.998758,2303.76923 128.998/;"	i
+Shape	illustrations.svg	/^            <path d="M103.935001,2294.47693 C100.914838,2297.70656 95.4358147,2299.3306 93.17974/;"	i
+Shape	illustrations.svg	/^            <path d="M109.43296,2340.83003 L108.320053,2359.63166 L109.43296,2377.73653 L114.439/;"	i
+Shape	illustrations.svg	/^            <path d="M112.774943,2343.02761 C111.038611,2350.22112 114.240201,2372.59359 114.240/;"	i
+Shape	illustrations.svg	/^            <path d="M192.989711,2471.35661 C192.162412,2472.29509 191.472995,2474.84822 190.674/;"	i
+Shape	illustrations.svg	/^            <path d="M226.484079,2729.41405 C226.484079,2729.41405 235.469294,2749.85476 237.139/;"	i
+Shape	illustrations.svg	/^            <path d="M48.5824509,2566.94597 C48.3764268,2567.46403 48.7089567,2568.62694 48.5824/;"	i
+Shape	illustrations.svg	/^            <path d="M48.9018743,2534.59763 L46.9629231,2538.98625 L46.9629231,2545.34243 L46.28/;"	i
+Shape	illustrations.svg	/^            <path d="M91.1963549,2742.66586 C89.3410467,2743.39841 86.723083,2746.62164 85.31143/;"	i
+Shape	illustrations.svg	/^            <path d="M91.5801498,2308.18494 C91.5801498,2309.06072 100.820169,2307.08458 102.459/;"	i
+Shape	illustrations.svg	/^            <polygon id="Shape" fill="#060023" fill-rule="nonzero" opacity="0.14" points="91.798/;"	i
+Shape	illustrations.svg	/^            <polygon id="Shape" fill="#24242D" fill-rule="nonzero" opacity="0.25" points="100.62/;"	i
+Shape	illustrations.svg	/^            <polygon id="Shape" fill="#DBDADE" fill-rule="nonzero" points="132.07953 2456.50888 /;"	i
+Shape	illustrations.svg	/^            <polygon id="Shape" fill="#DBDADE" fill-rule="nonzero" points="55.9916988 2511.57001/;"	i
+Shape	illustrations.svg	/^            <polygon id="Shape" fill="#DBDADE" fill-rule="nonzero" points="60.0697429 2483.77857/;"	i
+Shape	illustrations.svg	/^            <polygon id="Shape" fill="#DBDADE" fill-rule="nonzero" points="61.4699552 2484.50296/;"	i
+Shape	illustrations.svg	/^            <polygon id="Shape" fill="#DBDADE" fill-rule="nonzero" points="65.9779442 2478.21445/;"	i
+Shape	illustrations.svg	/^            <polygon id="Shape" fill="#DBDADE" fill-rule="nonzero" points="68.3628567 2454.05325/;"	i
+Shape	illustrations.svg	/^            <polygon id="Shape" fill="#DBDADE" fill-rule="nonzero" points="69.9167451 2450.25869/;"	i
+Shape	illustrations.svg	/^            <polygon id="Shape" fill="#DBDADE" fill-rule="nonzero" points="91.5801498 2469.76923/;"	i
+Shape	illustrations.svg	/^            <polygon id="Shape" fill="#DBDADE" fill-rule="nonzero" transform="translate(214.6676/;"	i
+Shape	illustrations.svg	/^            <polygon id="Shape" fill="#FCEE21" fill-rule="nonzero" points="172.325567 2354.74955/;"	i
+Shape	illustrations.svg	/^            <polygon id="Shape" fill="#FCEE21" fill-rule="nonzero" points="184.14197 2341.29772 /;"	i
+Shape	illustrations.svg	/^            <polygon id="Shape" fill="#FCEE21" fill-rule="nonzero" points="188.080771 2358.55832/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M100.635922,154 L103,122.657223 L102.637508,119 C102.637508,119 101.061/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M103.127066,150.158663 C104.163239,149.5172 105.258906,148.542613 106.2/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M103.362941,155.124863 L105.845514,155.124863 L104.046548,152.892937 L1/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M103.699844,157.289948 C103.699844,157.289948 117.108586,158.21134 131./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M104.788487,153 C104.788487,153 103.053223,146.26012 103.002901,144.341/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M105.719038,90.5305136 C105.719038,90.5305136 108.58049,103.802809 109./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M106.984987,323.852448 C107.03108,323.303802 107.093933,322.457796 107./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M108,207.453126 C108,207.453126 112.268062,217.377951 113.061318,220.88/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M108.965618,151.209726 C108.965618,151.209726 109.042977,144.193475 108/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M114.489936,151.44697 C104.411399,150.628101 101.159967,148.746972 97.1/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M126.149975,141.320717 C121.324183,139.247112 112.314841,129.411589 110/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M132.784242,319.974227 C132.784242,319.974227 125.87036,310.312178 118./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M154.430977,322.277706 C152.559752,314.34528 150.064386,306.573028 146./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M159.945321,321.45683 C160.188355,320.962629 160.578046,320.200387 161./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M161.692648,321.289304 C161.516658,320.765786 161.273625,319.957474 161/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M162.580977,322.068299 C162.874293,321.599227 163.314267,320.878866 163/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M184.474936,320.962629 C184.328278,317.427835 184.131337,311.824098 184/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M187.110591,321.402384 C189.050837,316.44718 190.729244,311.393499 192./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M194.355501,321.729059 C190.784455,314.880078 188.057657,307.623489 186/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M20.175964,321.289304 C24.6423093,314.599115 28.4468048,307.490454 31.5/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M200.611517,321.402384 C206.581439,317.664282 211.91692,312.998768 216./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M21.4916967,177.476804 C28.2128036,177.281062 34.9373641,177.721383 41./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M22.4131014,130.074677 C22.3184519,130.315255 22.4712194,130.855293 22./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M225.434447,321.402384 C224.965141,315.811211 224.39527,306.861147 224./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M23.1963748,115 L22.3102898,117.074396 L22.3102898,120.078811 L22,122.3/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M23.8725494,134 C23.6078432,134.478325 23.3112749,134.972906 23,135.476/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M232.658406,321.289304 C229.371855,310.491969 225.338108,299.936119 220/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M237.167095,320.811856 C214.208817,253.847616 208.924936,227.541881 209/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M24.7874361,117 C24.7874361,117 22.9086709,123.988937 23.0034706,126.37/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M242.434216,177.476804 C235.713109,177.281062 228.988548,177.721383 222/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M242.974756,321.402384 C241.168766,316.560889 239.203548,309.198131 240/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M254.057918,321.071521 C256.642261,315.098735 258.880748,308.982319 260/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M256.253599,322.277706 C252.863702,317.155606 250.223856,312.770619 248/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M262.43838,322.277706 C262.291722,321.745812 262.078021,320.924936 261./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M268.547738,320.522874 C268.426778,315.578431 267.838933,310.656452 266/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M272.461414,319.806701 C267.282769,315.036536 262.897865,309.471896 259/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M272.976812,323.408505 C279.868456,312.063735 285.39725,299.946087 289./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M30,32.0817879 C30,32.0817879 38.5375143,17.6098794 42.1136138,13.32897/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M33,93 C33,93 38.0298081,101.723058 39.4261095,104.779326 C40.0952636,1/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M38,148 C39.1458824,146.601806 40.5270589,145.102765 42,143.594553 L40./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M38,84.7816651 C38,84.7816651 40.9527406,85.9686563 41.9785759,85.99916/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M39.3951436,71.648147 C38.7637968,71.4307512 37.483444,71.0179725 36.82/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M39.9561204,64.8501037 C41.516316,62.7419703 44.2841073,58.2700243 45.3/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M43.1528898,214.726577 C42.280605,215.062914 41.049753,216.542799 40.38/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M44,8.18938909 C44,8.60673802 48.3625442,7.66501607 49.136534,7.7533344/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M45,107.819899 C45,107.819899 46.0072263,106.855152 46.4291729,106.7351/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M45,107.819899 C45,107.819899 46.0072269,106.855152 46.4291735,106.7351/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M45.3296203,80.7952989 C44.6370955,80.6748282 43.2621126,81.3245063 42./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M47,110 C47,110 48.5366957,112.28365 49.2335431,112.815083 C50.332156,1/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M47.6976184,45.0244188 C47.3058527,44.7699809 47.0161987,43.6606884 47./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M47.7117925,90.7748203 C48.3118296,88.8411201 50.425393,85.325297 50.86/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M48,110 C48,110 49.4290186,111.223685 49.8772,111.485559 C50.3605791,11/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M48,96.7565674 C48.3301952,96.9956381 48.6693145,97.1868897 48.8924194,/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M48.4293683,7.7688156 C54.2111692,7.35491277 61,6 61,6 C61,6 57.7478449/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M48.8203856,321.45683 C39.5932831,311.90653 31.5257927,301.301433 24.78/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M49.4048918,1.65289625 C47.9692334,3.18823026 45.364736,3.96028351 44.2/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M50.2048104,41.082304 C50.2048104,41.082304 53.6740901,49.8504496 56.17/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M50.2884889,226 L50,227.759728 C50,227.759728 51.6592516,228.613033 52./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M50.6690818,76.7157055 C50.1925592,75.7141656 47.6021327,75.1519273 46./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M51,219.136032 C51,219.136032 52.7810761,218.82996 53.2604822,219.13603/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M51,98.4891216 L57.5744977,108.518934 C57.5744977,108.518934 57.0700605/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M51,99 C50.3096658,98.7114268 49.6413706,98.3772779 49,98 C49.6273664,9/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M51.525934,22.9173189 L51,31.7828193 L51.525934,40.3197743 L53.8917805,/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M51.5264153,223 C51.5264153,223 53.7957363,225.515742 54.195609,226.541/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M51.694839,98.6391712 C50.8814751,98.4642976 49.5401923,97.5997419 48.8/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M52,216.661851 L52,214.7344 C52,214.7344 54.0311818,215.82147 54.765451/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M53.2482612,24.6327581 C52.413009,28.0448481 53.9531153,38.6567609 53.9/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M53.9240874,323.102771 C53.3081234,321.846327 51.3345244,317.360825 50./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M54.9695453,65.4833185 C55.4589814,67.6849036 56.2173703,72.8113586 56./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M57,116.776426 C57,116.776426 59.2587085,118.503173 60.1471125,118.7380/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M57,128.265256 C57,128.265256 61.7279696,139.914853 61.8501858,144.0372/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M57.8909955,60.2450769 C57.8909955,60.2450769 58.6203838,58.9659211 59./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M58,112.774037 C58,112.774037 59.881568,112.533658 60.497637,112.396635/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M58.0517429,59.4437364 C58.0517429,59.4437364 58.7763723,57.9893687 59./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M61.5651728,34.8304469 C62.6721515,33.1100578 64.8999464,33.5175669 65./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M62,82 C62,82 63.1090353,82.4329541 63.4772942,82.5798499 C64.0690639,8/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M62.0639191,72.9591217 C61.9926358,72.9733655 61.8055317,73.0621947 61./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M62.6597309,229.013703 C61.7781788,229.3594 60.5942835,230.707462 59.69/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M63,230.791233 C63,230.791233 67.6146705,231.348032 68.733265,230.64299/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M64.1221668,36.255177 C64.2933548,37.1758548 65.1808709,38.9120757 65.8/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M64.3818696,141.819705 C65.3914324,142.853072 68.2057002,143.845195 69./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M65,93.8493759 C65,93.8493759 64.1722644,92.5789009 63.9429747,92.24844/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M65.107966,222.530752 C65.7919883,223.518567 67.7790742,225.086958 68.2/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M65.3506731,106.492626 C67.5924553,106.985169 72.2484638,106.933505 74./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M65.6588076,14.8982549 C67.330106,15.5230195 67.8760871,19 67.8760871,1/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M65.6619969,15.8989882 C67.3356501,16.5236431 67.8824005,20 67.8824005,/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M66.1255809,22.078913 C66.1255809,22.078913 66.4230774,25.378967 66.484/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M67.2296312,80.5165399 C67.2296312,80.5165399 70.6049858,81.3959297 71./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M68.720663,228.005248 C68.720663,227.951373 68.8656448,228.304576 68.97/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M72.2824595,103 C72.2824595,103 73.4712257,104.416298 73.5240597,105.01/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M72.7764895,106.239809 C72.1037443,105.609115 70.1456167,105.482016 69./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M73,123.925526 L85.2005324,128 C85.6441881,125.151395 86.378438,122.565/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M75.2858869,323.102771 C79.8951414,318.520941 93.6223393,303.255155 93./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M77,221 L77,225.961516 C77,225.961516 79.0766885,226.101807 79.5059382,/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M77.0284463,226.454136 C77.1484158,226.82162 77.7517393,227.382525 78.0/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M77.2785032,223 C77.2785032,223 77.1655988,224.836157 77.5303667,225.28/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M78.0033025,216 C78.0033025,216 80.7748726,220.978002 79.7872688,221.91/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M78.0894148,214.992068 C78.0894148,214.992068 79.9451975,215.061915 80./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M78.2358098,297.705863 C81.5105438,292.435123 83.8839686,286.655966 85./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M79.4173747,17.6287604 L79,17 L79.1910024,17.0230807 C79.1910024,17.023/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M80.4311973,35.8952479 C81.8662248,36.1514589 82.7933439,36.3891287 83./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M82.5790836,99.0437015 C81.0329393,100.401905 77.4193798,102.649878 75./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M84.2886622,72.987804 C82.8592182,72.3355548 79.2576532,71.4641341 77.9/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M85.6986118,163.655928 C86.3145758,172.208119 86.1679177,173.858247 86./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M86,227.957208 C86,227.957208 87.8958535,225.75681 88.6685707,225.62719/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M86.5491974,38.2137324 L87.1634212,40.2680104 L85.4580079,40.2680104 L8/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M87.9156792,19.1302193 C87.7031191,19.8874513 87.3477185,21.121265 87.0/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M88.40406,218.457399 C87.9640825,217.036435 88.6005718,213.993642 88.35/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M89.6709512,156.414626 C89.6709512,156.414626 76.2622108,157.336018 61./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M90.3395331,227.58679 L90.7563147,227.015489 L92.9713652,226 C93.009544/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M91.1371414,84.4775061 C90.3331656,82.3302444 88.4194764,79.1686609 86./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M91.6531981,84.607459 C91.2667275,85.051059 90.9446684,86.2578603 90.57/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M92.8713714,84.117413 C92.5107744,82.3974296 91.2286523,78.8951204 89.8/;"	i
+Shape	illustrationsBig.svg	/^                <path d="M93.8728405,89.2550706 C93.6454378,87.8641188 93.2680812,86.4915147 92./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M94.7662725,324.049291 C94.0969167,319.148691 93.8920828,314.195862 94./;"	i
+Shape	illustrationsBig.svg	/^                <path d="M95.8114704,98 L91.5033679,108.601174 L95.3829278,100.434427 L91.074824/;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#060023" opacity="0.14" points="43.6366489 25.3983692 /;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#190E25" points="54 64.012092 53.3920709 68 51.2874448/;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#190E25" points="62.072926 71.7161494 64.2998369 75.51/;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#190E25" points="93.7334276 66.7069134 94.0643452 63.7/;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#24242D" opacity="0.25" points="47.4702097 15.2619272 /;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#C2A392" points="53.4067681 209.232996 53 215 62.92309/;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#C2A392" points="79 204.347756 79.1599688 212 86.20015/;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#D7AA63" points="97.8787774 101 99 118.792205 94.31311/;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#DBDADE" points="26.2673435 104.323048 27.2571912 102./;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#DBDADE" points="29 91.5225089 30.2141327 90 31.539079/;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#DBDADE" points="29.943402 92 29.2704806 92.941654 29./;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#DBDADE" points="32 87.8659492 35.6393535 87.8659492 3/;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#DBDADE" points="32.943402 77 32.2704806 77.941654 32./;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#DBDADE" points="34 75.1524106 35.8538589 72.8001554 3/;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#DBDADE" points="44 84 40.9561059 84.7996676 40.956105/;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#DBDADE" points="62.6311539 78.5 61.2203547 78.20954 6/;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#DBDADE" transform="translate(102.000000, 53.500000) s/;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#DCBC3F" fill-rule="nonzero" points="153 117.611577 0 /;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#FCEE21" points="83 29.9508258 81.2052296 29.7105857 8/;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#FCEE21" points="88 23.7107905 85.841797 23.4397742 84/;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#FCEE21" points="90 31.4969865 87.8420642 31.1805626 8/;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#FFFFFF" points="57 215.47648 59.9428842 215.510894 57/;"	i
+Shape	illustrationsBig.svg	/^                <polygon id="Shape" fill="#FFFFFF" points="87.7152473 214 82 214.138767 83.73595/;"	i
+Shape	illustrationsBig.svg	/^                <polyline id="Shape" fill="#FFFFFF" fill-rule="nonzero" opacity="0.16" points="5/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M101.586608,143.240098 C101.390354,143.18378 101.233351,143/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M103.690362,143.849706 C103.648093,143.849706 103.605823,14/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M104.676025,65.5123857 C104.590738,66.009356 104.278018,66./;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M109.082539,61.8581919 C106.893497,59.7533763 103.794723,59/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M119.516027,108.339537 C118.862157,105.942386 117.980854,10/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M128.924774,177.476883 C128.63079,177.673 128.366206,177.86/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M129.352503,178.236955 C129.011354,178.498445 128.670204,17/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M147.603999,181.277244 C144.96009,175.781336 138.478251,174/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M180.439634,197.004894 C177.909442,197.940367 175.37925,198/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M51.9115758,177.593817 C47.505062,175.167432 41.3928009,176/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M69.0636925,146.430853 C68.8805226,146.54349 68.7339867,146/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M74.4558691,106.994793 C73.8588576,104.597642 72.9206966,10/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M77.9242219,61.3027545 C76.986061,60.0164782 75.5077466,59./;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M83.9511957,23.0068039 C83.5816172,23.2991394 83.0983221,23/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M84.4894418,21.6306787 C84.4894418,21.6306787 84.4344908,21/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M84.6012509,22.0562915 C84.6012509,21.9436541 84.5463,21.77/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M86.367671,19.8495805 C86.422622,19.9058992 86.477573,19.96/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M86.5098167,20.141916 C86.4813876,20.0834488 86.4529584,20./;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M86.5628604,20.2773417 C86.5079094,20.1647043 86.4529584,20/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M91.5417711,66.3016916 C90.575181,66.1847574 85.7422303,65./;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M94.6974037,186.685451 C91.9113497,186.451582 89.0400084,18/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M95.3966881,23.1065424 C95.2867861,23.1065424 95.1768842,23/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M96.3462927,21.9543961 C96.3462927,22.0128632 96.3462927,22/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M98.3363314,103.954504 C97.4265993,99.1309683 93.84453,94.0/;"	i
+Shape	indexIllustrations.svg	/^                            <path d="M98.7059099,21.5451264 C97.9951816,19.9665146 96.2325762,18/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M10.8451837,78.5108822 L0,94.1106123 C0,94.1106123 0.429580584,97.8/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M103.761683,143.612692 C103.109094,143.401497 102.456505,143.225501/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M12.8320935,59.1511428 C12.8320935,59.1511428 14.8303897,59.8351935/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M13.4168842,104.71558 C14.1783634,103.740648 15.0962039,102.695397 /;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M14.0001117,50.2984499 C13.5529184,50.1721885 12.6460236,49.9324503/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M14.5630119,45.737048 C15.6215776,44.2346992 17.499476,41.0477933 1/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M147.692664,179.516269 C146.864322,180.453422 146.174038,183.002915/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M16.2626586,52.7149979 C15.7067914,52.677525 15.1493981,52.6695224 /;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M18.0686309,75.9535186 C18.0686309,75.9535186 18.7628746,75.3238067/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M18.0764488,75.9407337 C18.0764488,75.9407337 18.7706928,75.3110218/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M18.1687022,56.8049136 C17.6308194,56.7154112 16.5628724,57.1980826/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M18.7237846,53.0905872 C18.5345873,53.0282542 18.3657173,52.9771106/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M180.477228,436.058496 C180.477228,436.058496 189.454083,456.597201/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M19.1068696,77.8042873 C19.1068696,77.8042873 20.1654349,79.2602915/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M19.2554126,66.3688266 C19.2554126,66.3688266 19.5431173,64.703453 /;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M19.9121297,77.6492567 C19.9121297,77.6492567 20.8643698,78.4707583/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M20.1560531,68.73903 C20.3874678,68.8988554 20.6251368,69.0267123 2/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M21.7806464,53.6307925 C21.44447,52.9739154 20.0872544,52.4353055 1/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M21.9995524,56.7377858 L21.9088628,54.3899612 C21.9088628,54.389961/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M22.4139096,70.0032445 C21.8601696,69.7546515 21.3241079,69.4667969/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M22.8141942,70.1630657 C22.2622392,70.0431988 21.2693453,69.4502501/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M22.8282668,75.6194832 L25.1361585,75.7009956 L25.1095772,77.299241/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M23.9124825,56.3732394 L7.54558116,67.2368638 C3.40639374,61.200929/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M25.0511763,82.3685626 C25.5003218,82.694945 27.3582329,82.3685626 /;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M25.3363006,75.7249699 L25.8053843,77.3615743 L26.935876,77.3072356/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M26.0524351,79.858035 C26.0524351,79.858035 27.375251,79.6982138 27/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M26.6700622,91.1608439 C26.6700622,91.1608439 29.9364482,99.4125938/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M28.6985192,81.1683101 C27.8589691,80.3457102 28.3943341,77.5572951/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M29.6331075,51.4140243 C29.6331075,51.4140243 30.3148424,51.051224 /;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M3.70528855,82.4072432 C3.70528855,82.4072432 2.34181868,87.3378357/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M3.79597808,94.4004931 C3.62710773,94.7297295 3.43791084,95.0701551/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M30.5056028,57.5736719 C30.5056028,57.5736719 31.3202451,57.9316773/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M31.836237,100.096645 C32.5429898,100.817454 34.5131412,101.509495 /;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M32.11456,66.669298 C32.11456,66.669298 31.5500959,65.7598937 31.39/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M32.5945889,56.4421134 C32.5945889,56.4421134 34.9618979,57.1117796/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M34.8321184,52.8396639 C34.7255742,52.7951961 34.6143313,52.763551 /;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M36.8867049,72.7202639 C36.8867049,72.7202639 37.8014181,73.7479355/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M37.0868471,74.7740116 C36.6318359,74.3536732 35.3074565,74.2689657/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M37.5121495,88.3207582 L46.1120173,91.2743205 C46.4247397,89.209383/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M37.8358176,53.269592 C37.1353192,53.269592 36.3503856,53.347905 35/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M41.4977974,54.9893043 C41.0287137,54.7671501 40.1327641,54.2636997/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M44.3920436,69.5717167 C43.2975149,70.4939059 40.7394455,72.0202289/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M44.5734227,51.1950652 C43.5664566,50.8002965 41.7479752,50.4822454/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M46.9078961,83.3981557 C47.6099579,80.0722034 50.7450006,73.8773963/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M47.6547243,448.262084 C45.7743398,449.003997 43.1209919,452.268414/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M47.6563224,16.8567188 C48.4260363,19.3982373 58.4178631,16.8567188/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M49.9835213,58.7547744 C49.4284389,57.337129 48.1071864,55.2498173 /;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M5.09368239,272.345214 C4.893892,272.853459 5.21636051,273.994346 5/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M50.9717244,59.0920049 C50.7465641,57.9013128 49.9459944,55.4767706/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M51.1280856,63.2042994 C50.9994583,62.1990947 50.7860115,61.2071493/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M52.6963885,68.9803636 L49.7255253,76.4761443 L52.400866,70.7016756/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M57.5741461,17.5410094 C65.7966371,16.9631465 74.1085363,15.7982793/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M59.7515229,3.45576801 C56.752638,6.66574452 51.3122158,8.27990327 /;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M6.00070264,242.198118 L4.02640442,246.613951 L4.03353191,251.90648/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M6.33335646,121.190377 C6.86493958,120.05955 7.3896193,117.295518 8/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M65.8531617,49.4171249 L64.7545609,68.0879415 L65.8531617,86.066838/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M65.9354939,107.146517 C58.9367651,106.571148 56.678909,105.249396 /;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M68.6060946,52.2992799 C66.8923897,59.5224431 70.0522589,81.9871431/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M7.6049374,22.5656551 C7.6049374,22.5656551 13.5216463,12.386419 15/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M74.9012468,99.9384189 C71.5410438,98.4696298 65.2678312,91.5028693/;"	i
+Shape	indexIllustrations.svg	/^                    <path d="M9.53443488,65.3859041 C9.53443488,65.3859041 13.0603808,71.4848184/;"	i
+Shape	indexIllustrations.svg	/^                    <polygon id="Shape" fill="#060023" opacity="0.14" points="49.5933033 53.5800/;"	i
+Shape	indexIllustrations.svg	/^                    <polygon id="Shape" fill="#24242D" opacity="0.25" points="56.7588259 31.4946/;"	i
+Shape	indexIllustrations.svg	/^                    <polygon id="Shape" fill="#917A35" points="11.9284816 218.387161 14.0355154 /;"	i
+Shape	indexIllustrations.svg	/^                    <polygon id="Shape" fill="#917A35" points="16.7108544 190.617108 19.3597215 /;"	i
+Shape	indexIllustrations.svg	/^                    <polygon id="Shape" fill="#917A35" points="17.9018374 192.45675 16.4834225 1/;"	i
+Shape	indexIllustrations.svg	/^                    <polygon id="Shape" fill="#917A35" points="21.3063394 164.992878 24.394875 1/;"	i
+Shape	indexIllustrations.svg	/^                    <polygon id="Shape" fill="#917A35" points="22.5596535 186.975546 30.3306771 /;"	i
+Shape	indexIllustrations.svg	/^                    <polygon id="Shape" fill="#917A35" points="48.0437065 177.781399 41.5876281 /;"	i
+Shape	indexIllustrations.svg	/^                    <polygon id="Shape" fill="#917A35" points="88.3957974 164.154287 85.403502 1/;"	i
+Shape	indexIllustrations.svg	/^                    <polygon id="Shape" fill="#FCEE21" points="125.331408 62.5479402 121.882311 /;"	i
+Shape	indexIllustrations.svg	/^                    <polygon id="Shape" fill="#FCEE21" points="138.700092 49.7992619 134.49246 4/;"	i
+Shape	indexIllustrations.svg	/^                    <polygon id="Shape" fill="#FCEE21" points="142.877805 66.452059 138.219932 6/;"	i
+Shape	indexIllustrations.svg	/^                    <polyline id="Shape" fill="#FFFFFF" fill-rule="nonzero" opacity="0.16" point/;"	i
+Shape	logoLinkedin.svg	/^                <path d="M0,0 L0,74 L74,74 L74,0 L0,0 Z M26.7659574,55.106383 L16.5319149,55.106/;"	i
+Shape	logoMail.svg	/^                <path d="M74,0.263814617 L74,0 L0,0 L0,74 L74,74 L74,0.263814617 Z M10.8357143,1/;"	i
+Shape	logoMobile.svg	/^                <path d="M0,0 L0,74 L74,74 L74,0 L0,0 Z M54.862381,61.1286925 C54.862381,64.3823/;"	i
+Shape	logoMobile.svg	/^                <path d="M32.2765957,14.1705659 C32.2776846,13.7360767 32.6067916,13.3841431 33./;"	i
+Shape	logoMobile.svg	/^                <path d="M41.7234043,14.1705659 C41.7219529,14.6047793 41.3929516,14.9562844 40./;"	i
+Shape	logoMobile.svg	/^                <path d="M50.3829787,20.6159853 L50.3829787,52.5967807 C50.3784163,53.5461232 49/;"	i
+Skärmavbild-2018-11-11-kl.-01.31.42	diagram.svg	/^                <image id="Skärmavbild-2018-11-11-kl.-01.31.42" x="0" y="0" width="297" height/;"	i
+Skärmavbild-2018-11-11-kl.-01.31.42	tabel.svg	/^                <image id="Skärmavbild-2018-11-11-kl.-01.31.42" x="0" y="0" width="237" height/;"	i
+THE-STORY	pictureTell.svg	/^                <path d="M20.1556089,316.336923 L20.1556089,179.958824 L0,179.958824 L0,147.5346/;"	i
+THE-STORY	story.svg	/^            <path d="M20.1556089,316.336923 L20.1556089,179.958824 L0,179.958824 L0,147.534636 L/;"	i
+Tarotappen	project.html	/^          <h2>Tarotappen<\/h2>$/;"	i
+UX	uxDesign.svg	/^                <path d="M14.4929117,77.8156682 C11.4976222,74.3594297 10,69.2327529 10,62.43548/;"	i
+UX-report ASOS	project.html	/^          <h2>UX-report ASOS<\/h2>$/;"	i
+Ultrafree	project.html	/^          <h2>Ultrafree<\/h2>$/;"	i
+a	style.css	/^a {$/;"	s
+a	style.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+a	style2.css	/^	a {$/;"	s
+a	style2.css	/^a {$/;"	s
+a	style2.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+a	style3.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+a	style3.css	/^a, p {$/;"	s
+a:link	style.css	/^a:link {$/;"	s
+a:link	style2.css	/^a:link {$/;"	s
+abbr	style.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+abbr	style2.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+abbr	style3.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+acronym	style.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+acronym	style2.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+acronym	style3.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+address	style.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+address	style2.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+address	style3.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+applet	style.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+applet	style2.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+applet	style3.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+article	style.css	/^article, aside, canvas, details, embed,$/;"	s
+article	style.css	/^article, aside, details, figcaption, figure,$/;"	s
+article	style2.css	/^article, aside, canvas, details, embed,$/;"	s
+article	style2.css	/^article, aside, details, figcaption, figure,$/;"	s
+article	style3.css	/^article, aside, canvas, details, embed,$/;"	s
+article	style3.css	/^article, aside, details, figcaption, figure,$/;"	s
+aside	style.css	/^article, aside, canvas, details, embed,$/;"	s
+aside	style.css	/^article, aside, details, figcaption, figure,$/;"	s
+aside	style2.css	/^article, aside, canvas, details, embed,$/;"	s
+aside	style2.css	/^article, aside, details, figcaption, figure,$/;"	s
+aside	style3.css	/^article, aside, canvas, details, embed,$/;"	s
+aside	style3.css	/^article, aside, details, figcaption, figure,$/;"	s
+audio	style.css	/^time, mark, audio, video, button {$/;"	s
+audio	style2.css	/^time, mark, audio, video, button {$/;"	s
+audio	style3.css	/^time, mark, audio, video, button {$/;"	s
+b	style.css	/^b, u, i, center,$/;"	s
+b	style2.css	/^b, u, i, center,$/;"	s
+b	style3.css	/^b, u, i, center,$/;"	s
+big	style.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+big	style2.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+big	style3.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+blockquote	style.css	/^blockquote, q {$/;"	s
+blockquote	style.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+blockquote	style2.css	/^blockquote, q {$/;"	s
+blockquote	style2.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+blockquote	style3.css	/^blockquote, q {$/;"	s
+blockquote	style3.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+blockquote:after	style.css	/^blockquote:before, blockquote:after,$/;"	s
+blockquote:after	style2.css	/^blockquote:before, blockquote:after,$/;"	s
+blockquote:after	style3.css	/^blockquote:before, blockquote:after,$/;"	s
+blockquote:before	style.css	/^blockquote:before, blockquote:after,$/;"	s
+blockquote:before	style2.css	/^blockquote:before, blockquote:after,$/;"	s
+blockquote:before	style3.css	/^blockquote:before, blockquote:after,$/;"	s
+body	style.css	/^body {$/;"	s
+body	style.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+body	style2.css	/^body {$/;"	s
+body	style2.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+body	style3.css	/^body {$/;"	s
+body	style3.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+breath2	illustrations.svg	/^            <image id="breath2" x="0" y="5084" width="322" height="390" xlink:href="data:image\//;"	i
+breath2	illustrationsBig.svg	/^            <image id="breath2" x="0" y="1670" width="325" height="394" xlink:href="data:image\//;"	i
+button	style.css	/^time, mark, audio, video, button {$/;"	s
+button	style2.css	/^time, mark, audio, video, button {$/;"	s
+button	style3.css	/^time, mark, audio, video, button {$/;"	s
+canvas	style.css	/^article, aside, canvas, details, embed,$/;"	s
+canvas	style2.css	/^article, aside, canvas, details, embed,$/;"	s
+canvas	style3.css	/^article, aside, canvas, details, embed,$/;"	s
+caption	style.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+caption	style2.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+caption	style3.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+center	style.css	/^b, u, i, center,$/;"	s
+center	style2.css	/^b, u, i, center,$/;"	s
+center	style3.css	/^b, u, i, center,$/;"	s
+cite	style.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+cite	style2.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+cite	style3.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+code	style.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+code	style2.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+code	style3.css	/^a, abbr, acronym, address, big, cite, code,$/;"	s
+dd	style.css	/^dl, dt, dd, ol, ul, li,$/;"	s
+dd	style2.css	/^dl, dt, dd, ol, ul, li,$/;"	s
+dd	style3.css	/^dl, dt, dd, ol, ul, li,$/;"	s
+del	style.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+del	style2.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+del	style3.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+details	style.css	/^article, aside, canvas, details, embed,$/;"	s
+details	style.css	/^article, aside, details, figcaption, figure,$/;"	s
+details	style2.css	/^article, aside, canvas, details, embed,$/;"	s
+details	style2.css	/^article, aside, details, figcaption, figure,$/;"	s
+details	style3.css	/^article, aside, canvas, details, embed,$/;"	s
+details	style3.css	/^article, aside, details, figcaption, figure,$/;"	s
+dfn	style.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+dfn	style2.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+dfn	style3.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+div	style.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+div	style2.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+div	style3.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+dl	style.css	/^dl, dt, dd, ol, ul, li,$/;"	s
+dl	style2.css	/^dl, dt, dd, ol, ul, li,$/;"	s
+dl	style3.css	/^dl, dt, dd, ol, ul, li,$/;"	s
+dt	style.css	/^dl, dt, dd, ol, ul, li,$/;"	s
+dt	style2.css	/^dl, dt, dd, ol, ul, li,$/;"	s
+dt	style3.css	/^dl, dt, dd, ol, ul, li,$/;"	s
+em	style.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+em	style2.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+em	style3.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+embed	style.css	/^article, aside, canvas, details, embed,$/;"	s
+embed	style2.css	/^article, aside, canvas, details, embed,$/;"	s
+embed	style3.css	/^article, aside, canvas, details, embed,$/;"	s
+fieldset	style.css	/^fieldset, form, label, legend,$/;"	s
+fieldset	style2.css	/^fieldset, form, label, legend,$/;"	s
+fieldset	style3.css	/^fieldset, form, label, legend,$/;"	s
+figcaption	style.css	/^article, aside, details, figcaption, figure,$/;"	s
+figcaption	style.css	/^figure, figcaption, footer, header, hgroup,$/;"	s
+figcaption	style2.css	/^article, aside, details, figcaption, figure,$/;"	s
+figcaption	style2.css	/^figure, figcaption, footer, header, hgroup,$/;"	s
+figcaption	style3.css	/^article, aside, details, figcaption, figure,$/;"	s
+figcaption	style3.css	/^figure, figcaption, footer, header, hgroup,$/;"	s
+figure	style.css	/^article, aside, details, figcaption, figure,$/;"	s
+figure	style.css	/^figure, figcaption, footer, header, hgroup,$/;"	s
+figure	style2.css	/^article, aside, details, figcaption, figure,$/;"	s
+figure	style2.css	/^figure, figcaption, footer, header, hgroup,$/;"	s
+figure	style3.css	/^article, aside, details, figcaption, figure,$/;"	s
+figure	style3.css	/^figure, figcaption, footer, header, hgroup,$/;"	s
+filter-2	illustrationsBig.svg	/^        <filter x="-2.5%" y="-10.0%" width="105.0%" height="120.0%" filterUnits="objectBoundingB/;"	i
+footer	style.css	/^figure, figcaption, footer, header, hgroup,$/;"	s
+footer	style.css	/^footer, header, hgroup, menu, nav, section {$/;"	s
+footer	style2.css	/^  footer {$/;"	s
+footer	style2.css	/^figure, figcaption, footer, header, hgroup,$/;"	s
+footer	style2.css	/^footer {$/;"	s
+footer	style2.css	/^footer, header, hgroup, menu, nav, section {$/;"	s
+footer	style3.css	/^figure, figcaption, footer, header, hgroup,$/;"	s
+footer	style3.css	/^footer, header, hgroup, menu, nav, section {$/;"	s
+form	style.css	/^fieldset, form, label, legend,$/;"	s
+form	style2.css	/^fieldset, form, label, legend,$/;"	s
+form	style3.css	/^fieldset, form, label, legend,$/;"	s
+h1	style.css	/^h1 {$/;"	s
+h1	style.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+h1	style2.css	/^	h1 {$/;"	s
+h1	style2.css	/^h1 {$/;"	s
+h1	style2.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+h1	style3.css	/^  h1 {$/;"	s
+h1	style3.css	/^h1 {$/;"	s
+h1	style3.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+h1	style3.css	/^h1,$/;"	s
+h1.desktop	style3.css	/^  h1.desktop {$/;"	c
+h1.desktop	style3.css	/^h1.desktop {$/;"	c
+h1.mobile	style3.css	/^  h1.mobile {$/;"	c
+h1.mobile	style3.css	/^h1.mobile {$/;"	c
+h2	style.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+h2	style2.css	/^	h2 {$/;"	s
+h2	style2.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+h2	style2.css	/^h2 {$/;"	s
+h2	style3.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+h2	style3.css	/^h2 {$/;"	s
+h3	style.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+h3	style2.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+h3	style3.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+h4	style.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+h4	style2.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+h4	style3.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+h5	style.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+h5	style2.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+h5	style3.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+h6	style.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+h6	style2.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+h6	style3.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+header	style.css	/^figure, figcaption, footer, header, hgroup,$/;"	s
+header	style.css	/^footer, header, hgroup, menu, nav, section {$/;"	s
+header	style2.css	/^figure, figcaption, footer, header, hgroup,$/;"	s
+header	style2.css	/^footer, header, hgroup, menu, nav, section {$/;"	s
+header	style3.css	/^figure, figcaption, footer, header, hgroup,$/;"	s
+header	style3.css	/^footer, header, hgroup, menu, nav, section {$/;"	s
+hgroup	style.css	/^figure, figcaption, footer, header, hgroup,$/;"	s
+hgroup	style.css	/^footer, header, hgroup, menu, nav, section {$/;"	s
+hgroup	style2.css	/^figure, figcaption, footer, header, hgroup,$/;"	s
+hgroup	style2.css	/^footer, header, hgroup, menu, nav, section {$/;"	s
+hgroup	style3.css	/^figure, figcaption, footer, header, hgroup,$/;"	s
+hgroup	style3.css	/^footer, header, hgroup, menu, nav, section {$/;"	s
+hole	illustrations.svg	/^            <image id="hole" x="33.5828221" y="1901.64417" width="254.834356" height="263.723926/;"	i
+hole	illustrationsBig.svg	/^                <image id="hole" x="16" y="14" width="121" height="126" xlink:href="data:image\//;"	i
+html	style.css	/^html {$/;"	s
+html	style.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+html	style2.css	/^html {$/;"	s
+html	style2.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+html	style3.css	/^html {$/;"	s
+html	style3.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+html	style3.css	/^html,$/;"	s
+i	style.css	/^b, u, i, center,$/;"	s
+i	style2.css	/^b, u, i, center,$/;"	s
+i	style3.css	/^b, u, i, center,$/;"	s
+iframe	style.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+iframe	style2.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+iframe	style3.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+img	style.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+img	style.css	/^img {$/;"	s
+img	style2.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+img	style2.css	/^img {$/;"	s
+img	style3.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+ins	style.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+ins	style2.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+ins	style3.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+kbd	style.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+kbd	style2.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+kbd	style3.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+label	style.css	/^fieldset, form, label, legend,$/;"	s
+label	style2.css	/^fieldset, form, label, legend,$/;"	s
+label	style3.css	/^fieldset, form, label, legend,$/;"	s
+legend	style.css	/^fieldset, form, label, legend,$/;"	s
+legend	style2.css	/^fieldset, form, label, legend,$/;"	s
+legend	style3.css	/^fieldset, form, label, legend,$/;"	s
+li	style.css	/^dl, dt, dd, ol, ul, li,$/;"	s
+li	style2.css	/^dl, dt, dd, ol, ul, li,$/;"	s
+li	style3.css	/^dl, dt, dd, ol, ul, li,$/;"	s
+linearGradient-1	indexIllustrations.svg	/^        <linearGradient x1="51.6236274%" y1="99.4480421%" x2="48.6001041%" y2="1.57169202%" id="/;"	i
+linearGradient-2	indexIllustrations.svg	/^        <linearGradient x1="50.9138381%" y1="30.3548427%" x2="52.8285466%" y2="-15.6663864%" id=/;"	i
+linearGradient-3	indexIllustrations.svg	/^        <linearGradient x1="50.5627706%" y1="100.117165%" x2="49.3506494%" y2="1.58172232%" id="/;"	i
+linearGradient-4	indexIllustrations.svg	/^        <linearGradient x1="48.8038278%" y1="17.2176309%" x2="53.1100478%" y2="100.137741%" id="/;"	i
+linearGradient-5	indexIllustrations.svg	/^        <linearGradient x1="50.3901895%" y1="33.5195531%" x2="51.2820513%" y2="-6.42458101%" id=/;"	i
+linearGradient-7	indexIllustrations.svg	/^        <linearGradient x1="50.3363229%" y1="33.0275229%" x2="51.1210762%" y2="-6.33027523%" id=/;"	i
+linearGradient-9	indexIllustrations.svg	/^        <linearGradient x1="32.3636364%" y1="11.4877451%" x2="31.2761257%" y2="-18.4656863%" id=/;"	i
+mark	style.css	/^time, mark, audio, video, button {$/;"	s
+mark	style2.css	/^time, mark, audio, video, button {$/;"	s
+mark	style3.css	/^time, mark, audio, video, button {$/;"	s
+mask-2	tarotappen.svg	/^                                <mask id="mask-2" fill="white">$/;"	i
+mask-2	ultrafree.svg	/^                        <mask id="mask-2" fill="white">$/;"	i
+mask-4	ultrafree.svg	/^                        <mask id="mask-4" fill="white">$/;"	i
+mask-6	ultrafree.svg	/^                        <mask id="mask-6" fill="white">$/;"	i
+mask-8	ultrafree.svg	/^                        <mask id="mask-8" fill="white">$/;"	i
+menu	style.css	/^footer, header, hgroup, menu, nav, section {$/;"	s
+menu	style.css	/^menu, nav, output, ruby, section, summary,$/;"	s
+menu	style2.css	/^footer, header, hgroup, menu, nav, section {$/;"	s
+menu	style2.css	/^menu, nav, output, ruby, section, summary,$/;"	s
+menu	style3.css	/^footer, header, hgroup, menu, nav, section {$/;"	s
+menu	style3.css	/^menu, nav, output, ruby, section, summary,$/;"	s
+nav	style.css	/^footer, header, hgroup, menu, nav, section {$/;"	s
+nav	style.css	/^menu, nav, output, ruby, section, summary,$/;"	s
+nav	style2.css	/^footer, header, hgroup, menu, nav, section {$/;"	s
+nav	style2.css	/^menu, nav, output, ruby, section, summary,$/;"	s
+nav	style3.css	/^footer, header, hgroup, menu, nav, section {$/;"	s
+nav	style3.css	/^menu, nav, output, ruby, section, summary,$/;"	s
+object	style.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+object	style2.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+object	style3.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+ol	style.css	/^dl, dt, dd, ol, ul, li,$/;"	s
+ol	style.css	/^ol, ul {$/;"	s
+ol	style2.css	/^dl, dt, dd, ol, ul, li,$/;"	s
+ol	style2.css	/^ol, ul {$/;"	s
+ol	style3.css	/^dl, dt, dd, ol, ul, li,$/;"	s
+ol	style3.css	/^ol, ul {$/;"	s
+om-ca-30-min	ultrafree.svg	/^                        <path d="M46.1068702,106.562198 L46.1068702,105.704611 C46.1068702,105.1/;"	i
+om-ca-30-min-Clipped	ultrafree.svg	/^                    <g id="om-ca-30-min-Clipped" transform="translate(4.000000, 4.000000)">$/;"	i
+output	style.css	/^menu, nav, output, ruby, section, summary,$/;"	s
+output	style2.css	/^menu, nav, output, ruby, section, summary,$/;"	s
+output	style3.css	/^menu, nav, output, ruby, section, summary,$/;"	s
+p	style.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+p	style.css	/^p {$/;"	s
+p	style2.css	/^  p {$/;"	s
+p	style2.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+p	style2.css	/^p {$/;"	s
+p	style3.css	/^a, p {$/;"	s
+p	style3.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+path-1	illustrations.svg	/^                        <path d="M1.6863536,0.087040186 L8.69120702,0.087040186 C12.9575588,0.08/;"	i
+path-1	illustrationsBig.svg	/^        <path d="M18.806226,30.0425811 L22.1551647,30.0425811 C24.1948578,30.0425811 25.5523358,/;"	i
+path-1	tarotappen.svg	/^        <polygon id="path-1" points="0.0132452317 0 5.31639858 0 5.31639858 9.09001807 0.0132452/;"	i
+path-1	ultrafree.svg	/^                        <g id="path-1"><\/g>$/;"	i
+path-1	ultrafree.svg	/^        <path d="M75.5,151 C117.197498,151 151,117.197498 151,75.5 C151,33.8025014 117.197498,0 /;"	i
+path-1-link	illustrations.svg	/^                    <g id="path-1-link" fill="#000000" fill-rule="nonzero">$/;"	i
+path-1-link	illustrations.svg	/^                    <g id="path-1-link" fill="#2B3E16">$/;"	i
+path-3	ultrafree.svg	/^                        <path d="M75.5,151 C117.197498,151 151,117.197498 151,75.5 C151,33.80250/;"	i
+path-3	ultrafree.svg	/^        <path d="M75.5,151 C117.197498,151 151,117.197498 151,75.5 C151,33.8025014 117.197498,0 /;"	i
+path-3-Clipped	ultrafree.svg	/^                    <g id="path-3-Clipped" transform="translate(4.000000, 4.000000)">$/;"	i
+path-5	ultrafree.svg	/^        <path d="M75.5,151 C117.197498,151 151,117.197498 151,75.5 C151,33.8025014 117.197498,0 /;"	i
+path-7	ultrafree.svg	/^        <path d="M75.5,151 C117.197498,151 151,117.197498 151,75.5 C151,33.8025014 117.197498,0 /;"	i
+path3820	indexIllustrations.svg	/^                    <polygon id="path3820" stroke="#000000" fill="url(#linearGradient-3)" opacit/;"	i
+path3824	indexIllustrations.svg	/^                    <path d="M62.2196432,27.1846076 C67.2528328,26.9053946 72.2971384,26.9053946/;"	i
+path3830	indexIllustrations.svg	/^                    <g id="path3830" opacity="0.21" transform="translate(95.564461, 43.841507) r/;"	i
+path3836	indexIllustrations.svg	/^                    <path d="M99.7419304,1.58996917 C98.8581111,1.69599574 97.9849895,1.87746546/;"	i
+path3838	indexIllustrations.svg	/^                    <polygon id="path3838" fill="#000000" transform="translate(60.908543, 44.546/;"	i
+path3865	indexIllustrations.svg	/^                    <polygon id="path3865" fill="#1A1A1A" transform="translate(54.823869, 44.450/;"	i
+path3867	indexIllustrations.svg	/^                    <polygon id="path3867" fill="#000000" transform="translate(45.071413, 44.356/;"	i
+path3869	indexIllustrations.svg	/^                    <polygon id="path3869" fill="#1A1A1A" transform="translate(35.934271, 44.910/;"	i
+path3871	indexIllustrations.svg	/^                    <polygon id="path3871" fill="#000000" transform="translate(28.010343, 45.183/;"	i
+path3875	indexIllustrations.svg	/^                    <polygon id="path3875" stroke="url(#radialGradient-8)" fill="url(#linearGrad/;"	i
+path3895	indexIllustrations.svg	/^                    <polygon id="path3895" stroke="url(#radialGradient-10)" stroke-width="1.14" /;"	i
+path3901	indexIllustrations.svg	/^                    <polygon id="path3901" stroke="url(#radialGradient-6)" fill="url(#linearGrad/;"	i
+path3939	indexIllustrations.svg	/^                    <path d="M71.000225,71.0458474 L74.7565455,70.6821421 L79.389828,70.2456963 /;"	i
+path3951	indexIllustrations.svg	/^                    <polygon id="path3951" fill="url(#linearGradient-4)" opacity="0.64" transfor/;"	i
+path3961	indexIllustrations.svg	/^                    <path d="M49.4422833,54.9670471 L38.6115983,55.4129068 L37.1340151,55.516940/;"	i
+path3972	indexIllustrations.svg	/^                    <path d="M41.9556101,58.7025192 L48.3169895,67.968879 C50.2297505,70.9519835/;"	i
+path4143	indexIllustrations.svg	/^                    <path d="M44.089899,61.1137672 C45.0929037,63.6199172 37.1917658,69.6423423 /;"	i
+path4144	indexIllustrations.svg	/^                    <path d="M47.188145,65.8525101 C48.4353852,67.7141163 45.741078,70.3268728 4/;"	i
+path4147	indexIllustrations.svg	/^                    <path d="M48.0223158,67.0814002 C49.6516043,68.5193785 44.7077447,73.5723482/;"	i
+path4154	indexIllustrations.svg	/^                    <path d="M49.1449813,69.1620192 C51.2825394,71.0610829 45.3507149,92.081708 /;"	i
+path4157	indexIllustrations.svg	/^                    <path d="M45.7257329,64.8982677 C47.2422372,68.6144539 33.7975646,76.7478667/;"	i
+path4160	indexIllustrations.svg	/^                    <path d="M45.0105635,49.9573051 C45.0105635,52.5169857 22.4944489,58.5919783/;"	i
+path4163	indexIllustrations.svg	/^                    <path d="M43.7602701,57.0729545 C43.7602701,59.6575942 24.7220267,70.226752 /;"	i
+path4165	indexIllustrations.svg	/^                    <path d="M45.3975065,62.9978707 C46.1929835,65.5560349 30.8838096,69.8355929/;"	i
+path4168	indexIllustrations.svg	/^                    <path d="M44.7344954,64.6072768 C46.8106886,66.413183 36.6373427,78.2721463 /;"	i
+path4170	indexIllustrations.svg	/^                    <path d="M51.8059984,69.8446498 C54.0622561,70.8093184 50.4632835,92.0549986/;"	i
+path4172	indexIllustrations.svg	/^                    <path d="M45.2456653,44.2284238 C43.3697939,45.8840511 23.4897813,38.3727311/;"	i
+path4174	indexIllustrations.svg	/^                    <path d="M37.1011817,59.2331402 C40.1517582,58.3203506 45.5219293,57.1385921/;"	i
+path4176	indexIllustrations.svg	/^                    <path d="M47.0515152,43.0969734 C44.119416,44.347416 36.1105137,35.3369911 3/;"	i
+path4178	indexIllustrations.svg	/^                    <path d="M50.0374705,41.0502553 C52.5675622,39.7182515 42.1048895,21.0235787/;"	i
+path4180	indexIllustrations.svg	/^                    <path d="M51.5045195,41.90096 C54.0932486,40.7651176 47.4477411,26.5216533 4/;"	i
+path4182	indexIllustrations.svg	/^                    <path d="M48.9197516,42.3813574 C46.2065356,42.6259677 35.6027796,23.8139723/;"	i
+path4184	indexIllustrations.svg	/^                    <path d="M61.4666539,5.84096886 C59.2327561,5.4963118 58.0162498,8.99193002 /;"	i
+path4186	indexIllustrations.svg	/^                    <path d="M53.722398,42.7954443 C56.3695252,43.0196762 59.5270549,33.2738923 /;"	i
+path4188	indexIllustrations.svg	/^                    <path d="M51.9799722,41.1370271 C54.4657605,41.1923956 60.4154903,20.9524696/;"	i
+path4190	indexIllustrations.svg	/^                    <path d="M51.1535502,36.4072042 C51.8503498,39.5095964 51.6352214,43.9456639/;"	i
+path4192	indexIllustrations.svg	/^                    <path d="M48.4606965,77.778076 C49.9099924,75.004601 50.8662693,70.7080103 5/;"	i
+path4216	indexIllustrations.svg	/^                    <path d="M45.3888507,52.516945 C44.7401283,55.217527 36.6884948,52.1991526 3/;"	i
+path4219	indexIllustrations.svg	/^                    <path d="M47.9867937,41.9520633 C45.7830185,44.7859841 38.9956596,39.9825484/;"	i
+path4221	indexIllustrations.svg	/^                    <path d="M42.493627,59.7661057 C42.9886787,62.5146955 32.1232392,66.5329779 /;"	i
+path4223	indexIllustrations.svg	/^                    <path d="M45.3802291,48.3818382 C44.2860208,50.9891867 25.6065161,45.0662884/;"	i
+path4225	indexIllustrations.svg	/^                    <path d="M44.1658725,54.145639 C44.6523225,56.9833595 29.1085235,58.4925543 /;"	i
+path4227	indexIllustrations.svg	/^                    <path d="M43.7498529,59.2013029 C44.2387261,61.9946854 27.3865959,67.6389492/;"	i
+path4228	indexIllustrations.svg	/^                    <path d="M73.8847652,51.2221892 C72.7222589,48.904414 80.4741047,42.7785872 /;"	i
+path4229	indexIllustrations.svg	/^                    <path d="M45.4249693,50.0786259 C45.1748711,52.9195396 23.6204828,50.7938963/;"	i
+path4230	indexIllustrations.svg	/^                    <path d="M70.8238681,46.6226586 C69.4576234,44.8665517 72.0534886,42.1605507/;"	i
+path4231	indexIllustrations.svg	/^                    <path d="M48.476398,44.9076816 C46.8134852,47.1306483 42.3510204,44.3246503 /;"	i
+path4232	indexIllustrations.svg	/^                    <path d="M65.9031416,43.1879394 C63.6942582,42.3462142 65.9876922,20.943698 /;"	i
+path4234	indexIllustrations.svg	/^                    <path d="M73.256954,46.7853098 C71.052784,45.0819206 80.7027804,32.5493588 8/;"	i
+path4236	indexIllustrations.svg	/^                    <path d="M73.0959351,68.0226381 C74.9407157,66.2952358 95.8937075,72.5710693/;"	i
+path4238	indexIllustrations.svg	/^                    <path d="M72.975079,49.8008377 C72.0550974,47.2697081 86.7281997,42.1592495 /;"	i
+path4239	indexIllustrations.svg	/^                    <path d="M40.0969108,41.4813627 C42.3521049,43.6399388 46.5288921,47.026738 /;"	i
+path4240	indexIllustrations.svg	/^                    <path d="M68.9250733,43.0608348 C66.6722599,41.3079059 71.4747371,20.2860716/;"	i
+path4242	indexIllustrations.svg	/^                    <path d="M71.1489389,69.9443945 C73.1722653,66.9619402 80.1500789,71.436966 /;"	i
+path4244	indexIllustrations.svg	/^                    <path d="M73.8008319,64.3747067 C74.7281192,61.6228913 93.4709319,66.6973653/;"	i
+path4246	indexIllustrations.svg	/^                    <path d="M73.3508573,62.3485767 C73.4416441,59.3877233 94.8139204,60.3639672/;"	i
+path4248	indexIllustrations.svg	/^                    <path d="M71.0061411,47.8912226 C69.2712395,44.2820926 82.4378079,35.4486972/;"	i
+path4250	indexIllustrations.svg	/^                    <path d="M75.0183295,54.8627453 C74.8857772,52.3810873 92.9990734,41.2129666/;"	i
+path4252	indexIllustrations.svg	/^                    <path d="M73.767932,61.7451001 C73.6322608,59.2141417 95.817258,51.9778342 1/;"	i
+path4254	indexIllustrations.svg	/^                    <path d="M73.3721031,59.029209 C73.8592845,56.1713565 81.9365146,58.8705153 /;"	i
+path4256	indexIllustrations.svg	/^                    <path d="M75.8799761,53.1640063 C75.2228352,50.3577824 85.9515806,45.614639 /;"	i
+path4258	indexIllustrations.svg	/^                    <path d="M73.3698708,58.2081321 C72.7288348,55.4165901 88.209651,53.0412127 /;"	i
+path4260	indexIllustrations.svg	/^                    <path d="M73.7855195,52.7318002 C73.1422659,49.9189147 89.7197513,43.2284414/;"	i
+path4262	indexIllustrations.svg	/^                    <path d="M70.6629293,67.0235209 C72.1778944,64.5678508 76.7469431,67.2963731/;"	i
+path4264	indexIllustrations.svg	/^                    <path d="M79.0549056,71.6726941 C76.6734105,69.5477502 72.2939615,66.2500457/;"	i
+path4266	indexIllustrations.svg	/^                    <path d="M69.9693088,45.142965 C68.2579395,43.8077704 72.9210792,38.5424934 /;"	i
+path4268	indexIllustrations.svg	/^                    <path d="M81.523871,52.6001851 C78.5019256,53.8615207 73.1540147,55.5761266 /;"	i
+path4270	indexIllustrations.svg	/^                    <path d="M71.2403061,69.1359363 C74.1929771,67.6991854 82.9495479,76.3823364/;"	i
+path4272	indexIllustrations.svg	/^                    <path d="M69.5152024,70.7463411 C67.120043,72.191493 78.3503266,90.0443723 8/;"	i
+path4274	indexIllustrations.svg	/^                    <path d="M68.0253553,70.311399 C65.5271161,71.6153174 72.9057319,85.8283015 /;"	i
+path4276	indexIllustrations.svg	/^                    <path d="M69.5884879,70.2306885 C72.385047,69.8249486 84.3862811,88.0102248 /;"	i
+path4278	indexIllustrations.svg	/^                    <path d="M60.1182292,107.611047 C62.3487585,107.841633 63.3626354,104.182267/;"	i
+path4280	indexIllustrations.svg	/^                    <path d="M66.0727003,70.6399223 C63.3098761,70.5682914 60.5735377,80.4299555/;"	i
+path4282	indexIllustrations.svg	/^                    <path d="M67.2450601,70.643669 C64.7810541,70.7175537 60.0589512,91.2534535 /;"	i
+path4284	indexIllustrations.svg	/^                    <path d="M67.352553,76.898383 C66.5094199,73.8381512 66.4817546,69.3946943 6/;"	i
+path4286	indexIllustrations.svg	/^                    <path d="M68.5790517,34.6995543 C67.3063372,37.5186095 66.5847078,41.8118984/;"	i
+path4318	indexIllustrations.svg	/^                    <path d="M55.7907661,72.3133212 C58.2913825,72.8644308 64.3483708,93.6305037/;"	i
+path4320	indexIllustrations.svg	/^                    <path d="M60.7929571,42.3836718 C63.3494473,42.4187376 74.0709577,23.5318545/;"	i
+pre	style.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+pre	style2.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+pre	style3.css	/^h1, h2, h3, h4, h5, h6, p, blockquote, pre,$/;"	s
+profilePicture	pictureSmall.svg	/^                    <image id="profilePicture" opacity="0.462555804" x="0" y="0" width="320" hei/;"	i
+q	style.css	/^blockquote, q {$/;"	s
+q	style.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+q	style2.css	/^blockquote, q {$/;"	s
+q	style2.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+q	style3.css	/^blockquote, q {$/;"	s
+q	style3.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+q:after	style.css	/^q:before, q:after {$/;"	s
+q:after	style2.css	/^q:before, q:after {$/;"	s
+q:after	style3.css	/^q:before, q:after {$/;"	s
+q:before	style.css	/^q:before, q:after {$/;"	s
+q:before	style2.css	/^q:before, q:after {$/;"	s
+q:before	style3.css	/^q:before, q:after {$/;"	s
+radialGradient-10	indexIllustrations.svg	/^        <radialGradient cx="102.901444%" cy="9.40931093%" fx="102.901444%" fy="9.40931093%" r="5/;"	i
+radialGradient-6	indexIllustrations.svg	/^        <radialGradient cx="39.3154978%" cy="48.2169316%" fx="39.3154978%" fy="48.2169316%" r="5/;"	i
+radialGradient-8	indexIllustrations.svg	/^        <radialGradient cx="39.2645758%" cy="49.5394347%" fx="39.2645758%" fy="49.5394347%" r="5/;"	i
+ruby	style.css	/^menu, nav, output, ruby, section, summary,$/;"	s
+ruby	style2.css	/^menu, nav, output, ruby, section, summary,$/;"	s
+ruby	style3.css	/^menu, nav, output, ruby, section, summary,$/;"	s
+s	style.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+s	style2.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+s	style3.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+samp	style.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+samp	style2.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+samp	style3.css	/^del, dfn, em, img, ins, kbd, q, s, samp,$/;"	s
+section	style.css	/^footer, header, hgroup, menu, nav, section {$/;"	s
+section	style.css	/^menu, nav, output, ruby, section, summary,$/;"	s
+section	style2.css	/^footer, header, hgroup, menu, nav, section {$/;"	s
+section	style2.css	/^menu, nav, output, ruby, section, summary,$/;"	s
+section	style3.css	/^footer, header, hgroup, menu, nav, section {$/;"	s
+section	style3.css	/^menu, nav, output, ruby, section, summary,$/;"	s
+small	style.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+small	style2.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+small	style3.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+span	style.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+span	style2.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+span	style3.css	/^html, body, div, span, applet, object, iframe,$/;"	s
+stockholm	illustrations.svg	/^            <image id="stockholm" x="0" y="3917" width="322" height="281" xlink:href="data:image/;"	i
+stockholm	illustrationsBig.svg	/^            <image id="stockholm" x="0" y="767" width="326" height="285" xlink:href="data:image\//;"	i
+strike	style.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+strike	style2.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+strike	style3.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+strong	style.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+strong	style2.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+strong	style3.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+sub	style.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+sub	style2.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+sub	style3.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+summary	style.css	/^menu, nav, output, ruby, section, summary,$/;"	s
+summary	style2.css	/^menu, nav, output, ruby, section, summary,$/;"	s
+summary	style3.css	/^menu, nav, output, ruby, section, summary,$/;"	s
+sup	style.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+sup	style2.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+sup	style3.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+table	style.css	/^table {$/;"	s
+table	style.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+table	style2.css	/^table {$/;"	s
+table	style2.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+table	style3.css	/^table {$/;"	s
+table	style3.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+tbody	style.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+tbody	style2.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+tbody	style3.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+td	style.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+td	style2.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+td	style3.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+tfoot	style.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+tfoot	style2.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+tfoot	style3.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+th	style.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+th	style2.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+th	style3.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+thead	style.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+thead	style2.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+thead	style3.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+time	style.css	/^time, mark, audio, video, button {$/;"	s
+time	style2.css	/^time, mark, audio, video, button {$/;"	s
+time	style3.css	/^time, mark, audio, video, button {$/;"	s
+torotoAsset-3	indexIllustrations.svg	/^                <g id="torotoAsset-3" transform="translate(62.000000, 250.000000)" fill="#000000/;"	i
+tr	style.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+tr	style2.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+tr	style3.css	/^table, caption, tbody, tfoot, thead, tr, th, td,$/;"	s
+tt	style.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+tt	style2.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+tt	style3.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+u	style.css	/^b, u, i, center,$/;"	s
+u	style2.css	/^b, u, i, center,$/;"	s
+u	style3.css	/^b, u, i, center,$/;"	s
+ul	style.css	/^dl, dt, dd, ol, ul, li,$/;"	s
+ul	style.css	/^ol, ul {$/;"	s
+ul	style2.css	/^dl, dt, dd, ol, ul, li,$/;"	s
+ul	style2.css	/^ol, ul {$/;"	s
+ul	style3.css	/^dl, dt, dd, ol, ul, li,$/;"	s
+ul	style3.css	/^ol, ul {$/;"	s
+var	style.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+var	style2.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+var	style3.css	/^small, strike, strong, sub, sup, tt, var,$/;"	s
+video	style.css	/^time, mark, audio, video, button {$/;"	s
+video	style2.css	/^time, mark, audio, video, button {$/;"	s
+video	style3.css	/^time, mark, audio, video, button {$/;"	s
