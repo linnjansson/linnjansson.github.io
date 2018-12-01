@@ -235,7 +235,7 @@ h1.mobile {
   color: #244005;
   font-family: 'Anton', sans-serif;
   padding: 2rem 0;
-  font-size: 3rem;
+  font-size: 2rem;
   text-decoration: none;
   text-align: center;
   display: block;
@@ -455,6 +455,10 @@ h1.mobile {
 
 /* PICTURES */
 
+.pictures .section.first {
+  margin: 0;
+}
+
 .pictures .section img {
   width: 100%;
   margin-bottom: 1.5rem;
@@ -541,6 +545,9 @@ h1.mobile {
 }
 
 /* HOME */
+.index {
+  margin-bottom: 2rem;
+}
 
 .index img {
   width: 100%;
@@ -675,8 +682,8 @@ h1.mobile {
   }
 
   .index .copy li > a:hover {
-    margin-top: -0.5rem;
     background-color: #DCBC3F;
+    line-height: 0;
   }
 
   .index .project.image-link:hover img,
