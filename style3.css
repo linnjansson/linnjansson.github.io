@@ -268,7 +268,6 @@ h1.mobile {
 /* PROJECTS & SECTION BASE */
 
 .section {
-  background-image: url(triangle.svg);
   background-repeat: no-repeat;
   background-position: right top;
   background-size: contain;
@@ -276,11 +275,11 @@ h1.mobile {
 }
 
 .section.flip {
-  background-image: url(triangleFlip.svg);
   background-position: left top;
 }
 
 .section.first {
+  background-image: url(triangle.svg);
   padding-top: 5rem;
 }
 
