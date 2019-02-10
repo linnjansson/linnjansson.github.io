@@ -335,7 +335,7 @@ h1.mobile {
 
 .section h1 {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .section h2,
@@ -440,7 +440,7 @@ h1.mobile {
   .projects > section:nth-child(5) .button,
   .projects > section:nth-child(7) .button {
     background-color: white;
-    color: black;
+    color: #244005;
   }
 }
 /* END MOBILE ONLY PROJECTS BACKGROUND FIX */
@@ -526,10 +526,6 @@ h1.mobile {
     grid-column: 2 / span 6;
     margin: 4rem 0;
   }
-}
-
-.pd {
-  margin-top: 3rem ;
 }
 
 @media (min-width: 60rem) {
