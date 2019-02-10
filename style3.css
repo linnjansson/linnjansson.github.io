@@ -401,32 +401,39 @@ h1.mobile {
     grid-row: 1;
   }
   .projects .section.first *:nth-child(2) {
-    grid-row: 2;
+    grid-row: 2 / span 2;
   }
   .projects .section.first *:nth-child(3) {
-    grid-row: 3 / span 2;
+    grid-row: 4;
   }
   .projects .section.first *:nth-child(4) {
     grid-row: 5;
   }
   .projects .section.first .fill {
-    grid-row: 4 / span 2;
+    grid-row: 3 / span 3;
   }
 
   /* Make all other sections inner elements span correct amount of grid rows */
   .projects .section *:nth-child(1) {
-    grid-row: 1;
+    grid-row: 1 / span 2;
   }
   .projects .section *:nth-child(2) {
-    grid-row: 2 / span 2;
+    grid-row: 3;
   }
   .projects .section *:nth-child(3) {
     grid-row: 4;
   }
   .projects .section .fill {
-    grid-row: 3 / span 2;
+    grid-row: 2 / span 3;
   }
 
+  /* Invert colors of copy to match backgrounds */
+  .projects > section:nth-child(2) p,
+  .projects > section:nth-child(2) h2,
+  .projects > section:nth-child(5) p,
+  .projects > section:nth-child(5) h2 {
+    color: white;
+  }
   /* Invert colors of specific buttons to match backgrounds */
   .projects > section:nth-child(2) .button,
   .projects > section:nth-child(4) .button,
