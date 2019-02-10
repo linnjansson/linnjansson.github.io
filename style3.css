@@ -25,9 +25,6 @@ time, mark, audio, video, button {
   font: inherit;
   vertical-align: baseline;
 }
-
-/* HTML5 display-role reset for older browsers */
-
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -65,11 +62,29 @@ html {
   box-sizing: inherit;
 }
 
+/* SLUT PÅ RESET */
+
+/* font-size to 16px (1rem is now 16px) */
 html,
 body {
   font-size: 16px;
 }
 
+/*
+COLORS AND FONTS
+
+Gul; DCBC3F
+Grå: F5F5F5
+Ljusgrå F2F2F2
+Rosa: B4928F
+Grön: 244005
+
+p: font-family: 'Helvetica', sans-serif;
+h1: font-family: 'Anton', sans-serif;
+a: font-family: 'Arial', sans-serif;
+ */
+
+/* headings general font style and color */
 h1,
 h2 {
   font-family: 'Anton', sans-serif;
@@ -82,6 +97,8 @@ h1 {
 h2 {
   font-size: 1.75rem;
 }
+
+/* links and paragraphs general font style and color */
 a, p {
   font-family: 'Helvetica', sans-serif;
   font-size: 1.125rem;
@@ -89,40 +106,28 @@ a, p {
   color: #244005;
 }
 
-.learnMore {
-  color: #DCBC3F;
-}
-
-
 /*--------------------------------------------------------------------*/
 
-
-/*
-Gul; DCBC3F
-Grå: F5F5F5
-Ljusgrå F2F2F2
-Rosa: B4928F
-Grön: 244005
-
-p: font-family: 'Helvetica', sans-serif;
-h1: font-family: 'Anton', sans-serif;
-a: font-family: 'Arial', sans-serif;
- */
 
 
 /* GRID */
 
+/* This grid has 2 columns on mobile, 6 on tablet and 12 on desktop.
+ * The area outside the grid spanning to the edge of the viewport is
+ * also considered css grid columns, so that edge-to-edge spanning is possible. */
 .row {
   display: grid;
   width: 100%;
+  /* 0 | 1fr | 1fr | 0 */
   grid-template-columns: 0 repeat(2, minmax(0, 1fr)) 0;
   grid-column: 1 / span 4;
-  grid-column-gap: 1.5rem;
+  grid-column-gap: 1.5rem; /* "|" gutters are 1.5rem */
 }
 
 /* GRID TABLET */
 @media (min-width: 30rem) {
   .row {
+    /* 0 | 1fr | 1fr | 1fr | 1fr | 1fr | 1fr | 0 */
     grid-template-columns: 0 repeat(6, minmax(0, 1fr)) 0;
     grid-column: 1 / span 8;
   }
@@ -131,15 +136,17 @@ a: font-family: 'Arial', sans-serif;
 /* GRID DESKTOP */
 @media (min-width: 60rem) {
   .row {
+    /* 0-1fr | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | 0-1fr */
     grid-template-columns: minmax(0, 1fr) repeat(12, minmax(0, 4rem)) minmax(0, 1fr);
     grid-column: 1 / span 14;
-    /* max-width: 60rem; */
-    /* margin: 0 auto !important; */
   }
 }
 
 
 /* nav & projects h1 mobile / desktop */
+/* These headings are styled, and positioned differently on mobile and desktop,
+ * and hence need individual elements and classes. Visibility set by display
+ * being either grid / none / block. */
 
 .menu.mobile.row {
   display: grid;
@@ -172,6 +179,8 @@ h1.mobile {
     display: grid;
   }
 
+  /* Re-style nav on tablet, since links are now in a row rather than in a dropdown.
+   * Also span it over full grid. */
   .menu .links {
     grid-column: 2 / span 6;
     display: flex;
@@ -203,6 +212,7 @@ h1.mobile {
   }
 
   .menu .links {
+    /* span nav over full grid on desktop as well */
     grid-column: 2 / span 12;
     margin: 6rem 0;
   }
@@ -217,6 +227,7 @@ h1.mobile {
 }
 
 .logo {
+  /* span logo container over left half of viewport */
   grid-column: 1 / span 2;
   width: 4.375rem;
   padding: 0.5rem;
@@ -224,6 +235,7 @@ h1.mobile {
 
 /*Burgarmenunloggan/knappen*/
 .burgerMenu {
+  /* span burger menu container over right half of viewport */
   grid-column: 3 / span 2;
   background-color: #DCBC3F;
   width: 4.375rem;
@@ -272,9 +284,16 @@ h1.mobile {
 /* END NAV */
 
 
-/* PROJECTS & SECTION BASE */
+/* PROJECTS & SECTION SHARED CSS */
+
+/* specific link color in first project */
+.learnMore {
+  color: #DCBC3F;
+}
 
 .section {
+  /* general background-image options for all sections.
+   * images are packed to the right */
   background-repeat: no-repeat;
   background-position: right top;
   background-size: contain;
@@ -283,6 +302,7 @@ h1.mobile {
 
 
 .section.flip {
+  /* make the "flipped" sections pack their background-images to the left */
   background-position: left top;
 }
 
@@ -374,6 +394,71 @@ h1.mobile {
   max-height: none;
 }
 
+/* MOBILE ONLY PROJECTS BACKGROUND FIX */
+@media (max-width: 30rem) {
+  /* Make first sections inner elements span correct amount of grid rows */
+  .projects .section.first *:nth-child(1) {
+    grid-row: 1;
+  }
+  .projects .section.first *:nth-child(2) {
+    grid-row: 2;
+  }
+  .projects .section.first *:nth-child(3) {
+    grid-row: 3 / span 2;
+  }
+  .projects .section.first *:nth-child(4) {
+    grid-row: 5;
+  }
+  .projects .section.first .fill {
+    grid-row: 4 / span 2;
+  }
+
+  /* Make all other sections inner elements span correct amount of grid rows */
+  .projects .section *:nth-child(1) {
+    grid-row: 1;
+  }
+  .projects .section *:nth-child(2) {
+    grid-row: 2 / span 2;
+  }
+  .projects .section *:nth-child(3) {
+    grid-row: 4;
+  }
+  .projects .section .fill {
+    grid-row: 3 / span 2;
+  }
+
+  /* Invert colors of specific buttons to match backgrounds */
+  .projects > section:nth-child(2) .button,
+  .projects > section:nth-child(4) .button,
+  .projects > section:nth-child(5) .button,
+  .projects > section:nth-child(7) .button {
+    background-color: white;
+    color: black;
+  }
+}
+/* END MOBILE ONLY PROJECTS BACKGROUND FIX */
+
+
+.projects .fill {
+  grid-column: 1 / span 4;
+  z-index: -1;
+}
+
+.projects .fill.participant-design,
+.projects .fill.report {
+  background-color: #244005;
+}
+
+.projects .fill.form,
+.projects .fill.tarot-appen {
+  background-color: #F2F2F2;
+}
+
+.projects .fill.cafe-koya,
+.projects .fill.ultra-free {
+  background-color: #DCBC3F;
+}
+
 @media (min-width: 30rem) {
   .projects .section.first,
   .projects .section:not(.first) {
@@ -428,22 +513,6 @@ h1.mobile {
   .projects .fill {
     grid-column: 1 / span 8;
     grid-row: 2;
-    z-index: -1;
-  }
-
-  .projects .fill.participant-design,
-  .projects .fill.report {
-    background-color: #244005;
-  }
-
-  .projects .fill.form,
-  .projects .fill.tarot-appen {
-    background-color: #F2F2F2;
-  }
-
-  .projects .fill.cafe-koya,
-  .projects .fill.ultra-free {
-    background-color: #DCBC3F;
   }
 
   .attention .image-link {
