@@ -565,6 +565,7 @@ h1.mobile {
 }
 
 .image-eye {
+  margin-top: 1rem;
   margin-bottom: 0rem;
 }
 
@@ -608,6 +609,7 @@ h1.mobile {
   .image-city,
   .image-eye {
     grid-column: 2 / span 12;
+    margin-top: 2rem;
   }
 
   .image-boat {
