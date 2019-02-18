@@ -487,6 +487,7 @@ h1.mobile {
     grid-column: 5 / span 3;
   }
 
+
   .projects .section .copy,
   .projects .section.flip .copy{
     display: flex;
