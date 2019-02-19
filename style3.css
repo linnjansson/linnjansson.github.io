@@ -108,11 +108,13 @@ a, p {
   line-height: 1.95;
   color: #244005;
 }
+
 a {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 200;
   font-size: 1.125rem;
   line-height: 1.33;
-  color: #244005; 
+  color: #244005;
 }
 
 
