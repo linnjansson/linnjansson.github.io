@@ -101,10 +101,20 @@ h2 {
 /* links and paragraphs general font style and color */
 a, p {
   font-family: 'Helvetica', sans-serif;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.125rem;
   line-height: 1.33;
+  line-height: 1.95;
   color: #244005;
 }
+a {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.33;
+  color: #244005; 
+}
+
 
 /*--------------------------------------------------------------------*/
 
@@ -393,6 +403,7 @@ h1.mobile {
 .attention .image-link img {
   max-height: none;
 }
+
 
 /* MOBILE ONLY PROJECTS BACKGROUND FIX */
 @media (max-width: 30rem) {
