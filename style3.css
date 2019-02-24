@@ -538,7 +538,12 @@ h1.mobile {
 
   .attention .image-link {
     grid-column: 2 / span 6;
-    margin: 4rem 0;
+    margin: 5rem 0;
+  }
+
+  .story .image-link {
+    grid-column: 2 / span 6;
+    margin: 2rem 0;
   }
 }
 
@@ -564,6 +569,7 @@ h1.mobile {
     grid-column: 2 / span 12;
     margin: 7rem 0;
   }
+
 }
 
 /* PICTURES */
@@ -594,6 +600,9 @@ h1.mobile {
 .image-flower {
   grid-column: 3;
 }
+.pictures .attention {
+  margin: 1.5rem 0;
+}
 
 @media (min-width: 30rem) {
   .pictures .section,
@@ -616,6 +625,10 @@ h1.mobile {
     grid-column: 5 / span 3;
     padding: 1.5rem 0 1.5rem 1rem;
   }
+
+  .image-link {
+    margin: 0rem 0;
+  }
 }
 
 @media (min-width: 60rem) {
@@ -631,6 +644,9 @@ h1.mobile {
 
   .image-flower {
     grid-column: 8 / span 6;
+  }
+  .pictures .attention .image-link {
+    margin: 3rem 0;
   }
 }
 
