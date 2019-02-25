@@ -776,7 +776,7 @@ h1.mobile {
   .index .section .copy p {
     text-align: left;
     font-size: 0.875rem;
-    line-height: 1.8;
+    line-height: 1.45;
   }
 
   .index .copy ul {
@@ -819,7 +819,7 @@ h1.mobile {
   }
 
   .index .copy ul {
-    margin-top: 73px;
+    margin-top: 160px;
   }
 
   .index .copy li > a:hover {
