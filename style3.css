@@ -101,11 +101,11 @@ h2 {
 /* links and paragraphs general font style and color */
 a, p {
   font-family: 'Helvetica', sans-serif;
-  font-family: 'Encode Sans Condensed', sans-serif;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.125rem;
+  font-weight: 200;
+/*  font-family: 'Encode Sans Condensed', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;*/
+  font-size: 1.2rem;
   line-height: 1.33;
-  line-height: 1.95;
   color: #244005;
 }
 
@@ -115,6 +115,11 @@ a {
   font-size: 1.125rem;
   line-height: 1.33;
   color: #244005;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 200;
+/*  font-family: 'Encode Sans Condensed', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;*/
+  font-size: 1rem;
 }
 
 
@@ -810,11 +815,11 @@ h1.mobile {
   }
 
   .index .section .copy p {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
 
   .index .copy ul {
-    margin-top: 159px;
+    margin-top: 73px;
   }
 
   .index .copy li > a:hover {
