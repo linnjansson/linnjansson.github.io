@@ -358,7 +358,7 @@ h1.mobile {
 .section h2,
 .section p {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .section .button {
@@ -372,7 +372,7 @@ h1.mobile {
   border-radius: 2rem;
   text-decoration: none;
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
   justify-self: center;
   max-height: 3rem;
 }
@@ -460,6 +460,10 @@ h1.mobile {
     background-color: white;
     color: #244005;
   }
+
+  .projects h2 {
+    margin-bottom: 0.5rem;
+  }
 }
 /* END MOBILE ONLY PROJECTS BACKGROUND FIX */
 
@@ -493,8 +497,16 @@ h1.mobile {
     grid-auto-rows: 1fr
   }
 
+  .projects h2 {
+    margin-bottom: 0.5rem;
+  }
+
   .projects .section:last-child {
     margin: 0;
+  }
+
+  .section p {
+    margin-bottom: 1rem;
   }
 
   .section h2,
@@ -573,6 +585,10 @@ h1.mobile {
   .attention .image-link {
     grid-column: 2 / span 12;
     margin: 7rem 0;
+  }
+
+  .projects h2 {
+    margin-bottom: 0.5rem;
   }
 
 }
@@ -725,6 +741,10 @@ h1.mobile {
   width: 29%;
 }
 
+.index .copy h2 {
+  margin-bottom: 0.3rem;
+}
+
 .index .section:not(.first) {
   padding: 0;
   margin: 0;
@@ -780,7 +800,7 @@ h1.mobile {
   }
 
   .index .copy ul {
-    margin-top: 10px;
+    margin-top: 37px;
   }
 
   .index .image-link {
@@ -812,6 +832,7 @@ h1.mobile {
 
   .index .section .copy h2 {
     font-size: 2rem;
+    margin-bottom: 0.5rem;
   }
 
   .index .section .copy p {
@@ -819,7 +840,7 @@ h1.mobile {
   }
 
   .index .copy ul {
-    margin-top: 160px;
+    margin-top: 174px;
   }
 
   .index .copy li > a:hover {
