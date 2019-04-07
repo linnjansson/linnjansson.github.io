@@ -365,8 +365,8 @@ h1.mobile {
   grid-column: 2 / span 2;
   display: block;
   padding: 0.5rem 2rem;
-  background-color: #244005;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #244005;
   font-family: 'Arial', sans-serif;
   font-size: 1.5rem;
   border-radius: 2rem;
@@ -450,7 +450,7 @@ h1.mobile {
   .projects > section:nth-child(2) h2,
   .projects > section:nth-child(5) p,
   .projects > section:nth-child(5) h2 {
-    color: white;
+    color: #244005;
   }
   /* Invert colors of specific buttons to match backgrounds */
   .projects > section:nth-child(2) .button,
