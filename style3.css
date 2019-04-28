@@ -123,6 +123,8 @@ a {
 }
 
 
+
+
 /*--------------------------------------------------------------------*/
 
 
@@ -298,6 +300,9 @@ h1.mobile {
   color: #ffffff;
 }
 
+
+
+
 /* END NAV */
 
 
@@ -338,6 +343,7 @@ h1.mobile {
   background-image: url(triangle.svg);
   padding-top: 3rem;
 }
+
 
 .section:not(.first) {
   padding-top: 5rem;
@@ -475,18 +481,19 @@ h1.mobile {
 
 .projects .fill.participant-design,
 .projects .fill.report {
-  background-color: #244005;
+  background-color: #F2F2F2;
 }
 
 .projects .fill.form,
 .projects .fill.tarot-appen {
-  background-color: #F2F2F2;
+  background-color: #DCBC3F;
 }
 
 .projects .fill.cafe-koya,
 .projects .fill.ultra-free {
-  background-color: #DCBC3F;
+  background-color: #F2F2F2;
 }
+
 
 @media (min-width: 30rem) {
   .projects .section.first,
@@ -562,6 +569,21 @@ h1.mobile {
     grid-column: 2 / span 6;
     margin: 2rem 0;
   }
+
+  .projects .fill.participant-design,
+  .projects .fill.form {
+    background-color: #244005;
+  }
+
+  .projects .fill.ultra-free,
+  .projects .fill.tarot-appen {
+    background-color: #F2F2F2;
+  }
+
+  .projects .fill.cafe-koya {
+    background-color: #DCBC3F;
+  }
+
 }
 
 @media (min-width: 60rem) {
@@ -870,6 +892,10 @@ h1.mobile {
 
 /* PARTICIPATORY DESIGN */
 
+.participatory h1 {
+  grid-column: 2 / span 1;
+}
+
 .participatory .link {
   grid-column: 3 / span 2;
   text-align: right;
@@ -891,7 +917,21 @@ h1.mobile {
   display: none;
 }
 
+.videoUltrafree {
+  grid-column: 2 / span 2;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.videoUltrafree video {
+  width: 100%;
+}
+
 @media (min-width: 30rem) {
+  .participatory h1 {
+    margin-top: 4rem;
+  }
+
   .participatory .link {
     grid-column: 7;
     margin: 4rem 0 2rem;
@@ -913,6 +953,10 @@ h1.mobile {
   .row .image-steps {
     grid-column: 2 / span 6;
   }
+
+  .videoUltrafree {
+    grid-column: 2 / span 6;
+  }
 }
 
 @media (min-width: 60rem) {
@@ -922,6 +966,10 @@ h1.mobile {
   }
 
   .row .image-steps {
+    grid-column: 2 / span 12;
+  }
+
+  .videoUltrafree {
     grid-column: 2 / span 12;
   }
 }
