@@ -319,7 +319,7 @@ h1.mobile {
   background-repeat: no-repeat;
   background-position: right top;
   background-size: contain;
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
 }
 
 
@@ -418,6 +418,8 @@ h1.mobile {
 }
 
 
+
+
 /* MOBILE ONLY PROJECTS BACKGROUND FIX */
 @media (max-width: 30rem) {
   /* Make first sections inner elements span correct amount of grid rows */
@@ -497,6 +499,10 @@ h1.mobile {
 
 
 @media (min-width: 30rem) {
+
+  body {
+      margin-bottom: 150px;
+  }
   .projects .section.first,
   .projects .section:not(.first) {
     padding: 0;
@@ -619,12 +625,12 @@ h1.mobile {
 /* PICTURES */
 
 .pictures .section.first {
-  margin: 0;
+  margin: 0 0 2rem 0;
 }
 
 .pictures .section img {
   width: 100%;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .image-eye {
@@ -676,6 +682,10 @@ h1.mobile {
 }
 
 @media (min-width: 60rem) {
+  .pictures .section.first {
+    margin: 0;
+  }
+
   .image-city,
   .image-eye {
     grid-column: 2 / span 12;
@@ -695,6 +705,9 @@ h1.mobile {
 }
 
 /* ILLUSTRATIONS */
+.illustrations .section.first {
+  margin: 0 0 3rem 0;
+}
 
 .illustrations .section img.desktop {
   display: none;
@@ -718,6 +731,10 @@ h1.mobile {
 }
 
 @media (min-width: 60rem) {
+  .illustrations .section.first {
+    margin: 0;
+  }
+
   .illustrations .section img.desktop {
     grid-column: 2 / span 12;
   }
@@ -766,6 +783,10 @@ h1.mobile {
 
 .index .copy h2 {
   margin-bottom: 0.3rem;
+}
+
+.index .section.first {
+  margin-bottom: 1.5rem;
 }
 
 .index .section:not(.first) {
