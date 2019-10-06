@@ -99,7 +99,7 @@ h2 {
 }
 
 /* links and paragraphs general font style and color */
-a, p {
+a, p, h3 {
   font-family: 'Helvetica', sans-serif;
   font-weight: 200;
 /*  font-family: 'Encode Sans Condensed', sans-serif;
@@ -109,18 +109,11 @@ a, p {
   color: #244005;
 }
 
-a {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 200;
-  font-size: 1.125rem;
-  line-height: 1.33;
-  color: #244005;
-  font-family: 'Helvetica', sans-serif;
-  font-weight: 200;
-/*  font-family: 'Encode Sans Condensed', sans-serif;
-  font-family: 'Open Sans Condensed', sans-serif;*/
-  font-size: 1rem;
+h3 {
+  font-weight: bold;
 }
+
+
 
 
 
@@ -138,8 +131,8 @@ a {
   display: grid;
   width: 100%;
   /* 0 | 1fr | 1fr | 0 */
-  grid-template-columns: 0 repeat(2, minmax(0, 1fr)) 0;
-  grid-column: 1 / span 4;
+  grid-template-columns: [page-start] 0 [grid-start] minmax(0, 1fr) [middle] minmax(0, 1fr) [grid-end] 0 [page-end];
+  grid-column: page-start / page-end;
   grid-column-gap: 1.5rem; /* "|" gutters are 1.5rem */
 }
 
@@ -147,8 +140,8 @@ a {
 @media (min-width: 30rem) {
   .row {
     /* 0 | 1fr | 1fr | 1fr | 1fr | 1fr | 1fr | 0 */
-    grid-template-columns: 0 repeat(6, minmax(0, 1fr)) 0;
-    grid-column: 1 / span 8;
+    grid-template-columns: [page-start] 0 [grid-start] repeat(3, minmax(0, 1fr)) [middle] repeat(3, minmax(0, 1fr)) [grid-end] 0 [page-end];
+    grid-column: page-start / page-end;
   }
 }
 
@@ -156,9 +149,17 @@ a {
 @media (min-width: 60rem) {
   .row {
     /* 0-1fr | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | 0-1fr */
-    grid-template-columns: minmax(0, 1fr) repeat(12, minmax(0, 4rem)) minmax(0, 1fr);
-    grid-column: 1 / span 14;
+    grid-template-columns: [page-start] minmax(0, 1fr) [grid-start] repeat(6, minmax(0, 4rem)) [middle] repeat(6, minmax(0, 4rem)) [grid-end] minmax(0, 1fr) [page-end];
+    grid-column: page-start / page-end;
   }
+}
+
+.span-page {
+  grid-column: page-start / page-end;
+}
+
+.span-grid {
+  grid-column: grid-start / grid-end;
 }
 
 
@@ -180,8 +181,33 @@ h1.mobile {
   display: block;
 }
 
+.home h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.home p {
+  margin-bottom: 1rem;
+}
+
 .attention {
   margin-top: 2rem;
+}
+
+.image-eyeMobile{
+  display: block;
+}
+
+.image-eye{
+  display: none;
+}
+
+.image-build {
+  margin-top: 1rem;
+}
+
+.index .home .copy ul {
+  margin-top: 1rem;
 }
 
 @media (min-width: 30rem) {
@@ -223,7 +249,32 @@ h1.mobile {
   .attention {
     margin-top: 0rem;
   }
+
+  .image-build {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .image-eye{
+    display: block;
+  }
+
+  .image-eyeMobile,
+  .image-eyeText {
+    display: none;
+  }
+
+  .index .home .copy {
+    grid-column: 6 / grid-end;
+  }
+
+  .index .home .copy ul {
+    margin-top: 3rem;
+  }
+
 }
+
+
 
 @media (min-width: 60rem) {
   h1 {
@@ -238,6 +289,15 @@ h1.mobile {
 
   .menu .links a {
     font-size: 1.25rem;
+  }
+
+
+  .index .home .copy {
+    grid-column: 11 / grid-end;
+  }
+
+  .index .home .copy ul {
+    margin-top: 4rem;
   }
 }
 
@@ -301,8 +361,6 @@ h1.mobile {
 }
 
 
-
-
 /* END NAV */
 
 
@@ -363,7 +421,7 @@ h1.mobile {
 
 .section h2,
 .section p {
-  text-align: center;
+  text-align: left;
   margin-bottom: 2rem;
 }
 
@@ -500,7 +558,7 @@ h1.mobile {
 
 @media (min-width: 30rem) {
 
-  body {
+  .projects, .illustrations, .pictures {
       margin-bottom: 150px;
   }
   .projects .section.first,
@@ -620,9 +678,6 @@ h1.mobile {
     margin-bottom: 0.5rem;
   }
 
-  body {
-      margin-bottom: 150px;
-  }
 
 }
 
@@ -642,8 +697,7 @@ h1.mobile {
   margin-bottom: 0rem;
 }
 
-.image-city,
-.image-eye {
+.image-city {
   grid-column: 2 / span 2;
 }
 
@@ -665,8 +719,7 @@ h1.mobile {
     padding: 0;
     margin: 0;
   }
-  .image-city,
-  .image-eye {
+  .image-city {
     grid-column: 2 / span 6;
   }
 
@@ -690,8 +743,7 @@ h1.mobile {
     margin: 0;
   }
 
-  .image-city,
-  .image-eye {
+  .image-city {
     grid-column: 2 / span 12;
     margin-top: 2rem;
   }
