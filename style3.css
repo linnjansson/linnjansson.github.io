@@ -117,7 +117,6 @@ h3 {
 
 
 
-
 /*--------------------------------------------------------------------*/
 
 
@@ -143,6 +142,7 @@ h3 {
     grid-template-columns: [page-start] 0 [grid-start] repeat(3, minmax(0, 1fr)) [middle] repeat(3, minmax(0, 1fr)) [grid-end] 0 [page-end];
     grid-column: page-start / page-end;
   }
+
 }
 
 /* GRID DESKTOP */
@@ -421,7 +421,7 @@ h1.mobile {
 
 .section h2,
 .section p {
-  text-align: left;
+  text-align: center;
   margin-bottom: 2rem;
 }
 
