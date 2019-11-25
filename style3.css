@@ -113,10 +113,25 @@ h3 {
   font-weight: bold;
 }
 
+.home a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .tarotAppen {
   color: #F5F5F5;
 }
 
+.home img {
+    margin-bottom: 20px;
+}
+
+.copy img {
+  margin-bottom: 0px;
+}
+.home p {
+  margin-top: 10px;
+}
 
 
 /*--------------------------------------------------------------------*/
