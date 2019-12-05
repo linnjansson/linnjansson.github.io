@@ -78,6 +78,7 @@ Grå: F5F5F5
 Ljusgrå F2F2F2
 Rosa: B4928F
 Grön: 244005
+Ljusgrön: 839912
 
 p: font-family: 'Helvetica', sans-serif;
 h1: font-family: 'Anton', sans-serif;
@@ -269,7 +270,7 @@ h1.mobile {
   }
 
   .menu .links .active {
-    color: #DCBC3F;
+    color: #839912;
   }
 
   h1.desktop {
@@ -366,7 +367,7 @@ h1.mobile {
 
 /*Varje item i lisan i dropdown menyn*/
 .dropdownContent a {
-  color: #D6D3D3;
+  color: #839912;
   font-family: 'Anton', sans-serif;
   padding: 2rem 0;
   font-size: 2rem;
@@ -399,7 +400,7 @@ h1.mobile {
 
 /* specific link color in first project */
 .learnMore {
-  color: #DCBC3F;
+  color: #839912;
 }
 
 
@@ -574,18 +575,18 @@ h1.mobile {
 
 .projects .fill.participant-design,
 .projects .fill.report {
-  background-color: #F2F2F2;
+  background-color: #F5F5F5;
 }
 
 .projects .fill.form,
 .projects .fill.tarot-appen,
 .projects .fill.travel {
-  background-color: #DCBC3F;
+  background-color: #F5F5F5;
 }
 
 .projects .fill.cafe-koya,
 .projects .fill.ultra-free {
-  background-color: #F2F2F2;
+  background-color: #F5F5F5;
 }
 
 
@@ -670,16 +671,16 @@ h1.mobile {
 
   .projects .fill.participant-design,
   .projects .fill.form {
-    background-color: #244005;
+    background-color: #F5F5F5;
   }
 
   .projects .fill.ultra-free,
   .projects .fill.tarot-appen {
-    background-color: #F2F2F2;
+    background-color: #F5F5F5;
   }
 
   .projects .fill.cafe-koya {
-    background-color: #DCBC3F;
+    background-color: #F5F5F5;
   }
 
 }
@@ -772,7 +773,7 @@ h1.mobile {
   }
 
   .tarotAppen {
-    color: #DCBC3F;
+    color: #839912;
   }
 }
 
@@ -994,7 +995,7 @@ h1.mobile {
   }
 
   .index .copy li > a:hover {
-    background-color: #DCBC3F;
+    background-color: #839912;
     line-height: 0;
   }
 
