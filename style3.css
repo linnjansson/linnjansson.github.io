@@ -134,6 +134,19 @@ h3 {
   margin-top: 10px;
 }
 
+.image-uxdesign {
+  display: none;
+}
+
+.image-uxdesign-small {
+  padding: 3rem 3rem 3rem 3rem;
+
+}
+
+.burgerMenu {
+  outline: none;
+}
+
 
 /*--------------------------------------------------------------------*/
 
@@ -320,7 +333,7 @@ h1.mobile {
 }
 
 .menu.mobile {
-  background-color: #DCBC3F;
+  background-color: #244005;
 }
 
 .logo {
@@ -334,7 +347,7 @@ h1.mobile {
 .burgerMenu {
   /* span burger menu container over right half of viewport */
   grid-column: 3 / span 2;
-  background-color: #DCBC3F;
+  background-color: #244005;
   width: 4.375rem;
   padding: 0.5rem;
   justify-self: flex-end;
@@ -342,7 +355,7 @@ h1.mobile {
 
 /*Stylingen av dropdown boxen i sig*/
 .dropdownContent {
-  background-color: #DCBC3F;
+  background-color: #244005;
   display: none;
   position: absolute;
   width: 100%;
@@ -353,7 +366,7 @@ h1.mobile {
 
 /*Varje item i lisan i dropdown menyn*/
 .dropdownContent a {
-  color: #244005;
+  color: #D6D3D3;
   font-family: 'Anton', sans-serif;
   padding: 2rem 0;
   font-size: 2rem;
@@ -389,6 +402,7 @@ h1.mobile {
   color: #DCBC3F;
 }
 
+
 .section {
   /* general background-image options for all sections.
    * images are packed to the right */
@@ -397,6 +411,7 @@ h1.mobile {
   background-size: contain;
   margin-bottom: 0rem;
 }
+
 
 
 .section.flip {
@@ -416,7 +431,7 @@ h1.mobile {
 }
 
 .section.first {
-  background-image: url(triangle.svg);
+  /*background-image: url(triangle.svg);*/
   padding-top: 3rem;
 }
 
@@ -809,6 +824,14 @@ h1.mobile {
   }
 
   .illustrations .section img.mobile {
+    display: none;
+  }
+
+  .image-uxdesign {
+    display: block;
+  }
+
+  .image-uxdesign-small {
     display: none;
   }
 }
