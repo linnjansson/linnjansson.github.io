@@ -308,6 +308,8 @@ h1.mobile {
     margin-top: 3rem;
   }
 
+
+
 }
 
 
@@ -960,10 +962,11 @@ h1.mobile {
     text-align: left;
     font-size: 0.875rem;
     line-height: 1.45;
+    margin-top: 10px;
   }
 
   .index .copy ul {
-    margin-top: 37px;
+    margin-top: 10px;
   }
 
   .index .image-link {
@@ -1000,10 +1003,11 @@ h1.mobile {
 
   .index .section .copy p {
     font-size: 1.2rem;
+    margin-top: 15px;
   }
 
   .index .copy ul {
-    margin-top: 174px;
+    margin-top: 35px;
   }
 
   .index .copy li > a:hover {
