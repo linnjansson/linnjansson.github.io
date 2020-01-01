@@ -72,13 +72,15 @@ body {
 
 /*
 COLORS AND FONTS
-
+Black: 4A4A4A
 Gul; DCBC3F
 Grå: F5F5F5
 Ljusgrå F2F2F2
 Rosa: B4928F
 Grön: 244005
 Ljusgrön: 839912
+Lila: 503448
+Ljuslila: BCB6BE
 
 p: font-family: 'Helvetica', sans-serif;
 h1: font-family: 'Anton', sans-serif;
@@ -90,10 +92,11 @@ h1,
 h2 {
   font-family: 'Anton', sans-serif;
   line-height: 1.25;
-  color: #244005;
+  color: #4A4A4A;
 }
 h1 {
   font-size: 3rem;
+  color: #F2F2F2;
 }
 h2 {
   font-size: 1.75rem;
@@ -109,7 +112,7 @@ a, p, h3 {
   font-family: 'Open Sans Condensed', sans-serif;*/
   font-size: 1.2rem;
   line-height: 1.33;
-  color: #244005;
+  color: #4A4A4A;
 }
 
 h3 {
@@ -121,7 +124,7 @@ h3 {
 }
 
 .tarotAppen {
-  color: #839912;
+  color: #DCBC3F;
 }
 
 .home img {
@@ -274,7 +277,7 @@ h1.mobile {
   }
 
   .menu .links .active {
-    color: #839912;
+    color: #DCBC3F;
   }
 
   h1.desktop {
@@ -340,7 +343,7 @@ h1.mobile {
 }
 
 .menu.mobile {
-  background-color: #244005;
+  background-color: #ffffff;
 }
 
 .logo {
@@ -354,7 +357,7 @@ h1.mobile {
 .burgerMenu {
   /* span burger menu container over right half of viewport */
   grid-column: 3 / span 2;
-  background-color: #244005;
+  background-color: #ffffff;
   width: 4.375rem;
   padding: 0.5rem;
   justify-self: flex-end;
@@ -362,7 +365,7 @@ h1.mobile {
 
 /*Stylingen av dropdown boxen i sig*/
 .dropdownContent {
-  background-color: #244005;
+  background-color: #ffffff;
   display: none;
   position: absolute;
   width: 100%;
@@ -373,7 +376,7 @@ h1.mobile {
 
 /*Varje item i lisan i dropdown menyn*/
 .dropdownContent a {
-  color: #839912;
+  color: #4A4A4A;
   font-family: 'Anton', sans-serif;
   padding: 2rem 0;
   font-size: 2rem;
@@ -395,7 +398,7 @@ h1.mobile {
 
 /*När menyval är iklickat syns denna färg*/
 .menu.mobile .active {
-  color: #ffffff;
+  color: #DCBC3F;
 }
 
 
@@ -406,7 +409,7 @@ h1.mobile {
 
 /* specific link color in first project */
 .learnMore {
-  color: #839912;
+  color: #DCBC3F;
 }
 
 
@@ -470,7 +473,7 @@ h1.mobile {
   display: block;
   padding: 0.5rem 2rem;
   background-color: #ffffff;
-  color: #244005;
+  color: #4A4A4A;
   font-family: 'Arial', sans-serif;
   font-size: 1.5rem;
   border-radius: 2rem;
@@ -556,7 +559,7 @@ h1.mobile {
   .projects > section:nth-child(2) h2,
   .projects > section:nth-child(5) p,
   .projects > section:nth-child(5) h2 {
-    color: #244005;
+    color: #4A4A4A;
   }
   /* Invert colors of specific buttons to match backgrounds */
   .projects > section:nth-child(2) .button,
@@ -564,7 +567,7 @@ h1.mobile {
   .projects > section:nth-child(5) .button,
   .projects > section:nth-child(7) .button {
     background-color: white;
-    color: #244005;
+    color: #4A4A4A;
   }
 
   .projects h2 {
@@ -779,7 +782,11 @@ h1.mobile {
   }
 
   .tarotAppen {
-    color: #839912;
+    color: #DCBC3F;
+  }
+
+  video {
+    display: block;
   }
 }
 
@@ -837,7 +844,7 @@ h1.mobile {
   }
 
   .image-uxdesign {
-    display: block;
+    display: none;
   }
 
   .image-uxdesign-small {
@@ -854,7 +861,7 @@ h1.mobile {
     grid-column: 2 / span 12;
   }
 
-  video {
+  .image-uxdesign {
     display: block;
   }
 }
@@ -1011,7 +1018,7 @@ h1.mobile {
   }
 
   .index .copy li > a:hover {
-    background-color: #244005;
+    background-color: #DCBC3F;
     line-height: 0;
   }
 
