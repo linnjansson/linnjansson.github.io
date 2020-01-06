@@ -335,6 +335,14 @@ h1.mobile {
   .phoneUL {
     display: block;
   }
+
+  .index .section .copy p {
+    font-size: 0.8rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
 }
 
   .menu .links {
@@ -355,7 +363,9 @@ h1.mobile {
   .index .home .copy ul {
     margin-top: 2.2rem;
   }
+
 }
+
 
 .menu.mobile {
   background-color: #ffffff;
