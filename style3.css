@@ -988,6 +988,11 @@ h1.mobile {
     margin-top: 10px;
   }
 
+  p {
+    font-size: 0.875rem;
+    line-height: 1.45;
+  }
+
   .index .copy ul {
     margin-top: 10px;
   }
