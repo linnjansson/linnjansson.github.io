@@ -1034,6 +1034,21 @@ h1.mobile {
     margin-top: 15px;
   }
 
+  p {
+    font-size: 1.2rem;
+    margin-top: 15px;
+  }
+
+  .textPD p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .textPD a {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
   .index .copy ul {
     margin-top: 35px;
   }
