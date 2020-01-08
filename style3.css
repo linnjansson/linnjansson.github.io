@@ -152,6 +152,23 @@ h3 {
   outline: none;
 }
 
+.image-hover {
+  overflow: hidden;
+}
+
+.image-hover img {
+  transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transform: scale(1);
+  will-change: transform;
+}
+
+@media (hover) {
+  .image-hover:hover img {
+    transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: scale(1.05);
+  }
+}
+
 video {
   display: none;
 }
@@ -689,6 +706,7 @@ h1.mobile {
     grid-column: 2 / span 3;
     grid-row: 1 / span 2;
     margin: 4rem 0;
+    padding: 1rem 0;
     align-self: center;
   }
 
