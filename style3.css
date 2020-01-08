@@ -136,6 +136,7 @@ h3 {
 }
 .home p {
   margin-top: 10px;
+  text-align: center;
 }
 
 .image-uxdesign {
@@ -159,6 +160,11 @@ video {
   display: none;
 }
 
+.indexText p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 /*--------------------------------------------------------------------*/
 
@@ -184,6 +190,7 @@ video {
     /* 0 | 1fr | 1fr | 1fr | 1fr | 1fr | 1fr | 0 */
     grid-template-columns: [page-start] 0 [grid-start] repeat(3, minmax(0, 1fr)) [middle] repeat(3, minmax(0, 1fr)) [grid-end] 0 [page-end];
     grid-column: page-start / page-end;
+
   }
 
 }
@@ -716,6 +723,16 @@ h1.mobile {
   .projects .fill.cafe-koya {
     background-color: #F5F5F5;
   }
+
+  .indexText p {
+      text-align: left;
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+    .videoStyle {
+
+      margin-top: 50px; margin-bottom: 30px;
+    }
 
 }
 
