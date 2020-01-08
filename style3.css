@@ -166,6 +166,10 @@ video {
     margin-bottom: 10px;
 }
 
+.compensation{
+  display: none;
+}
+
 /*--------------------------------------------------------------------*/
 
 
@@ -324,6 +328,14 @@ h1.mobile {
     margin-top: 3rem;
   }
 
+
+  .compensation-mobile {
+    display: none;
+  }
+
+  .compensation {
+    display: block;
+  }
 
 
 }
@@ -731,7 +743,7 @@ h1.mobile {
   }
     .videoStyle {
 
-      margin-top: 50px; margin-bottom: 30px;
+      margin-top: 50px; margin-bottom: 50px;
     }
 
 }
