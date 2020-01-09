@@ -136,7 +136,7 @@ h3 {
 }
 .home p {
   margin-top: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 .image-uxdesign {
@@ -169,7 +169,7 @@ h3 {
   }
 }
 
-video {
+.videoStyle video {
   display: none;
 }
 
@@ -184,6 +184,10 @@ video {
 }
 
 .compensation{
+  display: none;
+}
+
+.desktop {
   display: none;
 }
 
@@ -354,6 +358,13 @@ h1.mobile {
     display: block;
   }
 
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
 
 }
 
@@ -858,7 +869,7 @@ h1.mobile {
     color: #DCBC3F;
   }
 
-  video {
+  .videoStyle video {
     display: block;
   }
 }
@@ -1187,7 +1198,7 @@ h1.mobile {
     padding: 0;
   }
 
-  .row .image-steps.mobile {
+ .image-steps.mobile {
     display: none;
   }
 
@@ -1216,5 +1227,15 @@ h1.mobile {
 
   .videoUltrafree {
     grid-column: 2 / span 12;
+    position: relative;
+  }
+
+  .videoUltrafree video::before {
+    position:absolute;
+    top: 0;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: white;
   }
 }
