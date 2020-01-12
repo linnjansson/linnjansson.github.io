@@ -162,6 +162,10 @@ h3 {
   will-change: transform;
 }
 
+.phoneUL {
+  display: none;
+}
+
 @media (hover) {
   .image-hover:hover img {
     transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -173,9 +177,7 @@ h3 {
   display: none;
 }
 
-.phoneUL {
-  display: none;
-}
+
 
 .indexText p {
     text-align: center;
@@ -187,9 +189,15 @@ h3 {
   display: none;
 }
 
-.desktop {
+
+.desktopMov {
   display: none;
 }
+
+.desktopTarot {
+  display: none;
+}
+
 
 /*--------------------------------------------------------------------*/
 
@@ -226,6 +234,14 @@ h3 {
     /* 0-1fr | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | fluid-4rem | 0-1fr */
     grid-template-columns: [page-start] minmax(0, 1fr) [grid-start] repeat(6, minmax(0, 4rem)) [middle] repeat(6, minmax(0, 4rem)) [grid-end] minmax(0, 1fr) [page-end];
     grid-column: page-start / page-end;
+  }
+
+  .desktopMov {
+    display: block;
+  }
+
+  .desktopTarot {
+    display: block;
   }
 
 
@@ -318,11 +334,7 @@ h1.mobile {
     color: #DCBC3F;
   }
 
-  h1.desktop {
-    display: block;
-    text-align: center;
-    margin-bottom: 6rem;
-  }
+
   .attention {
     margin-top: 0rem;
   }
@@ -358,14 +370,14 @@ h1.mobile {
     display: block;
   }
 
-  .desktop {
-    display: block;
-  }
 
-  .mobile {
+  .desktop {
     display: none;
   }
 
+  .mobilePar {
+    display: none;
+  }
 }
 
 
@@ -373,15 +385,38 @@ h1.mobile {
 @media (min-width: 60rem) {
   h1 {
     font-size: 7rem;
+    }
 
+    .desktop {
+      display: block;
+    }
 
+    .mobile {
+      display: none;
+    }
+
+    h1.desktop {
+      display: block;
+      text-align: center;
+      margin-bottom: 6rem;
+    }
+
+    .phoneUL {
+      display: block;
+    }
+
+    .index .home .copy {
+      grid-column: 11 / grid-end;
+    }
+    
+    .index .home .copy ul {
+      margin-top: 2.2rem;
+    }
   }
 
 @media (min-width: 100px){
 
-  .phoneUL {
-    display: block;
-  }
+
 
   .index .section .copy p {
     font-size: 0.8rem;
@@ -390,7 +425,7 @@ h1.mobile {
   p {
     font-size: 0.8rem;
   }
-}
+
 
   .menu .links {
     /* span nav over full grid on desktop as well */
@@ -403,13 +438,9 @@ h1.mobile {
   }
 
 
-  .index .home .copy {
-    grid-column: 11 / grid-end;
-  }
 
-  .index .home .copy ul {
-    margin-top: 2.2rem;
-  }
+
+
 
 }
 
@@ -1198,9 +1229,7 @@ h1.mobile {
     padding: 0;
   }
 
- .image-steps.mobile {
-    display: none;
-  }
+
 
   .row .image-steps.desktop {
     display: block;
