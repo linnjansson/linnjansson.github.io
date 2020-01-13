@@ -110,8 +110,8 @@ a, p, h3 {
   font-weight: 200;
 /*  font-family: 'Encode Sans Condensed', sans-serif;
   font-family: 'Open Sans Condensed', sans-serif;*/
-  font-size: 1.2rem;
-  line-height: 1.33;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
   color: #4A4A4A;
 }
 
@@ -418,13 +418,6 @@ h1.mobile {
 
 
 
-  .index .section .copy p {
-    font-size: 1rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
 
 
   .menu .links {
@@ -442,7 +435,10 @@ h1.mobile {
 
 
 
+
 }
+
+
 
 
 .menu.mobile {
@@ -1050,6 +1046,18 @@ h1.mobile {
   max-height: none;
 }
 
+@media (min-width: 25rem) {
+  .index .section .copy p {
+    font-size: 0.8rem;
+    line-height: 1.0rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+    line-height: 1.0rem;
+  }
+
+}
 
 
 @media (min-width: 30rem) {
@@ -1113,10 +1121,12 @@ h1.mobile {
 
   .index .section .copy p {
     font-size: 1.1rem;
+    line-height: 1.4rem;
   }
 
   p {
     font-size: 1.1rem;
+    line-height: 1.4rem;
   }
 
 }
@@ -1151,6 +1161,16 @@ h1.mobile {
   p {
     font-size: 1.2rem;
     margin-top: 15px;
+  }
+
+  .index .section .copy p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
   }
 
   .textPD p {
