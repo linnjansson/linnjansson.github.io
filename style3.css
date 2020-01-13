@@ -408,7 +408,7 @@ h1.mobile {
     .index .home .copy {
       grid-column: 11 / grid-end;
     }
-    
+
     .index .home .copy ul {
       margin-top: 2.2rem;
     }
@@ -419,11 +419,11 @@ h1.mobile {
 
 
   .index .section .copy p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
 
@@ -676,6 +676,8 @@ h1.mobile {
   .projects h2 {
     margin-bottom: 0.5rem;
   }
+
+
 }
 /* END MOBILE ONLY PROJECTS BACKGROUND FIX */
 
@@ -700,6 +702,8 @@ h1.mobile {
 .projects .fill.ultra-free {
   background-color: #F5F5F5;
 }
+
+
 
 
 @media (min-width: 30rem) {
@@ -903,6 +907,8 @@ h1.mobile {
   .videoStyle video {
     display: block;
   }
+
+
 }
 
 @media (min-width: 60rem) {
@@ -1102,6 +1108,15 @@ h1.mobile {
 
   .index {
     margin-bottom: 2.5rem;
+  }
+
+
+  .index .section .copy p {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 1.1rem;
   }
 
 }
