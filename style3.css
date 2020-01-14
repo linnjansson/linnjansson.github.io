@@ -198,6 +198,9 @@ h3 {
   display: none;
 }
 
+.illustrationsPic {
+  display: none;
+}
 
 /*--------------------------------------------------------------------*/
 
@@ -367,6 +370,15 @@ h1.mobile {
   }
 
   .compensation {
+    display: block;
+  }
+
+
+  .illustrations-mobile {
+    display: none;
+  }
+
+  .illustrationsPic {
     display: block;
   }
 
