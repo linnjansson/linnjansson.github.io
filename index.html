@@ -26,7 +26,7 @@
 
   <body>
     <!--Dropdown menu och header-->
-    <div class="row menu mobile">
+    <div style="z-index: 100" class="row menu mobile fixed">
       <a class="logo" href="index.html"><img src="logo2.svg"></a>
       <button onclick="myFunction()" class="burgerMenu"><img src="burgerMenu.svg"></button>
       <div id="myDropdown" class="dropdownContent">
@@ -52,6 +52,7 @@ function myFunction() {
     </div>-->
     <!--Meny Desktop-->
 
+
     <div class="row menu desktop">
       <div class="links">
         <a href="index.html" class="active">Home</a>
@@ -64,7 +65,7 @@ function myFunction() {
 
     <div class="index">
     <!--Profile picture mobile-->
-    <img src="uxDesign.svg" class="image-uxdesign-small" alt="Ux-Design"/>
+    <img src="uxDesign.svg" class="image-uxdesign-small mobileSpace" alt="Ux-Design"/>
 
     <img src="pictureBig.jpg" class="image-profile mobile" alt="Profile picture"/>
 

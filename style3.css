@@ -152,6 +152,10 @@ h3 {
   outline: none;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .image-hover {
   overflow: hidden;
 }
@@ -164,6 +168,10 @@ h3 {
 
 .phoneUL {
   display: none;
+}
+
+.mobileSpace {
+  margin-top: 50px;
 }
 
 @media (hover) {
