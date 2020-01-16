@@ -728,7 +728,7 @@ h1.mobile {
 @media (min-width: 30rem) {
 
   .projects, .illustrations, .pictures {
-      margin-bottom: 150px;
+      margin-bottom: 0px;
   }
   .projects .section.first,
   .projects .section:not(.first) {
@@ -1151,6 +1151,7 @@ h1.mobile {
     font-size: 1.1rem;
     line-height: 1.4rem;
   }
+
 
 }
 
