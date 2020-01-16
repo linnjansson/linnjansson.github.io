@@ -92,9 +92,10 @@ h1,
 h2 {
   /*font-family: "Impact", sans-serif*/
   /*font-family: 'Helvetica', sans-serif;*/
-  font-family: 'Anton', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   line-height: 1;
   color: #4A4A4A;
+  font-weight: 300;
 }
 
 h1 {
@@ -147,7 +148,8 @@ h3 {
 }
 
 .image-uxdesign-small {
-  padding: 3rem 3rem 3rem 3rem;
+  padding: 6rem 3rem 3rem 3rem;
+  text-align: center;
 
 }
 
@@ -499,7 +501,7 @@ h1.mobile {
 /*Varje item i lisan i dropdown menyn*/
 .dropdownContent a {
   color: #4A4A4A;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   padding: 2rem 0;
   font-size: 2rem;
   text-decoration: none;
@@ -596,9 +598,10 @@ h1.mobile {
   padding: 0.5rem 2rem;
   background-color: #ffffff;
   color: #4A4A4A;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 200;
   font-size: 1.5rem;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   text-decoration: none;
   text-align: center;
   margin-bottom: 3rem;
@@ -688,7 +691,7 @@ h1.mobile {
   .projects > section:nth-child(4) .button,
   .projects > section:nth-child(5) .button,
   .projects > section:nth-child(7) .button {
-    background-color: white;
+    background-color: #ffffff;
     color: #4A4A4A;
   }
 
@@ -786,7 +789,7 @@ h1.mobile {
   .projects .section .button {
     grid-row: 2;
     background-color: #fff;
-    color: #244005;
+    color: #4A4A4A;
     margin-top: 1rem;
   }
 
@@ -1001,8 +1004,12 @@ h1.mobile {
     grid-column: 2 / span 12;
   }
 
-  .image-uxdesign {
+  .section .image-uxdesign {
     display: block;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 0px;
+    line-height: 1;
   }
 }
 
