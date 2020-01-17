@@ -745,7 +745,7 @@ h1.mobile {
   .projects .section.first,
   .projects .section:not(.first) {
     padding: 0;
-    margin: 0 0 8rem 0;
+    margin: 0 0 2rem 0;
     background: none;
     grid-auto-rows: 1fr
   }
