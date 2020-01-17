@@ -127,6 +127,15 @@ h3 {
   font-weight: bold;
 }
 
+h4 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 200;
+  font-size: 3rem;
+  line-height: 5rem;
+  color: #4A4A4A;
+  font-weight: bold;
+}
+
 .tarotAppen {
   color: #DCBC3F;
 }
