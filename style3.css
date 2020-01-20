@@ -1000,8 +1000,12 @@ h1.mobile {
   }
 
   .image-uxdesign-small {
-    display: none;
+    padding: 0rem 3rem 5rem 3rem;
+    text-align: center;
+
   }
+
+
 }
 
 @media (min-width: 60rem) {
@@ -1020,6 +1024,12 @@ h1.mobile {
     margin-top: 0px;
     line-height: 1;
   }
+
+  .image-uxdesign-small {
+    display: none;
+  }
+
+
 }
 
 /* HOME */
